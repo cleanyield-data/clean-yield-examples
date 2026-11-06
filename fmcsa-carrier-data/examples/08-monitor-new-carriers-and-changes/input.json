@@ -1,0 +1,12 @@
+{
+  "states": [
+    "WY"
+  ],
+  "entityTypes": [
+    "carrier"
+  ],
+  "addedWithinDays": 30,
+  "maxResults": 50,
+  "monitorMode": true,
+  "monitorStateName": "wy-new-carriers"
+}

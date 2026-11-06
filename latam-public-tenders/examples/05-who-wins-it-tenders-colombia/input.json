@@ -1,0 +1,14 @@
+{
+  "countries": [
+    "CO"
+  ],
+  "sectors": [
+    "it-software"
+  ],
+  "status": [
+    "awarded"
+  ],
+  "publishedWithinDays": 60,
+  "awardeeData": "omitIndividuals",
+  "maxResults": 10
+}

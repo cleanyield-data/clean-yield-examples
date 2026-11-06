@@ -1,0 +1,60 @@
+{
+  "name": "FMCSA carrier watchlist: authority / insurance changes → Slack (daily)",
+  "nodes": [
+    {
+      "parameters": { "rule": { "interval": [{ "field": "days", "triggerAtHour": 6 }] } },
+      "name": "Every day 6:00",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/cleanyield~fmcsa-carrier-data/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"dotNumbers\": [\"80806\", \"53467\", \"264184\"],\n  \"monitorMode\": true,\n  \"monitorStateName\": \"n8n-my-carriers-watchlist\"\n}",
+        "options": { "timeout": 300000 }
+      },
+      "name": "Check my carriers",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [240, 0]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": { "caseSensitive": true, "typeValidation": "loose" },
+          "conditions": [
+            { "leftValue": "={{ $json.changeType }}", "rightValue": "changed", "operator": { "type": "string", "operation": "equals" } },
+            { "leftValue": "={{ $json.changes.some(c => ['authority','insurance','status'].includes(c.category)) }}", "rightValue": true, "operator": { "type": "boolean", "operation": "true", "singleValue": true } }
+          ],
+          "combinator": "and"
+        }
+      },
+      "name": "Only authority / insurance / status changes",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [480, 0]
+    },
+    {
+      "parameters": {
+        "select": "channel",
+        "channelId": { "__rl": true, "mode": "name", "value": "#carrier-compliance" },
+        "text": "=:rotating_light: USDOT {{ $json.dotNumber }} {{ $json.legalName }}\n{{ $json.changes.map(c => `• ${c.field}: ${c.previous} → ${c.current}`).join('\\n') }}\n{{ $json.fmcsaUrl }}",
+        "otherOptions": {}
+      },
+      "name": "Post to Slack",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [720, -80]
+    }
+  ],
+  "connections": {
+    "Every day 6:00": { "main": [[{ "node": "Check my carriers", "type": "main", "index": 0 }]] },
+    "Check my carriers": { "main": [[{ "node": "Only authority / insurance / status changes", "type": "main", "index": 0 }]] },
+    "Only authority / insurance / status changes": { "main": [[{ "node": "Post to Slack", "type": "main", "index": 0 }], []] }
+  },
+  "settings": {}
+}

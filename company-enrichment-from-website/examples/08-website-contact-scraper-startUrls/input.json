@@ -1,0 +1,18 @@
+{
+  "startUrls": [
+    {
+      "url": "https://plausible.io"
+    },
+    {
+      "url": "https://buffer.com"
+    },
+    {
+      "url": "https://ghost.org"
+    },
+    {
+      "url": "https://metalab.com"
+    }
+  ],
+  "maxRequestsPerStartUrl": 10,
+  "outputFormat": "leader-compatible"
+}

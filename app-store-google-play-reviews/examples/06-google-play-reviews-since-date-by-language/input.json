@@ -1,0 +1,11 @@
+{
+  "apps": [
+    "com.mercadolibre"
+  ],
+  "languages": [
+    "es",
+    "pt"
+  ],
+  "reviewsSince": "3 days",
+  "maxReviewsPerApp": 40
+}

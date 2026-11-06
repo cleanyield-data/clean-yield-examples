@@ -1,0 +1,13 @@
+{
+  "countries": [
+    "CO",
+    "BR"
+  ],
+  "sectors": [
+    "security"
+  ],
+  "publishedWithinDays": 7,
+  "maxResults": 10,
+  "monitorMode": true,
+  "monitorStateName": "example-security-monitor"
+}

@@ -1,0 +1,458 @@
+[
+  {
+    "schemaVersion": 2,
+    "dotNumber": "9954048",
+    "mcNumbers": [
+      "MC-54243978"
+    ],
+    "dockets": [
+      {
+        "docketNumber": "MC-54243978",
+        "prefix": "MC",
+        "number": "54243978",
+        "status": "pending"
+      }
+    ],
+    "legalName": "PROOF LINE EXPRESS LLC",
+    "dbaName": null,
+    "companyName": "Proof Line Express",
+    "entityType": "carrier",
+    "entityTypes": [
+      "carrier"
+    ],
+    "businessType": null,
+    "usdotStatus": "active",
+    "authorityStatus": "pending",
+    "carrierOperation": "interstate",
+    "operationClassification": [
+      "AUTHORIZED FOR HIRE"
+    ],
+    "hazmat": false,
+    "powerUnits": 1,
+    "trucks": 1,
+    "buses": 0,
+    "drivers": 1,
+    "cdlDrivers": 1,
+    "interstateDrivers": 1,
+    "intrastateDrivers": 0,
+    "equipment": {
+      "owned": {
+        "trucks": null,
+        "tractors": 1,
+        "trailers": null
+      },
+      "termLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      },
+      "tripLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      }
+    },
+    "mcs150Mileage": 0,
+    "mcs150MileageYear": null,
+    "physicalAddress": {
+      "street": "14112 ATLANTA DR",
+      "city": "LAREDO",
+      "state": "TX",
+      "postalCode": "78045-7902",
+      "zip5": "78045",
+      "country": "US",
+      "countyFips": "48479",
+      "oneLine": "14112 ATLANTA DR, LAREDO, TX 78045-7902, US"
+    },
+    "mailingAddress": {
+      "street": "14112 ATLANTA DR",
+      "city": "LAREDO",
+      "state": "TX",
+      "postalCode": "78045-7902",
+      "zip5": "78045",
+      "country": "US",
+      "countyFips": "48479",
+      "oneLine": "14112 ATLANTA DR, LAREDO, TX 78045-7902, US"
+    },
+    "phone": "+19567649005",
+    "mobilePhone": null,
+    "fax": null,
+    "email": "prooflineexpress@gmail.com",
+    "emailAsFiled": null,
+    "phoneSharedCount": 1,
+    "emailSharedCount": 1,
+    "phoneIsShared": false,
+    "emailIsShared": false,
+    "companyOfficers": null,
+    "cargoCarried": [
+      "General Freight"
+    ],
+    "cargoCarriedText": "General Freight",
+    "safetyRating": "unrated",
+    "safetyRatingDate": null,
+    "safetyReviewDate": null,
+    "mcs150Date": null,
+    "addDate": "2026-11-02",
+    "ageInDays": 3,
+    "isNewEntrant": true,
+    "recordableCrashRate": null,
+    "priorRevokedDotNumber": null,
+    "dunsNumber": null,
+    "dataQualityFlags": [
+      "fleetCountsInconsistent"
+    ],
+    "outOfService": false,
+    "outOfServiceDate": null,
+    "outOfServiceReason": null,
+    "authority": {
+      "source": "motus",
+      "sourceDataset": "inys-ebih",
+      "sourceUpdatedAt": "2026-11-04T10:09:38.000Z",
+      "authorities": [
+        {
+          "docketNumber": "MC-54243978",
+          "authorityType": "Motor Carrier of Property (Except Household Goods)",
+          "status": "pending",
+          "statusDate": "2026-11-03",
+          "statusReason": "Initial Status",
+          "grantedDate": null
+        }
+      ],
+      "hasActiveCarrierAuthority": false,
+      "hasActiveBrokerAuthority": false,
+      "hasPendingAuthority": true,
+      "bipdRequiredUsd": 750000,
+      "bipdOnFileUsd": 0,
+      "cargoInsuranceRequired": false,
+      "cargoInsuranceOnFile": false,
+      "bondRequired": false,
+      "bondOnFile": false,
+      "grantedDate": null,
+      "lastStatusChangeDate": "2026-11-03",
+      "lastStatusChangeReason": "Initial Status"
+    },
+    "insurancePolicies": [],
+    "authoritySummary": "MC-54243978 Motor Carrier of Property (Except Household Goods): pending (2026-11-03)",
+    "insuranceSummary": null,
+    "revocations": [],
+    "boc3OnFile": null,
+    "processAgent": null,
+    "safety": {
+      "measurementPeriodMonths": 24,
+      "snapshotUpdatedAt": "2026-10-13T07:02:36.000Z",
+      "inspections": null,
+      "crashes": null,
+      "basics": null,
+      "sourceDatasets": [
+        "4wxs-vbns"
+      ]
+    },
+    "fmcsaUrl": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=9954048",
+    "sourceDataset": "az4n-8mr2",
+    "sourceDatasetName": "FMCSA Company Census File",
+    "sourceUpdatedAt": "2026-11-04T11:19:27.000Z",
+    "scrapedAt": "2026-11-05T01:55:48.921Z",
+    "riskScore": null,
+    "riskLevel": null,
+    "riskFactors": null,
+    "insuranceRenewal": null,
+    "whyNow": null,
+    "trend": null,
+    "insight": null,
+    "companyWebsite": null
+  },
+  {
+    "schemaVersion": 2,
+    "dotNumber": "9187349",
+    "mcNumbers": [],
+    "dockets": [],
+    "legalName": "CORDIALSA USA",
+    "dbaName": null,
+    "companyName": "Cordialsa USA",
+    "entityType": "carrier",
+    "entityTypes": [
+      "carrier"
+    ],
+    "businessType": null,
+    "usdotStatus": "active",
+    "authorityStatus": "none",
+    "carrierOperation": "interstate",
+    "operationClassification": [
+      "PRIVATE PROPERTY"
+    ],
+    "hazmat": false,
+    "powerUnits": 1,
+    "trucks": 1,
+    "buses": 0,
+    "drivers": 2,
+    "cdlDrivers": 0,
+    "interstateDrivers": 0,
+    "intrastateDrivers": 2,
+    "equipment": {
+      "owned": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      },
+      "termLeased": {
+        "trucks": 1,
+        "tractors": null,
+        "trailers": null
+      },
+      "tripLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      }
+    },
+    "mcs150Mileage": 0,
+    "mcs150MileageYear": null,
+    "physicalAddress": {
+      "street": "2201 TIMBERLOCH PL STE 174",
+      "city": "THE WOODLANDS",
+      "state": "TX",
+      "postalCode": "77380-1108",
+      "zip5": "77380",
+      "country": "US",
+      "countyFips": "48339",
+      "oneLine": "2201 TIMBERLOCH PL STE 174, THE WOODLANDS, TX 77380-1108, US"
+    },
+    "mailingAddress": {
+      "street": "8345 BEECHCRAFT AVE SUITE G",
+      "city": "GAITHERSBURG",
+      "state": "MD",
+      "postalCode": "20879",
+      "zip5": "20879",
+      "country": "US",
+      "countyFips": "24031",
+      "oneLine": "8345 BEECHCRAFT AVE SUITE G, GAITHERSBURG, MD 20879, US"
+    },
+    "phone": "+14108311405",
+    "mobilePhone": null,
+    "fax": null,
+    "email": "mgarzon@cordialsausa.com",
+    "emailAsFiled": null,
+    "phoneSharedCount": 2,
+    "emailSharedCount": 2,
+    "phoneIsShared": false,
+    "emailIsShared": false,
+    "companyOfficers": null,
+    "cargoCarried": [
+      "General Freight",
+      "Other: ICE CREAM"
+    ],
+    "cargoCarriedText": "General Freight, Other: ICE CREAM",
+    "safetyRating": "unrated",
+    "safetyRatingDate": null,
+    "safetyReviewDate": null,
+    "mcs150Date": null,
+    "addDate": "2026-11-02",
+    "ageInDays": 3,
+    "isNewEntrant": true,
+    "recordableCrashRate": null,
+    "priorRevokedDotNumber": null,
+    "dunsNumber": null,
+    "dataQualityFlags": [],
+    "outOfService": false,
+    "outOfServiceDate": null,
+    "outOfServiceReason": null,
+    "authority": null,
+    "insurancePolicies": [],
+    "authoritySummary": null,
+    "insuranceSummary": null,
+    "revocations": null,
+    "boc3OnFile": null,
+    "processAgent": null,
+    "safety": {
+      "measurementPeriodMonths": 24,
+      "snapshotUpdatedAt": "2026-10-13T07:02:36.000Z",
+      "inspections": null,
+      "crashes": null,
+      "basics": null,
+      "sourceDatasets": [
+        "4wxs-vbns"
+      ]
+    },
+    "fmcsaUrl": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=9187349",
+    "sourceDataset": "az4n-8mr2",
+    "sourceDatasetName": "FMCSA Company Census File",
+    "sourceUpdatedAt": "2026-11-04T11:19:27.000Z",
+    "scrapedAt": "2026-11-05T01:55:48.921Z",
+    "riskScore": null,
+    "riskLevel": null,
+    "riskFactors": null,
+    "insuranceRenewal": null,
+    "whyNow": null,
+    "trend": null,
+    "insight": null,
+    "companyWebsite": null
+  },
+  {
+    "schemaVersion": 2,
+    "dotNumber": "9180265",
+    "mcNumbers": [
+      "MC-76381959"
+    ],
+    "dockets": [
+      {
+        "docketNumber": "MC-76381959",
+        "prefix": "MC",
+        "number": "76381959",
+        "status": "pending"
+      }
+    ],
+    "legalName": "LOAD & GO ROAD HAULING",
+    "dbaName": null,
+    "companyName": "Load & Go Road Hauling",
+    "entityType": "carrier",
+    "entityTypes": [
+      "carrier"
+    ],
+    "businessType": null,
+    "usdotStatus": "active",
+    "authorityStatus": "pending",
+    "carrierOperation": "interstate",
+    "operationClassification": [
+      "PRIVATE PROPERTY",
+      "AUTHORIZED FOR HIRE"
+    ],
+    "hazmat": false,
+    "powerUnits": 0,
+    "trucks": 0,
+    "buses": 0,
+    "drivers": 4,
+    "cdlDrivers": 0,
+    "interstateDrivers": 2,
+    "intrastateDrivers": 2,
+    "equipment": {
+      "owned": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      },
+      "termLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      },
+      "tripLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      }
+    },
+    "mcs150Mileage": 0,
+    "mcs150MileageYear": null,
+    "physicalAddress": {
+      "street": "10206 RELIC OAKS",
+      "city": "SAN ANTONIO",
+      "state": "TX",
+      "postalCode": "78240-4478",
+      "zip5": "78240",
+      "country": "US",
+      "countyFips": "48029",
+      "oneLine": "10206 RELIC OAKS, SAN ANTONIO, TX 78240-4478, US"
+    },
+    "mailingAddress": {
+      "street": "10206 RELIC OAKS",
+      "city": "SAN ANTONIO",
+      "state": "TX",
+      "postalCode": "78240-4478",
+      "zip5": "78240",
+      "country": "US",
+      "countyFips": "48029",
+      "oneLine": "10206 RELIC OAKS, SAN ANTONIO, TX 78240-4478, US"
+    },
+    "phone": "+12104175821",
+    "mobilePhone": null,
+    "fax": null,
+    "email": "jamescollier4@icloud.com",
+    "emailAsFiled": null,
+    "phoneSharedCount": 1,
+    "emailSharedCount": 1,
+    "phoneIsShared": false,
+    "emailIsShared": false,
+    "companyOfficers": null,
+    "cargoCarried": [
+      "General Freight",
+      "Metal: sheets, coils, rolls",
+      "Logs, Poles, Beams, Lumber",
+      "Building Materials",
+      "Machinery, Large Objects",
+      "Construction"
+    ],
+    "cargoCarriedText": "General Freight, Metal: sheets, coils, rolls, Logs, Poles, Beams, Lumber, Building Materials, Machinery, Large Objects, Construction",
+    "safetyRating": "unrated",
+    "safetyRatingDate": null,
+    "safetyReviewDate": null,
+    "mcs150Date": null,
+    "addDate": "2026-11-02",
+    "ageInDays": 3,
+    "isNewEntrant": true,
+    "recordableCrashRate": null,
+    "priorRevokedDotNumber": null,
+    "dunsNumber": null,
+    "dataQualityFlags": [
+      "fleetCountsInconsistent"
+    ],
+    "outOfService": false,
+    "outOfServiceDate": null,
+    "outOfServiceReason": null,
+    "authority": {
+      "source": "motus",
+      "sourceDataset": "inys-ebih",
+      "sourceUpdatedAt": "2026-11-04T10:09:38.000Z",
+      "authorities": [
+        {
+          "docketNumber": "MC-76381959",
+          "authorityType": "Motor Carrier of Property (Except Household Goods)",
+          "status": "pending",
+          "statusDate": "2026-11-03",
+          "statusReason": "Published to FMCSA Register",
+          "grantedDate": null
+        }
+      ],
+      "hasActiveCarrierAuthority": false,
+      "hasActiveBrokerAuthority": false,
+      "hasPendingAuthority": true,
+      "bipdRequiredUsd": 300000,
+      "bipdOnFileUsd": 0,
+      "cargoInsuranceRequired": false,
+      "cargoInsuranceOnFile": false,
+      "bondRequired": false,
+      "bondOnFile": false,
+      "grantedDate": null,
+      "lastStatusChangeDate": "2026-11-03",
+      "lastStatusChangeReason": "Published to FMCSA Register"
+    },
+    "insurancePolicies": [],
+    "authoritySummary": "MC-76381959 Motor Carrier of Property (Except Household Goods): pending (2026-11-03)",
+    "insuranceSummary": null,
+    "revocations": [],
+    "boc3OnFile": null,
+    "processAgent": null,
+    "safety": {
+      "measurementPeriodMonths": 24,
+      "snapshotUpdatedAt": "2026-10-13T07:02:36.000Z",
+      "inspections": null,
+      "crashes": null,
+      "basics": null,
+      "sourceDatasets": [
+        "4wxs-vbns"
+      ]
+    },
+    "fmcsaUrl": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=9180265",
+    "sourceDataset": "az4n-8mr2",
+    "sourceDatasetName": "FMCSA Company Census File",
+    "sourceUpdatedAt": "2026-11-04T11:19:27.000Z",
+    "scrapedAt": "2026-11-05T01:55:48.921Z",
+    "riskScore": null,
+    "riskLevel": null,
+    "riskFactors": null,
+    "insuranceRenewal": null,
+    "whyNow": null,
+    "trend": null,
+    "insight": null,
+    "companyWebsite": null
+  }
+]

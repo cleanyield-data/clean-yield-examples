@@ -1,0 +1,233 @@
+[
+  {
+    "domain": "vercel.com",
+    "url": "https://vercel.com/",
+    "companyName": "Vercel",
+    "description": "The autonomous stack for every app and agent.",
+    "language": "en",
+    "country": "US",
+    "emails": [],
+    "phones": [],
+    "primaryEmail": null,
+    "primaryPhone": null,
+    "contactPageUrl": null,
+    "socialProfiles": {
+      "linkedin": null,
+      "x": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "github": null,
+      "pinterest": null,
+      "threads": null,
+      "telegram": null,
+      "discord": null,
+      "reddit": null
+    },
+    "address": {
+      "streetAddress": "440 N Barranca Ave #4133",
+      "locality": "Covina",
+      "region": "CA",
+      "postalCode": "91723",
+      "country": "US",
+      "formatted": "440 N Barranca Ave #4133, Covina, CA 91723, US"
+    },
+    "technologies": [],
+    "hiring": {
+      "isHiring": true,
+      "careersUrl": "https://vercel.com/careers",
+      "atsProvider": "greenhouse",
+      "openRolesCount": 87,
+      "evidence": "87 open role(s) on the public greenhouse job board"
+    },
+    "latestPosts": [],
+    "personalEmailsOmitted": 0,
+    "sourcesChecked": [
+      {
+        "url": "https://vercel.com/robots.txt",
+        "type": "robots",
+        "status": 200,
+        "ok": true,
+        "ms": 145
+      },
+      {
+        "url": "https://vercel.com/",
+        "type": "home",
+        "status": 200,
+        "ok": true,
+        "ms": 209
+      },
+      {
+        "url": "https://vercel.com/careers",
+        "type": "careers",
+        "status": 200,
+        "ok": true,
+        "ms": 238
+      },
+      {
+        "url": "https://boards-api.greenhouse.io/v1/boards/vercel/jobs",
+        "type": "ats-api",
+        "status": 200,
+        "ok": true,
+        "ms": 567
+      }
+    ],
+    "pagesFetched": 3,
+    "durationMs": 1181,
+    "scrapedAt": "2026-11-06T02:19:55.252Z",
+    "outputVersion": 1,
+    "schemaVersion": "1.1.0",
+    "changeType": null,
+    "changes": [],
+    "pro": null,
+    "insight": null
+  },
+  {
+    "domain": "linear.app",
+    "url": "https://linear.app/",
+    "companyName": "Linear",
+    "description": "Purpose-built for planning and building products with AI agents.",
+    "language": "en",
+    "country": null,
+    "emails": [],
+    "phones": [],
+    "primaryEmail": null,
+    "primaryPhone": null,
+    "contactPageUrl": null,
+    "socialProfiles": {
+      "linkedin": null,
+      "x": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "github": null,
+      "pinterest": null,
+      "threads": null,
+      "telegram": null,
+      "discord": null,
+      "reddit": null
+    },
+    "address": null,
+    "technologies": [],
+    "hiring": {
+      "isHiring": true,
+      "careersUrl": "https://linear.app/careers",
+      "atsProvider": "ashby",
+      "openRolesCount": 31,
+      "evidence": "31 open role(s) on the public ashby job board"
+    },
+    "latestPosts": [],
+    "personalEmailsOmitted": 0,
+    "sourcesChecked": [
+      {
+        "url": "https://linear.app/robots.txt",
+        "type": "robots",
+        "status": 200,
+        "ok": true,
+        "ms": 348
+      },
+      {
+        "url": "https://linear.app/",
+        "type": "home",
+        "status": 200,
+        "ok": true,
+        "ms": 415
+      },
+      {
+        "url": "https://linear.app/careers",
+        "type": "careers",
+        "status": 200,
+        "ok": true,
+        "ms": 448
+      },
+      {
+        "url": "https://api.ashbyhq.com/posting-api/job-board/Linear",
+        "type": "ats-api",
+        "status": 200,
+        "ok": true,
+        "ms": 170
+      }
+    ],
+    "pagesFetched": 3,
+    "durationMs": 1193,
+    "scrapedAt": "2026-11-06T02:19:55.263Z",
+    "outputVersion": 1,
+    "schemaVersion": "1.1.0",
+    "changeType": null,
+    "changes": [],
+    "pro": null,
+    "insight": null
+  },
+  {
+    "domain": "n26.com",
+    "url": "https://n26.com/en-eu",
+    "companyName": "N26",
+    "description": "N26 is the first bank you'll love. Beautifully simple, 100% mobile, and trusted by millions. Open your free bank account in minutes.",
+    "language": "en",
+    "country": null,
+    "emails": [],
+    "phones": [],
+    "primaryEmail": null,
+    "primaryPhone": null,
+    "contactPageUrl": null,
+    "socialProfiles": {
+      "linkedin": null,
+      "x": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "github": null,
+      "pinterest": null,
+      "threads": null,
+      "telegram": null,
+      "discord": null,
+      "reddit": null
+    },
+    "address": null,
+    "technologies": [],
+    "hiring": {
+      "isHiring": true,
+      "careersUrl": "https://job-boards.greenhouse.io/n26",
+      "atsProvider": "greenhouse",
+      "openRolesCount": 34,
+      "evidence": "34 open role(s) on the public greenhouse job board"
+    },
+    "latestPosts": [],
+    "personalEmailsOmitted": 0,
+    "sourcesChecked": [
+      {
+        "url": "https://n26.com/robots.txt",
+        "type": "robots",
+        "status": 200,
+        "ok": true,
+        "ms": 373
+      },
+      {
+        "url": "https://n26.com/",
+        "type": "home",
+        "status": 200,
+        "ok": true,
+        "ms": 1113
+      },
+      {
+        "url": "https://boards-api.greenhouse.io/v1/boards/n26/jobs",
+        "type": "ats-api",
+        "status": 200,
+        "ok": true,
+        "ms": 67
+      }
+    ],
+    "pagesFetched": 2,
+    "durationMs": 1230,
+    "scrapedAt": "2026-11-06T02:19:55.300Z",
+    "outputVersion": 1,
+    "schemaVersion": "1.1.0",
+    "changeType": null,
+    "changes": [],
+    "pro": null,
+    "insight": null
+  }
+]

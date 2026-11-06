@@ -1,0 +1,353 @@
+[
+  {
+    "domain": "peterluger.com",
+    "url": "https://peterluger.com/",
+    "companyName": "Peter Luger Steak House",
+    "description": "Peter Luger Steak House",
+    "language": "en",
+    "country": null,
+    "emails": [
+      {
+        "email": "hello@peterluger.com",
+        "type": "generic",
+        "isCompanyDomain": true,
+        "foundOn": "https://peterluger.com/policies/terms-of-service"
+      },
+      {
+        "email": "reservations@peterluger.com",
+        "type": "role",
+        "isCompanyDomain": true,
+        "foundOn": "https://peterluger.com/"
+      }
+    ],
+    "phones": [
+      {
+        "phone": "+17183877400",
+        "national": "(718) 387-7400",
+        "country": "US",
+        "source": "tel-link",
+        "isWhatsApp": false,
+        "foundOn": "https://peterluger.com/policies/terms-of-service"
+      }
+    ],
+    "primaryEmail": "hello@peterluger.com",
+    "primaryPhone": "+17183877400",
+    "contactPageUrl": null,
+    "socialProfiles": {
+      "linkedin": null,
+      "x": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "github": null,
+      "pinterest": null,
+      "threads": null,
+      "telegram": null,
+      "discord": null,
+      "reddit": null
+    },
+    "address": null,
+    "technologies": [],
+    "hiring": null,
+    "latestPosts": [],
+    "personalEmailsOmitted": 0,
+    "sourcesChecked": [
+      {
+        "url": "https://peterluger.com/robots.txt",
+        "type": "robots",
+        "status": 200,
+        "ok": true,
+        "ms": 381
+      },
+      {
+        "url": "https://peterluger.com/",
+        "type": "home",
+        "status": 200,
+        "ok": true,
+        "ms": 478
+      },
+      {
+        "url": "https://peterluger.com/sitemap.xml",
+        "type": "sitemap",
+        "status": 200,
+        "ok": true,
+        "ms": 154
+      },
+      {
+        "url": "https://peterluger.com/pages/our-story",
+        "type": "about",
+        "status": 200,
+        "ok": true,
+        "ms": 210
+      },
+      {
+        "url": "https://peterluger.com/policies/terms-of-service",
+        "type": "terms",
+        "status": 200,
+        "ok": true,
+        "ms": 212
+      },
+      {
+        "url": "https://peterluger.com/policies/privacy-policy",
+        "type": "privacy",
+        "status": 200,
+        "ok": true,
+        "ms": 220
+      },
+      {
+        "url": "https://peterluger.com/contact",
+        "type": "contact",
+        "status": 404,
+        "ok": false,
+        "ms": 291,
+        "error": "HTTP 404"
+      }
+    ],
+    "pagesFetched": 6,
+    "durationMs": 1060,
+    "scrapedAt": "2026-11-06T02:39:17.820Z",
+    "outputVersion": 1,
+    "schemaVersion": "1.1.0",
+    "changeType": null,
+    "changes": [],
+    "pro": null,
+    "insight": null
+  },
+  {
+    "domain": "katzsdelicatessen.com",
+    "url": "https://katzsdelicatessen.com/",
+    "companyName": "Katz's Delicatessen",
+    "description": "Katz's Deli Shipping Menu",
+    "language": "en",
+    "country": "US",
+    "emails": [
+      {
+        "email": "press@katzsdelicatessen.com",
+        "type": "role",
+        "isCompanyDomain": true,
+        "foundOn": "https://katzsdelicatessen.com/"
+      },
+      {
+        "email": "sales@katzsdelicatessen.com",
+        "type": "role",
+        "isCompanyDomain": true,
+        "foundOn": "https://katzsdelicatessen.com/privacypolicy"
+      }
+    ],
+    "phones": [
+      {
+        "phone": "+12122542246",
+        "national": "(212) 254-2246",
+        "country": "US",
+        "source": "tel-link",
+        "isWhatsApp": false,
+        "foundOn": "https://katzsdelicatessen.com/"
+      },
+      {
+        "phone": "+18004468364",
+        "national": "(800) 446-8364",
+        "country": "US",
+        "source": "tel-link",
+        "isWhatsApp": false,
+        "foundOn": "https://katzsdelicatessen.com/"
+      }
+    ],
+    "primaryEmail": "press@katzsdelicatessen.com",
+    "primaryPhone": "+12122542246",
+    "contactPageUrl": "https://katzsdelicatessen.com/contact",
+    "socialProfiles": {
+      "linkedin": null,
+      "x": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "github": null,
+      "pinterest": null,
+      "threads": null,
+      "telegram": null,
+      "discord": null,
+      "reddit": null
+    },
+    "address": null,
+    "technologies": [],
+    "hiring": null,
+    "latestPosts": [],
+    "personalEmailsOmitted": 0,
+    "sourcesChecked": [
+      {
+        "url": "https://katzsdelicatessen.com/robots.txt",
+        "type": "robots",
+        "status": 200,
+        "ok": true,
+        "ms": 266
+      },
+      {
+        "url": "https://katzsdelicatessen.com/",
+        "type": "home",
+        "status": 200,
+        "ok": true,
+        "ms": 382
+      },
+      {
+        "url": "https://katzsdelicatessen.com/media/sitemap/sitemap.xml",
+        "type": "sitemap",
+        "status": 200,
+        "ok": true,
+        "ms": 36
+      },
+      {
+        "url": "https://katzsdelicatessen.com/our-story",
+        "type": "about",
+        "status": 200,
+        "ok": true,
+        "ms": 106
+      },
+      {
+        "url": "https://katzsdelicatessen.com/privacypolicy",
+        "type": "privacy",
+        "status": 200,
+        "ok": true,
+        "ms": 124
+      },
+      {
+        "url": "https://katzsdelicatessen.com/contact",
+        "type": "contact",
+        "status": 200,
+        "ok": true,
+        "ms": 597
+      }
+    ],
+    "pagesFetched": 5,
+    "durationMs": 1116,
+    "scrapedAt": "2026-11-06T02:39:17.879Z",
+    "outputVersion": 1,
+    "schemaVersion": "1.1.0",
+    "changeType": null,
+    "changes": [],
+    "pro": null,
+    "insight": null
+  },
+  {
+    "domain": "zingermans.com",
+    "url": "https://zingermans.com/",
+    "companyName": "Zingerman's Mail Order",
+    "description": "Ship great food anywhere in America from Zingerman’s Mail Order. Gift boxes of bread, cheese, meat, pastry and more. You really can taste the difference.",
+    "language": "en",
+    "country": "US",
+    "emails": [
+      {
+        "email": "bizgifts@zingermans.com",
+        "type": "role",
+        "isCompanyDomain": true,
+        "foundOn": "https://zingermans.com/"
+      },
+      {
+        "email": "professionalpresents@zingermans.com",
+        "type": "role",
+        "isCompanyDomain": true,
+        "foundOn": "https://zingermans.com/CustService.aspx"
+      },
+      {
+        "email": "service@zingermans.com",
+        "type": "role",
+        "isCompanyDomain": true,
+        "foundOn": "https://zingermans.com/"
+      }
+    ],
+    "phones": [
+      {
+        "phone": "+18886368162",
+        "national": "(888) 636-8162",
+        "country": "US",
+        "source": "tel-link",
+        "isWhatsApp": false,
+        "foundOn": "https://zingermans.com/"
+      },
+      {
+        "phone": "+18662606169",
+        "national": "(866) 260-6169",
+        "country": "US",
+        "source": "tel-link",
+        "isWhatsApp": false,
+        "foundOn": "https://zingermans.com/"
+      }
+    ],
+    "primaryEmail": "bizgifts@zingermans.com",
+    "primaryPhone": "+18886368162",
+    "contactPageUrl": "https://zingermans.com/CustService.aspx",
+    "socialProfiles": {
+      "linkedin": null,
+      "x": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "github": null,
+      "pinterest": null,
+      "threads": null,
+      "telegram": null,
+      "discord": null,
+      "reddit": null
+    },
+    "address": null,
+    "technologies": [],
+    "hiring": null,
+    "latestPosts": [],
+    "personalEmailsOmitted": 1,
+    "sourcesChecked": [
+      {
+        "url": "https://zingermans.com/robots.txt",
+        "type": "robots",
+        "status": 200,
+        "ok": true,
+        "ms": 335
+      },
+      {
+        "url": "https://zingermans.com/",
+        "type": "home",
+        "status": 200,
+        "ok": true,
+        "ms": 795
+      },
+      {
+        "url": "https://zingermans.com/CustService.aspx",
+        "type": "contact",
+        "status": 200,
+        "ok": true,
+        "ms": 160
+      },
+      {
+        "url": "https://zingermans.com/Category.aspx?Category=staff_favorites",
+        "type": "team",
+        "status": 200,
+        "ok": true,
+        "ms": 173
+      },
+      {
+        "url": "https://zingermans.com/AboutUs.aspx",
+        "type": "about",
+        "status": 200,
+        "ok": true,
+        "ms": 417
+      },
+      {
+        "url": "https://www.zingermans.com/sitemap.aspx",
+        "type": "sitemap",
+        "status": 200,
+        "ok": true,
+        "ms": 453
+      }
+    ],
+    "pagesFetched": 5,
+    "durationMs": 1364,
+    "scrapedAt": "2026-11-06T02:39:18.128Z",
+    "outputVersion": 1,
+    "schemaVersion": "1.1.0",
+    "changeType": null,
+    "changes": [],
+    "pro": null,
+    "insight": null
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "apps": [
+    "https://apps.apple.com/us/app/duolingo-language-lessons/id570060128",
+    "https://play.google.com/store/apps/details?id=com.duolingo"
+  ],
+  "countries": [
+    "us"
+  ],
+  "languages": [
+    "en"
+  ],
+  "maxReviewsPerApp": 200
+}

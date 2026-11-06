@@ -1,0 +1,14 @@
+{
+  "companies": [
+    "ramp",
+    "zoox",
+    "palantir",
+    "datadog",
+    "cloudflare",
+    "robinhood"
+  ],
+  "employmentTypes": [
+    "internship"
+  ],
+  "includeDescription": "none"
+}

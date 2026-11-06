@@ -1,0 +1,577 @@
+[
+  {
+    "schemaVersion": 2,
+    "dotNumber": "6667307",
+    "mcNumbers": [
+      "MC-83476320"
+    ],
+    "dockets": [
+      {
+        "docketNumber": "MC-83476320",
+        "prefix": "MC",
+        "number": "83476320",
+        "status": "active"
+      }
+    ],
+    "legalName": "ELEVATION BOUND LOGISTICS INC.",
+    "dbaName": null,
+    "companyName": "Elevation Bound Logistics",
+    "entityType": "carrier",
+    "entityTypes": [
+      "carrier"
+    ],
+    "businessType": null,
+    "usdotStatus": "active",
+    "authorityStatus": "active",
+    "carrierOperation": "interstate",
+    "operationClassification": [
+      "AUTHORIZED FOR HIRE"
+    ],
+    "hazmat": false,
+    "powerUnits": 10,
+    "trucks": 10,
+    "buses": 0,
+    "drivers": 40,
+    "cdlDrivers": 0,
+    "interstateDrivers": 20,
+    "intrastateDrivers": 20,
+    "equipment": {
+      "owned": {
+        "trucks": 10,
+        "tractors": null,
+        "trailers": null
+      },
+      "termLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      },
+      "tripLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      }
+    },
+    "mcs150Mileage": 0,
+    "mcs150MileageYear": null,
+    "physicalAddress": {
+      "street": "5600 DOE TROT TRAIL",
+      "city": "DOUGLASVILLE",
+      "state": "GA",
+      "postalCode": "30135",
+      "zip5": "30135",
+      "country": "US",
+      "countyFips": "13097",
+      "oneLine": "5600 DOE TROT TRAIL, DOUGLASVILLE, GA 30135, US"
+    },
+    "mailingAddress": {
+      "street": "2315 NAVIGATION BLVD #313",
+      "city": "HOUSTON",
+      "state": "TX",
+      "postalCode": "77003",
+      "zip5": "77003",
+      "country": "US",
+      "countyFips": "48201",
+      "oneLine": "2315 NAVIGATION BLVD #313, HOUSTON, TX 77003, US"
+    },
+    "phone": "+17135385486",
+    "mobilePhone": "+17135385486",
+    "fax": null,
+    "email": "ops@elevationbound.net",
+    "emailAsFiled": null,
+    "phoneSharedCount": 1,
+    "emailSharedCount": 1,
+    "phoneIsShared": false,
+    "emailIsShared": false,
+    "companyOfficers": null,
+    "cargoCarried": [
+      "General Freight",
+      "Building Materials",
+      "Meat",
+      "Refrigerated Food",
+      "Beverages",
+      "Paper Products",
+      "Construction"
+    ],
+    "cargoCarriedText": "General Freight, Building Materials, Meat, Refrigerated Food, Beverages, Paper Products, Construction",
+    "safetyRating": "unrated",
+    "safetyRatingDate": null,
+    "safetyReviewDate": null,
+    "mcs150Date": null,
+    "addDate": "2026-09-02",
+    "ageInDays": 64,
+    "isNewEntrant": true,
+    "recordableCrashRate": null,
+    "priorRevokedDotNumber": null,
+    "dunsNumber": null,
+    "dataQualityFlags": [],
+    "outOfService": false,
+    "outOfServiceDate": null,
+    "outOfServiceReason": null,
+    "authority": {
+      "source": "motus",
+      "sourceDataset": "inys-ebih",
+      "sourceUpdatedAt": "2026-11-04T10:09:38.000Z",
+      "authorities": [
+        {
+          "docketNumber": "MC-83476320",
+          "authorityType": "Motor Carrier of Property (Except Household Goods)",
+          "status": "active",
+          "statusDate": "2026-10-01",
+          "statusReason": "Granted",
+          "grantedDate": "2026-10-01"
+        }
+      ],
+      "hasActiveCarrierAuthority": true,
+      "hasActiveBrokerAuthority": false,
+      "hasPendingAuthority": false,
+      "bipdRequiredUsd": 750000,
+      "bipdOnFileUsd": 750000,
+      "cargoInsuranceRequired": false,
+      "cargoInsuranceOnFile": false,
+      "bondRequired": false,
+      "bondOnFile": false,
+      "grantedDate": "2026-10-01",
+      "lastStatusChangeDate": "2026-10-01",
+      "lastStatusChangeReason": "Granted"
+    },
+    "insurancePolicies": [
+      {
+        "docketNumber": "MC-83476320",
+        "insuranceType": "bipd",
+        "layer": "primary",
+        "formCode": "BMC-91X",
+        "insurer": "PROGRESSIVE MOUNTAIN INSURANCE COMPANY OF OHIO",
+        "policyNumber": "CA879810075",
+        "coverageUsd": 750000,
+        "underlyingLimitUsd": 0,
+        "effectiveDate": "2026-09-11",
+        "postedDate": "2026-09-11",
+        "cancelEffectiveDate": null,
+        "source": "motus"
+      }
+    ],
+    "authoritySummary": "MC-83476320 Motor Carrier of Property (Except Household Goods): active since 2026-10-01",
+    "insuranceSummary": "BIPD primary USD 750,000 (PROGRESSIVE MOUNTAIN INSURANCE COMPANY OF OHIO), eff. 2026-09-11",
+    "revocations": [
+      {
+        "docketNumber": "MC-83476320",
+        "authorityType": "Motor Carrier of Property (Except Household Goods)",
+        "orderType": "Operating Authority Involuntary Suspension Notice",
+        "servedDate": "2026-10-19",
+        "effectiveDate": "2026-11-18"
+      }
+    ],
+    "boc3OnFile": true,
+    "processAgent": {
+      "docketNumber": "MC-83476320",
+      "name": "# 1 ACE LICENSING & PERMIT SERVICES LLC",
+      "street": "4519 WOODRUFF RD UNIT 4-137",
+      "city": "COLUMBUS",
+      "state": "GA",
+      "postalCode": "31904",
+      "country": "US"
+    },
+    "safety": {
+      "measurementPeriodMonths": 24,
+      "snapshotUpdatedAt": "2026-10-13T07:02:56.000Z",
+      "inspections": {
+        "total": 0,
+        "vehicle": 0,
+        "vehicleOutOfService": 0,
+        "vehicleOutOfServiceRate": null,
+        "driver": 0,
+        "driverOutOfService": 0,
+        "driverOutOfServiceRate": null
+      },
+      "crashes": {
+        "total": 0,
+        "fatal": 0,
+        "injury": 0,
+        "towaway": 0
+      },
+      "basics": {
+        "unsafeDriving": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        },
+        "hoursOfService": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        },
+        "driverFitness": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        },
+        "controlledSubstancesAlcohol": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        },
+        "vehicleMaintenance": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        }
+      },
+      "sourceDatasets": [
+        "4y6x-dmck",
+        "4wxs-vbns"
+      ]
+    },
+    "fmcsaUrl": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=6667307",
+    "sourceDataset": "az4n-8mr2",
+    "sourceDatasetName": "FMCSA Company Census File",
+    "sourceUpdatedAt": "2026-11-04T11:19:27.000Z",
+    "scrapedAt": "2026-11-05T01:56:06.860Z",
+    "riskScore": null,
+    "riskLevel": null,
+    "riskFactors": null,
+    "insuranceRenewal": null,
+    "whyNow": null,
+    "trend": null,
+    "insight": null,
+    "companyWebsite": null
+  },
+  {
+    "schemaVersion": 2,
+    "dotNumber": "7342726",
+    "mcNumbers": [],
+    "dockets": [],
+    "legalName": "WALK A DOG, LLC",
+    "dbaName": null,
+    "companyName": "Walk a Dog",
+    "entityType": "carrier",
+    "entityTypes": [
+      "carrier"
+    ],
+    "businessType": null,
+    "usdotStatus": "active",
+    "authorityStatus": "none",
+    "carrierOperation": "intrastateNonHazmat",
+    "operationClassification": [
+      "AUTHORIZED FOR HIRE"
+    ],
+    "hazmat": false,
+    "powerUnits": 6,
+    "trucks": 6,
+    "buses": 0,
+    "drivers": 6,
+    "cdlDrivers": 0,
+    "interstateDrivers": 0,
+    "intrastateDrivers": 6,
+    "equipment": {
+      "owned": {
+        "trucks": 6,
+        "tractors": null,
+        "trailers": null
+      },
+      "termLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      },
+      "tripLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      }
+    },
+    "mcs150Mileage": 0,
+    "mcs150MileageYear": null,
+    "physicalAddress": {
+      "street": "2790 TOWN CENTER DR NW",
+      "city": "KENNESAW",
+      "state": "GA",
+      "postalCode": "30144-4938",
+      "zip5": "30144",
+      "country": "US",
+      "countyFips": "13067",
+      "oneLine": "2790 TOWN CENTER DR NW, KENNESAW, GA 30144-4938, US"
+    },
+    "mailingAddress": {
+      "street": "2790 TOWN CENTER DR NW",
+      "city": "KENNESAW",
+      "state": "GA",
+      "postalCode": "30144-4938",
+      "zip5": "30144",
+      "country": "US",
+      "countyFips": "13067",
+      "oneLine": "2790 TOWN CENTER DR NW, KENNESAW, GA 30144-4938, US"
+    },
+    "phone": "+14705412206",
+    "mobilePhone": null,
+    "fax": null,
+    "email": "hr@thevarsity.com",
+    "emailAsFiled": null,
+    "phoneSharedCount": 1,
+    "emailSharedCount": 1,
+    "phoneIsShared": false,
+    "emailIsShared": false,
+    "companyOfficers": null,
+    "cargoCarried": [
+      "Meat",
+      "Refrigerated Food",
+      "Beverages",
+      "Other: REFRIGERATED FOOD AND BEVERAGE"
+    ],
+    "cargoCarriedText": "Meat, Refrigerated Food, Beverages, Other: REFRIGERATED FOOD AND BEVERAGE",
+    "safetyRating": "unrated",
+    "safetyRatingDate": null,
+    "safetyReviewDate": null,
+    "mcs150Date": null,
+    "addDate": "2026-07-20",
+    "ageInDays": 108,
+    "isNewEntrant": true,
+    "recordableCrashRate": null,
+    "priorRevokedDotNumber": null,
+    "dunsNumber": null,
+    "dataQualityFlags": [
+      "fleetCountsInconsistent"
+    ],
+    "outOfService": false,
+    "outOfServiceDate": null,
+    "outOfServiceReason": null,
+    "authority": null,
+    "insurancePolicies": [],
+    "authoritySummary": null,
+    "insuranceSummary": null,
+    "revocations": null,
+    "boc3OnFile": null,
+    "processAgent": null,
+    "safety": {
+      "measurementPeriodMonths": 24,
+      "snapshotUpdatedAt": "2026-10-13T07:03:45.000Z",
+      "inspections": {
+        "total": 0,
+        "vehicle": 0,
+        "vehicleOutOfService": 0,
+        "vehicleOutOfServiceRate": null,
+        "driver": 0,
+        "driverOutOfService": 0,
+        "driverOutOfServiceRate": null
+      },
+      "crashes": {
+        "total": 0,
+        "fatal": 0,
+        "injury": 0,
+        "towaway": 0
+      },
+      "basics": {
+        "unsafeDriving": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        },
+        "hoursOfService": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        },
+        "driverFitness": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        },
+        "controlledSubstancesAlcohol": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        },
+        "vehicleMaintenance": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        }
+      },
+      "sourceDatasets": [
+        "h9zy-gjn8",
+        "4wxs-vbns"
+      ]
+    },
+    "fmcsaUrl": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=7342726",
+    "sourceDataset": "az4n-8mr2",
+    "sourceDatasetName": "FMCSA Company Census File",
+    "sourceUpdatedAt": "2026-11-04T11:19:27.000Z",
+    "scrapedAt": "2026-11-05T01:56:06.860Z",
+    "riskScore": null,
+    "riskLevel": null,
+    "riskFactors": null,
+    "insuranceRenewal": null,
+    "whyNow": null,
+    "trend": null,
+    "insight": null,
+    "companyWebsite": null
+  },
+  {
+    "schemaVersion": 2,
+    "dotNumber": "5277864",
+    "mcNumbers": [],
+    "dockets": [],
+    "legalName": "NORTHSIDE DELI PROVISIONS, INC.",
+    "dbaName": null,
+    "companyName": "Northside Deli Provisions",
+    "entityType": "carrier",
+    "entityTypes": [
+      "carrier"
+    ],
+    "businessType": null,
+    "usdotStatus": "active",
+    "authorityStatus": "none",
+    "carrierOperation": "intrastateNonHazmat",
+    "operationClassification": [
+      "PRIVATE PROPERTY"
+    ],
+    "hazmat": false,
+    "powerUnits": 7,
+    "trucks": 7,
+    "buses": 0,
+    "drivers": 12,
+    "cdlDrivers": 0,
+    "interstateDrivers": 0,
+    "intrastateDrivers": 12,
+    "equipment": {
+      "owned": {
+        "trucks": 5,
+        "tractors": null,
+        "trailers": null
+      },
+      "termLeased": {
+        "trucks": 2,
+        "tractors": null,
+        "trailers": null
+      },
+      "tripLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      }
+    },
+    "mcs150Mileage": 0,
+    "mcs150MileageYear": null,
+    "physicalAddress": {
+      "street": "6925 DISCOVERY BLVD STE 100",
+      "city": "MABLETON",
+      "state": "GA",
+      "postalCode": "30126-4678",
+      "zip5": "30126",
+      "country": "US",
+      "countyFips": "13067",
+      "oneLine": "6925 DISCOVERY BLVD STE 100, MABLETON, GA 30126-4678, US"
+    },
+    "mailingAddress": {
+      "street": "6925 DISCOVERY BLVD STE 100",
+      "city": "MABLETON",
+      "state": "GA",
+      "postalCode": "30126-4678",
+      "zip5": "30126",
+      "country": "US",
+      "countyFips": "13067",
+      "oneLine": "6925 DISCOVERY BLVD STE 100, MABLETON, GA 30126-4678, US"
+    },
+    "phone": "+17707394151",
+    "mobilePhone": "+16786502303",
+    "fax": null,
+    "email": "heather@northsidedeliprovisions.com",
+    "emailAsFiled": null,
+    "phoneSharedCount": 1,
+    "emailSharedCount": 2,
+    "phoneIsShared": false,
+    "emailIsShared": false,
+    "companyOfficers": null,
+    "cargoCarried": [
+      "Meat",
+      "Refrigerated Food"
+    ],
+    "cargoCarriedText": "Meat, Refrigerated Food",
+    "safetyRating": "unrated",
+    "safetyRatingDate": null,
+    "safetyReviewDate": null,
+    "mcs150Date": null,
+    "addDate": "2026-06-04",
+    "ageInDays": 154,
+    "isNewEntrant": true,
+    "recordableCrashRate": null,
+    "priorRevokedDotNumber": null,
+    "dunsNumber": "119553135",
+    "dataQualityFlags": [
+      "fleetCountsInconsistent"
+    ],
+    "outOfService": false,
+    "outOfServiceDate": null,
+    "outOfServiceReason": null,
+    "authority": null,
+    "insurancePolicies": [],
+    "authoritySummary": null,
+    "insuranceSummary": null,
+    "revocations": null,
+    "boc3OnFile": null,
+    "processAgent": null,
+    "safety": {
+      "measurementPeriodMonths": 24,
+      "snapshotUpdatedAt": "2026-10-13T07:03:45.000Z",
+      "inspections": {
+        "total": 0,
+        "vehicle": 0,
+        "vehicleOutOfService": 0,
+        "vehicleOutOfServiceRate": null,
+        "driver": 0,
+        "driverOutOfService": 0,
+        "driverOutOfServiceRate": null
+      },
+      "crashes": {
+        "total": 0,
+        "fatal": 0,
+        "injury": 0,
+        "towaway": 0
+      },
+      "basics": {
+        "unsafeDriving": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        },
+        "hoursOfService": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        },
+        "driverFitness": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        },
+        "controlledSubstancesAlcohol": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        },
+        "vehicleMaintenance": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        }
+      },
+      "sourceDatasets": [
+        "h9zy-gjn8",
+        "4wxs-vbns"
+      ]
+    },
+    "fmcsaUrl": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=5277864",
+    "sourceDataset": "az4n-8mr2",
+    "sourceDatasetName": "FMCSA Company Census File",
+    "sourceUpdatedAt": "2026-11-04T11:19:27.000Z",
+    "scrapedAt": "2026-11-05T01:56:06.860Z",
+    "riskScore": null,
+    "riskLevel": null,
+    "riskFactors": null,
+    "insuranceRenewal": null,
+    "whyNow": null,
+    "trend": null,
+    "insight": null,
+    "companyWebsite": null
+  }
+]

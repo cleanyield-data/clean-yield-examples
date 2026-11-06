@@ -1,0 +1,43 @@
+{
+  "name": "New public tenders of my sector (Colombia, Brazil, Chile) → Slack, every morning",
+  "nodes": [
+    {
+      "parameters": { "rule": { "interval": [{ "field": "days", "triggerAtHour": 7 }] } },
+      "name": "Every day 7:00",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/cleanyield~latam-public-tenders/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"countries\": [\"CO\", \"BR\", \"CL\"],\n  \"sectors\": [\"it-software\"],\n  \"status\": [\"open\"],\n  \"publishedWithinDays\": 7,\n  \"minAmountUsd\": 10000,\n  \"maxResults\": 200,\n  \"monitorMode\": true,\n  \"monitorStateName\": \"n8n-it-tenders-latam\"\n}",
+        "options": { "timeout": 290000 }
+      },
+      "name": "New & changed tenders",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [240, 0]
+    },
+    {
+      "parameters": {
+        "select": "channel",
+        "channelId": { "__rl": true, "mode": "name", "value": "#licitaciones" },
+        "text": "={{ $json.changeType === 'new' ? ':new:' : ':arrows_counterclockwise:' }} *{{ $json.country }}* · {{ $json.title }}\n{{ $json.buyer.name }} · {{ $json.amount ? $json.amount.currency + ' ' + Math.round($json.amount.value).toLocaleString() + ' (~USD ' + Math.round($json.amount.valueUsd || 0).toLocaleString() + ')' : 'amount not published' }}\nCloses: {{ $json.closingAtLocal || $json.closingDate || 'n/a' }}{{ $json.changeType === 'changed' ? '\\nChange: ' + $json.changes.map(c => c.note || c.field).join(', ') : '' }}\n{{ $json.url }}",
+        "otherOptions": {}
+      },
+      "name": "Post each tender to Slack",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [480, 0]
+    }
+  ],
+  "connections": {
+    "Every day 7:00": { "main": [[{ "node": "New & changed tenders", "type": "main", "index": 0 }]] },
+    "New & changed tenders": { "main": [[{ "node": "Post each tender to Slack", "type": "main", "index": 0 }]] }
+  },
+  "settings": {}
+}

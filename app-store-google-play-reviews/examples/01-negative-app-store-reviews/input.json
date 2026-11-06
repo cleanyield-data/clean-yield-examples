@@ -1,0 +1,10 @@
+{
+  "apps": [
+    "https://apps.apple.com/us/app/netflix/id363590051"
+  ],
+  "countries": [
+    "us"
+  ],
+  "maxRating": 2,
+  "maxReviewsPerApp": 30
+}

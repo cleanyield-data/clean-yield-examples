@@ -1,0 +1,16 @@
+{
+  "countries": [
+    "BR"
+  ],
+  "sectors": [
+    "medical"
+  ],
+  "regions": [
+    "SP"
+  ],
+  "procedureTypes": [
+    "reverse-auction"
+  ],
+  "publishedWithinDays": 3,
+  "maxResults": 10
+}

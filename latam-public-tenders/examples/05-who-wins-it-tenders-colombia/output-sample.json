@@ -1,0 +1,143 @@
+[
+  {
+    "schemaVersion": 1,
+    "tenderId": "CO:secop2:CO1.REQ.11288560",
+    "country": "CO",
+    "source": "secop2",
+    "sourceId": "CO1.REQ.11288560",
+    "referenceNumber": "CD-03-051-2026",
+    "ocid": null,
+    "title": "SERVICIOS DE ACTUALIZACION DEL SISTEMA DE VIGILANCIA ALIMENTARIO Y NUTRICIONAL -SOFTWARE SISVAN DEL DEPARTAMENTO DE ARAUCA",
+    "description": "SERVICIOS DE ACTUALIZACION DEL SISTEMA DE VIGILANCIA ALIMENTARIO Y NUTRICIONAL -SOFTWARE SISVAN DEL DEPARTAMENTO DE ARAUCA",
+    "buyer": {
+      "name": "UNIDAD ADMINISTRATIVA ESPECIAL DE SALUD DE ARAUCA",
+      "unit": "JURIDICA",
+      "taxId": "900034608",
+      "taxIdType": "NIT",
+      "sourceId": "700587157",
+      "region": "Arauca",
+      "city": null
+    },
+    "categories": [],
+    "procedureType": "direct-with-quotes",
+    "procedureTypeOriginal": "Contratación Directa (con ofertas)",
+    "competitive": true,
+    "status": "awarded",
+    "statusOriginal": "Seleccionado · Presentación de oferta",
+    "amount": {
+      "value": 48000000,
+      "currency": "COP",
+      "valueUsd": 14900.76,
+      "original": "48000000"
+    },
+    "awardedAmount": {
+      "value": 48000000,
+      "currency": "COP",
+      "valueUsd": 14900.76,
+      "original": "48000000"
+    },
+    "publishedDate": "2026-10-29",
+    "publishedAt": null,
+    "closingDate": "2026-10-30",
+    "closingAt": null,
+    "closingAtLocal": null,
+    "awardedDate": "2026-10-30",
+    "timezone": "America/Bogota",
+    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11143849",
+    "documentsUrl": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11143849",
+    "biddingSystemUrl": null,
+    "awardees": [
+      {
+        "name": null,
+        "taxId": null,
+        "taxIdType": null,
+        "isIndividual": null,
+        "amount": {
+          "value": 48000000,
+          "currency": "COP",
+          "valueUsd": 14900.76,
+          "original": "48000000"
+        }
+      }
+    ],
+    "items": null,
+    "documents": null,
+    "matchedKeywords": [
+      "software"
+    ],
+    "language": "es",
+    "sourceUpdatedAt": "2026-10-29",
+    "scrapedAt": "2026-11-04T22:55:31.570Z"
+  },
+  {
+    "schemaVersion": 1,
+    "tenderId": "CO:secop2:CO1.REQ.11290415",
+    "country": "CO",
+    "source": "secop2",
+    "sourceId": "CO1.REQ.11290415",
+    "referenceNumber": "DJUR 42 DE 2026",
+    "ocid": null,
+    "title": "ADQUIRIR DISPOSITIVOS DE ACTIGRAFÍA Y LICENCIAS DE SOFTWARE PARA EL ANÁLISIS DE PATRONES DE SUEÑO Y ACTIVIDAD; REQUERIDOS PARA EL DESARROLLO DEL PROYECTO MATELAB II - ECOPERMANENCIA ITM ; EN EL MARCO",
+    "description": "ADQUIRIR DISPOSITIVOS DE ACTIGRAFÍA Y LICENCIAS DE SOFTWARE PARA EL ANÁLISIS DE PATRONES DE SUEÑO Y ACTIVIDAD, REQUERIDOS PARA EL DESARROLLO DEL PROYECTO MATELAB II - ECOPERMANENCIA ITM , EN EL MARCO DEL CONVENIO ESPECIAL BID No. CO1.PCCNTR.9539859 DE 2026, DE CONFORMIDAD CON LAS ESPECIFICACIONES...",
+    "buyer": {
+      "name": "INSTITUCIÓN UNIVERSITARIA ITM",
+      "unit": "JURÍDICA",
+      "taxId": "800214750",
+      "taxIdType": "NIT",
+      "sourceId": "703000075",
+      "region": "Antioquia",
+      "city": "Medellín"
+    },
+    "categories": [],
+    "procedureType": "direct-with-quotes",
+    "procedureTypeOriginal": "Contratación Directa (con ofertas)",
+    "competitive": true,
+    "status": "awarded",
+    "statusOriginal": "Seleccionado · Presentación de oferta",
+    "amount": {
+      "value": 48821654,
+      "currency": "COP",
+      "valueUsd": 15155.83,
+      "original": "48821654"
+    },
+    "awardedAmount": {
+      "value": 48821654,
+      "currency": "COP",
+      "valueUsd": 15155.83,
+      "original": "48821654"
+    },
+    "publishedDate": "2026-10-29",
+    "publishedAt": null,
+    "closingDate": "2026-10-29",
+    "closingAt": null,
+    "closingAtLocal": null,
+    "awardedDate": "2026-10-29",
+    "timezone": "America/Bogota",
+    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11144113",
+    "documentsUrl": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11144113",
+    "biddingSystemUrl": null,
+    "awardees": [
+      {
+        "name": "SYCO INGENIERÍA SAS",
+        "taxId": "900687434",
+        "taxIdType": "NIT",
+        "isIndividual": false,
+        "amount": {
+          "value": 48821654,
+          "currency": "COP",
+          "valueUsd": 15155.83,
+          "original": "48821654"
+        }
+      }
+    ],
+    "items": null,
+    "documents": null,
+    "matchedKeywords": [
+      "software",
+      "licencias de software"
+    ],
+    "language": "es",
+    "sourceUpdatedAt": "2026-10-29",
+    "scrapedAt": "2026-11-04T22:55:31.570Z"
+  }
+]

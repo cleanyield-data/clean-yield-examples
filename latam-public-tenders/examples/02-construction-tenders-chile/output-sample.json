@@ -1,0 +1,124 @@
+[
+  {
+    "schemaVersion": 1,
+    "tenderId": "CL:mercadopublico:3888-73-LR26",
+    "country": "CL",
+    "source": "mercadopublico",
+    "sourceId": "3888-73-LR26",
+    "referenceNumber": "3888-73-LR26",
+    "ocid": "ocds-70d2nz-3888-73-LR26",
+    "title": "CONS. CAMINOS NO ENROLADOS QUIZAS - CHEUQUEMAPU",
+    "description": "Este proyecto tiene como objetivo las obras para la conservación de las partes de la red de caminos rurales en los sectores de Cheuquemapu y Quizás, de la comuna de San Juan de la Costa.",
+    "buyer": {
+      "name": "Ilustre Municipalidad de San Juan de la Costa",
+      "unit": "Administración y Finanzas",
+      "taxId": "69251800-4",
+      "taxIdType": "RUT",
+      "sourceId": "4808",
+      "region": "Región de los Lagos",
+      "city": null
+    },
+    "categories": [
+      {
+        "scheme": "UNSPSC",
+        "code": "72131702",
+        "description": "Construcción de obras civiles",
+        "segment": "72",
+        "segmentName": "Building and Facility Construction and Maintenance Services"
+      }
+    ],
+    "procedureType": "public-tender",
+    "procedureTypeOriginal": "Licitación Pública Mayor a 5000 (LR)",
+    "competitive": true,
+    "status": "open",
+    "statusOriginal": "Publicada",
+    "amount": {
+      "value": 1002049000,
+      "currency": "CLP",
+      "valueUsd": 1024471.96,
+      "original": "1002049000"
+    },
+    "awardedAmount": null,
+    "publishedDate": "2026-11-04",
+    "publishedAt": "2026-11-04T19:40:00.000Z",
+    "closingDate": "2026-12-07",
+    "closingAt": "2026-12-07T19:01:00.000Z",
+    "closingAtLocal": "2026-12-07T16:01:00",
+    "awardedDate": null,
+    "timezone": "America/Santiago",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3888-73-LR26",
+    "documentsUrl": null,
+    "biddingSystemUrl": null,
+    "awardees": [],
+    "items": null,
+    "documents": null,
+    "matchedKeywords": [
+      "construccion",
+      "obras civiles"
+    ],
+    "language": "es",
+    "sourceUpdatedAt": "2026-11-04T19:40:00.000Z",
+    "scrapedAt": "2026-11-04T22:52:13.733Z"
+  },
+  {
+    "schemaVersion": 1,
+    "tenderId": "CL:mercadopublico:5615-51-LR26",
+    "country": "CL",
+    "source": "mercadopublico",
+    "sourceId": "5615-51-LR26",
+    "referenceNumber": "5615-51-LR26",
+    "ocid": "ocds-70d2nz-5615-51-LR26",
+    "title": "CONSTRUCCIÓN CENTRO CULTURAL MUNICIPAL EL CARMEN",
+    "description": "CONSTRUCCIÓN CENTRO CULTURAL MUNICIPAL, COMUNA DE EL CARMEN SEGUN BASES ADMINISTRATIVAS ESPECIALES, ESPECIFICACIONES TÉCNICAS, PLANIMETRIA Y DEMÁS ANTECEDENTES QUE FORMEN PARTE DEL PRESENTE PROCESO DE LICITACIÓN",
+    "buyer": {
+      "name": "Ilustre Municipalidad de El Carmen",
+      "unit": "Ilustre Municipalidad de El Carmen",
+      "taxId": "69141700-K",
+      "taxIdType": "RUT",
+      "sourceId": "6528",
+      "region": "Región del Ñuble",
+      "city": null
+    },
+    "categories": [
+      {
+        "scheme": "UNSPSC",
+        "code": "72131702",
+        "description": "Construcción de obras civiles",
+        "segment": "72",
+        "segmentName": "Building and Facility Construction and Maintenance Services"
+      }
+    ],
+    "procedureType": "public-tender",
+    "procedureTypeOriginal": "Licitación Pública Mayor a 5000 (LR)",
+    "competitive": true,
+    "status": "open",
+    "statusOriginal": "Publicada",
+    "amount": {
+      "value": 2198582846,
+      "currency": "CLP",
+      "valueUsd": 2247780.78,
+      "original": "2198582846"
+    },
+    "awardedAmount": null,
+    "publishedDate": "2026-11-03",
+    "publishedAt": "2026-11-03T20:22:00.000Z",
+    "closingDate": "2026-12-30",
+    "closingAt": "2026-12-30T18:00:00.000Z",
+    "closingAtLocal": "2026-12-30T15:00:00",
+    "awardedDate": null,
+    "timezone": "America/Santiago",
+    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5615-51-LR26",
+    "documentsUrl": null,
+    "biddingSystemUrl": null,
+    "awardees": [],
+    "items": null,
+    "documents": null,
+    "matchedKeywords": [
+      "construccion",
+      "obras civiles"
+    ],
+    "language": "es",
+    "sourceUpdatedAt": "2026-11-03T20:22:00.000Z",
+    "scrapedAt": "2026-11-04T22:52:13.733Z"
+  }
+]

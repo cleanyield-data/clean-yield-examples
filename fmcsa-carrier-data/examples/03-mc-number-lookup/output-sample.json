@@ -1,0 +1,820 @@
+[
+  {
+    "schemaVersion": 2,
+    "dotNumber": "90849",
+    "mcNumbers": [
+      "MC-107478"
+    ],
+    "dockets": [
+      {
+        "docketNumber": "MC-107478",
+        "prefix": "MC",
+        "number": "107478",
+        "status": "active"
+      }
+    ],
+    "legalName": "OLD DOMINION FREIGHT LINE INC",
+    "dbaName": null,
+    "companyName": "Old Dominion Freight Line",
+    "entityType": "carrier",
+    "entityTypes": [
+      "carrier",
+      "broker",
+      "shipper"
+    ],
+    "businessType": "corporation",
+    "usdotStatus": "active",
+    "authorityStatus": "active",
+    "carrierOperation": "interstate",
+    "operationClassification": [
+      "AUTHORIZED FOR HIRE"
+    ],
+    "hazmat": true,
+    "powerUnits": 10313,
+    "trucks": 10313,
+    "buses": 0,
+    "drivers": 10341,
+    "cdlDrivers": 10341,
+    "interstateDrivers": 10341,
+    "intrastateDrivers": 0,
+    "equipment": {
+      "owned": {
+        "trucks": 158,
+        "tractors": 10155,
+        "trailers": 45083
+      },
+      "termLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      },
+      "tripLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      }
+    },
+    "mcs150Mileage": 755515218,
+    "mcs150MileageYear": 2025,
+    "physicalAddress": {
+      "street": "500 OLD DOMINION WAY",
+      "city": "THOMASVILLE",
+      "state": "NC",
+      "postalCode": "27360-8923",
+      "zip5": "27360",
+      "country": "US",
+      "countyFips": "37057",
+      "oneLine": "500 OLD DOMINION WAY, THOMASVILLE, NC 27360-8923, US"
+    },
+    "mailingAddress": {
+      "street": "500 OLD DOMINION WAY",
+      "city": "THOMASVILLE",
+      "state": "NC",
+      "postalCode": "27360-8923",
+      "zip5": "27360",
+      "country": "US",
+      "countyFips": "37057",
+      "oneLine": "500 OLD DOMINION WAY, THOMASVILLE, NC 27360-8923, US"
+    },
+    "phone": "+18002355569",
+    "mobilePhone": null,
+    "fax": "+13368225235",
+    "email": "steven.garrish@odfl.com",
+    "emailAsFiled": null,
+    "phoneSharedCount": 1,
+    "emailSharedCount": 1,
+    "phoneIsShared": false,
+    "emailIsShared": false,
+    "companyOfficers": null,
+    "cargoCarried": [
+      "General Freight",
+      "Metal: sheets, coils, rolls",
+      "Building Materials",
+      "Machinery, Large Objects",
+      "Liquids/Gases",
+      "Intermodal Cont.",
+      "Chemicals",
+      "Beverages",
+      "Paper Products",
+      "Agricultural/Farm Supplies",
+      "Construction"
+    ],
+    "cargoCarriedText": "General Freight, Metal: sheets, coils, rolls, Building Materials, Machinery, Large Objects, Liquids/Gases, Intermodal Cont., Chemicals, Beverages, Paper Products, Agricultural/Farm Supplies, Construction",
+    "safetyRating": "satisfactory",
+    "safetyRatingDate": "1995-09-29",
+    "safetyReviewDate": "1995-09-19",
+    "mcs150Date": "2026-09-15",
+    "addDate": "1974-06-01",
+    "ageInDays": 19150,
+    "isNewEntrant": false,
+    "recordableCrashRate": null,
+    "priorRevokedDotNumber": null,
+    "dunsNumber": "6870877",
+    "dataQualityFlags": [],
+    "outOfService": false,
+    "outOfServiceDate": null,
+    "outOfServiceReason": null,
+    "authority": {
+      "source": "motus",
+      "sourceDataset": "inys-ebih",
+      "sourceUpdatedAt": "2026-11-04T10:09:38.000Z",
+      "authorities": [
+        {
+          "docketNumber": "MC-107478",
+          "authorityType": "Motor Carrier of Property (Except Household Goods)",
+          "status": "active",
+          "statusDate": "2026-06-17",
+          "statusReason": "Administrative status adjustment",
+          "grantedDate": null
+        },
+        {
+          "docketNumber": "MC-107478",
+          "authorityType": "Broker of Property (Except Household Goods)",
+          "status": "active",
+          "statusDate": "2002-05-16",
+          "statusReason": "GRANTED",
+          "grantedDate": "2002-05-16"
+        }
+      ],
+      "hasActiveCarrierAuthority": true,
+      "hasActiveBrokerAuthority": true,
+      "hasPendingAuthority": false,
+      "bipdRequiredUsd": 1000000,
+      "bipdOnFileUsd": 1000000,
+      "cargoInsuranceRequired": false,
+      "cargoInsuranceOnFile": false,
+      "bondRequired": true,
+      "bondOnFile": true,
+      "grantedDate": "2002-05-16",
+      "lastStatusChangeDate": "2026-06-17",
+      "lastStatusChangeReason": "Administrative status adjustment"
+    },
+    "insurancePolicies": [
+      {
+        "docketNumber": "MC-107478",
+        "insuranceType": "bond",
+        "layer": "primary",
+        "formCode": "BMC-82",
+        "insurer": "Fidelity & Deposit Co. of Maryland",
+        "policyNumber": "LPM9308249",
+        "coverageUsd": 75000,
+        "underlyingLimitUsd": 0,
+        "effectiveDate": "2019-03-30",
+        "postedDate": "2019-04-10",
+        "cancelEffectiveDate": null,
+        "source": "motus"
+      },
+      {
+        "docketNumber": "MC-107478",
+        "insuranceType": "bond",
+        "layer": "primary",
+        "formCode": "BMC-84",
+        "insurer": "Fidelity & Deposit Co. of Maryland",
+        "policyNumber": "LPM8236379",
+        "coverageUsd": 75000,
+        "underlyingLimitUsd": 0,
+        "effectiveDate": "2013-10-01",
+        "postedDate": "2013-11-05",
+        "cancelEffectiveDate": null,
+        "source": "motus"
+      }
+    ],
+    "authoritySummary": "MC-107478 Motor Carrier of Property (Except Household Goods): active (2026-06-17); MC-107478 Broker of Property (Except Household Goods): active since 2002-05-16",
+    "insuranceSummary": "Bond primary USD 75,000 (Fidelity & Deposit Co. of Maryland), eff. 2019-03-30",
+    "revocations": [],
+    "boc3OnFile": true,
+    "processAgent": {
+      "docketNumber": "MC-107478",
+      "name": "C T CORPORATION SYSTEM",
+      "street": "1015 15TH ST NW STE 1000",
+      "city": "WASHINGTON",
+      "state": "DC",
+      "postalCode": "20005-2621",
+      "country": "US"
+    },
+    "safety": {
+      "measurementPeriodMonths": 24,
+      "snapshotUpdatedAt": "2026-10-13T07:02:56.000Z",
+      "inspections": {
+        "total": 4364,
+        "vehicle": 2770,
+        "vehicleOutOfService": 234,
+        "vehicleOutOfServiceRate": 0.0845,
+        "driver": 4351,
+        "driverOutOfService": 25,
+        "driverOutOfServiceRate": 0.0057
+      },
+      "crashes": {
+        "total": 550,
+        "fatal": 19,
+        "injury": 181,
+        "towaway": 350
+      },
+      "basics": {
+        "unsafeDriving": {
+          "inspectionsWithViolations": 502,
+          "measure": 0.48,
+          "acuteCriticalViolation": false
+        },
+        "hoursOfService": {
+          "inspectionsWithViolations": 100,
+          "measure": 0.07,
+          "acuteCriticalViolation": false
+        },
+        "driverFitness": {
+          "inspectionsWithViolations": 27,
+          "measure": 0.04,
+          "acuteCriticalViolation": false
+        },
+        "controlledSubstancesAlcohol": {
+          "inspectionsWithViolations": 1,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        },
+        "vehicleMaintenance": {
+          "inspectionsWithViolations": 605,
+          "measure": 1.52,
+          "acuteCriticalViolation": false
+        }
+      },
+      "sourceDatasets": [
+        "4y6x-dmck",
+        "4wxs-vbns"
+      ]
+    },
+    "fmcsaUrl": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=90849",
+    "sourceDataset": "az4n-8mr2",
+    "sourceDatasetName": "FMCSA Company Census File",
+    "sourceUpdatedAt": "2026-11-04T11:19:27.000Z",
+    "scrapedAt": "2026-11-05T01:55:57.149Z",
+    "riskScore": null,
+    "riskLevel": null,
+    "riskFactors": null,
+    "insuranceRenewal": null,
+    "whyNow": null,
+    "trend": null,
+    "insight": null,
+    "companyWebsite": null
+  },
+  {
+    "schemaVersion": 2,
+    "dotNumber": "3262418",
+    "mcNumbers": [
+      "MC-1409700"
+    ],
+    "dockets": [
+      {
+        "docketNumber": "MC-1409700",
+        "prefix": "MC",
+        "number": "1409700",
+        "status": "active"
+      }
+    ],
+    "legalName": "MICHAEL JOHN KING",
+    "dbaName": "MY BROTHERS COMPANY",
+    "companyName": "My Brothers",
+    "entityType": "carrier",
+    "entityTypes": [
+      "carrier"
+    ],
+    "businessType": null,
+    "usdotStatus": "active",
+    "authorityStatus": "active",
+    "carrierOperation": "interstate",
+    "operationClassification": [
+      "AUTHORIZED FOR HIRE"
+    ],
+    "hazmat": false,
+    "powerUnits": 3,
+    "trucks": 3,
+    "buses": 0,
+    "drivers": 2,
+    "cdlDrivers": 2,
+    "interstateDrivers": 2,
+    "intrastateDrivers": 0,
+    "equipment": {
+      "owned": {
+        "trucks": 1,
+        "tractors": 2,
+        "trailers": 6
+      },
+      "termLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      },
+      "tripLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      }
+    },
+    "mcs150Mileage": 94300,
+    "mcs150MileageYear": 2024,
+    "physicalAddress": {
+      "street": "909 NEWELL RD",
+      "city": "FAYETTE CITY",
+      "state": "PA",
+      "postalCode": "15438-1159",
+      "zip5": "15438",
+      "country": "US",
+      "countyFips": "42051",
+      "oneLine": "909 NEWELL RD, FAYETTE CITY, PA 15438-1159, US"
+    },
+    "mailingAddress": {
+      "street": "909 NEWELL RD",
+      "city": "FAYETTE CITY",
+      "state": "PA",
+      "postalCode": "15438-1159",
+      "zip5": "15438",
+      "country": "US",
+      "countyFips": "42051",
+      "oneLine": "909 NEWELL RD, FAYETTE CITY, PA 15438-1159, US"
+    },
+    "phone": "+17243236129",
+    "mobilePhone": null,
+    "fax": null,
+    "email": "mybrotherscompany@yahoo.com",
+    "emailAsFiled": null,
+    "phoneSharedCount": 1,
+    "emailSharedCount": 1,
+    "phoneIsShared": false,
+    "emailIsShared": false,
+    "companyOfficers": null,
+    "cargoCarried": [
+      "General Freight",
+      "Metal: sheets, coils, rolls",
+      "Building Materials",
+      "Construction",
+      "Other: STONE DIRT SCRAP"
+    ],
+    "cargoCarriedText": "General Freight, Metal: sheets, coils, rolls, Building Materials, Construction, Other: STONE DIRT SCRAP",
+    "safetyRating": "unrated",
+    "safetyRatingDate": null,
+    "safetyReviewDate": null,
+    "mcs150Date": "2026-10-05",
+    "addDate": "2019-03-22",
+    "ageInDays": 2785,
+    "isNewEntrant": false,
+    "recordableCrashRate": 0,
+    "priorRevokedDotNumber": null,
+    "dunsNumber": "0",
+    "dataQualityFlags": [],
+    "outOfService": false,
+    "outOfServiceDate": null,
+    "outOfServiceReason": null,
+    "authority": {
+      "source": "motus",
+      "sourceDataset": "inys-ebih",
+      "sourceUpdatedAt": "2026-11-04T10:09:38.000Z",
+      "authorities": [
+        {
+          "docketNumber": "MC-1409700",
+          "authorityType": "Motor Carrier of Property (Except Household Goods)",
+          "status": "active",
+          "statusDate": "2023-05-10",
+          "statusReason": "REINSTATED",
+          "grantedDate": null
+        }
+      ],
+      "hasActiveCarrierAuthority": true,
+      "hasActiveBrokerAuthority": false,
+      "hasPendingAuthority": false,
+      "bipdRequiredUsd": 750000,
+      "bipdOnFileUsd": 1000000,
+      "cargoInsuranceRequired": false,
+      "cargoInsuranceOnFile": false,
+      "bondRequired": false,
+      "bondOnFile": false,
+      "grantedDate": null,
+      "lastStatusChangeDate": "2023-05-10",
+      "lastStatusChangeReason": "REINSTATED"
+    },
+    "insurancePolicies": [
+      {
+        "docketNumber": "MC-1409700",
+        "insuranceType": "bipd",
+        "layer": "primary",
+        "formCode": "BMC-91X",
+        "insurer": "Great West Casualty Co",
+        "policyNumber": "GRT41448A",
+        "coverageUsd": 1000000,
+        "underlyingLimitUsd": 0,
+        "effectiveDate": "2025-05-22",
+        "postedDate": "2025-05-19",
+        "cancelEffectiveDate": null,
+        "source": "motus"
+      }
+    ],
+    "authoritySummary": "MC-1409700 Motor Carrier of Property (Except Household Goods): active (2023-05-10)",
+    "insuranceSummary": "BIPD primary USD 1,000,000 (Great West Casualty Co), eff. 2025-05-22",
+    "revocations": [],
+    "boc3OnFile": true,
+    "processAgent": {
+      "docketNumber": "MC-1409700",
+      "name": "TRUCK PROCESS AGENTS OF AMERICA, INC.",
+      "street": "4315 53RD ST S",
+      "city": "FARGO",
+      "state": "ND",
+      "postalCode": "58104",
+      "country": "US"
+    },
+    "safety": {
+      "measurementPeriodMonths": 24,
+      "snapshotUpdatedAt": "2026-10-13T07:02:56.000Z",
+      "inspections": {
+        "total": 4,
+        "vehicle": 2,
+        "vehicleOutOfService": 0,
+        "vehicleOutOfServiceRate": 0,
+        "driver": 4,
+        "driverOutOfService": 0,
+        "driverOutOfServiceRate": 0
+      },
+      "crashes": {
+        "total": 0,
+        "fatal": 0,
+        "injury": 0,
+        "towaway": 0
+      },
+      "basics": {
+        "unsafeDriving": {
+          "inspectionsWithViolations": 1,
+          "measure": 1.9,
+          "acuteCriticalViolation": false
+        },
+        "hoursOfService": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        },
+        "driverFitness": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        },
+        "controlledSubstancesAlcohol": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        },
+        "vehicleMaintenance": {
+          "inspectionsWithViolations": 2,
+          "measure": 5.5,
+          "acuteCriticalViolation": false
+        }
+      },
+      "sourceDatasets": [
+        "4y6x-dmck",
+        "4wxs-vbns"
+      ]
+    },
+    "fmcsaUrl": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=3262418",
+    "sourceDataset": "az4n-8mr2",
+    "sourceDatasetName": "FMCSA Company Census File",
+    "sourceUpdatedAt": "2026-11-04T11:19:27.000Z",
+    "scrapedAt": "2026-11-05T01:55:57.149Z",
+    "riskScore": null,
+    "riskLevel": null,
+    "riskFactors": null,
+    "insuranceRenewal": null,
+    "whyNow": null,
+    "trend": null,
+    "insight": null,
+    "companyWebsite": null
+  },
+  {
+    "schemaVersion": 2,
+    "dotNumber": "80806",
+    "mcNumbers": [
+      "MC-135797"
+    ],
+    "dockets": [
+      {
+        "docketNumber": "MC-135797",
+        "prefix": "MC",
+        "number": "135797",
+        "status": "active"
+      },
+      {
+        "docketNumber": "FF-51075",
+        "prefix": "FF",
+        "number": "51075",
+        "status": "active"
+      }
+    ],
+    "legalName": "J B HUNT TRANSPORT INC",
+    "dbaName": "J B HUNT",
+    "companyName": "J B Hunt",
+    "entityType": "carrier",
+    "entityTypes": [
+      "carrier",
+      "broker",
+      "freightForwarder",
+      "shipper"
+    ],
+    "businessType": "corporation",
+    "usdotStatus": "active",
+    "authorityStatus": "active",
+    "carrierOperation": "interstate",
+    "operationClassification": [
+      "AUTHORIZED FOR HIRE"
+    ],
+    "hazmat": true,
+    "powerUnits": 25280,
+    "trucks": 25280,
+    "buses": 0,
+    "drivers": 24116,
+    "cdlDrivers": 23669,
+    "interstateDrivers": 24116,
+    "intrastateDrivers": 0,
+    "equipment": {
+      "owned": {
+        "trucks": 874,
+        "tractors": 20871,
+        "trailers": 146851
+      },
+      "termLeased": {
+        "trucks": 415,
+        "tractors": 3120,
+        "trailers": 5330
+      },
+      "tripLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      }
+    },
+    "mcs150Mileage": 1629835251,
+    "mcs150MileageYear": 2024,
+    "physicalAddress": {
+      "street": "615 J B HUNT CORPORATE DRIVE",
+      "city": "LOWELL",
+      "state": "AR",
+      "postalCode": "72745",
+      "zip5": "72745",
+      "country": "US",
+      "countyFips": "05007",
+      "oneLine": "615 J B HUNT CORPORATE DRIVE, LOWELL, AR 72745, US"
+    },
+    "mailingAddress": {
+      "street": "615 J B HUNT CORPORATE DRIVE",
+      "city": "LOWELL",
+      "state": "AR",
+      "postalCode": "72745",
+      "zip5": "72745",
+      "country": "US",
+      "countyFips": "05007",
+      "oneLine": "615 J B HUNT CORPORATE DRIVE, LOWELL, AR 72745, US"
+    },
+    "phone": "+14798200000",
+    "mobilePhone": null,
+    "fax": "+14798204566",
+    "email": "lee.sarratt@jbhunt.com",
+    "emailAsFiled": null,
+    "phoneSharedCount": 18,
+    "emailSharedCount": 1,
+    "phoneIsShared": true,
+    "emailIsShared": false,
+    "companyOfficers": null,
+    "cargoCarried": [
+      "General Freight",
+      "Metal: sheets, coils, rolls",
+      "Motor Vehicles",
+      "Logs, Poles, Beams, Lumber",
+      "Building Materials",
+      "Fresh Produce",
+      "Liquids/Gases",
+      "Intermodal Cont.",
+      "Oilfield Equipment",
+      "Livestock",
+      "Grain, Feed, Hay",
+      "Meat",
+      "US Mail",
+      "Chemicals",
+      "Commodities Dry Bulk",
+      "Refrigerated Food",
+      "Beverages",
+      "Paper Products",
+      "Agricultural/Farm Supplies",
+      "Construction",
+      "Other: IEP"
+    ],
+    "cargoCarriedText": "General Freight, Metal: sheets, coils, rolls, Motor Vehicles, Logs, Poles, Beams, Lumber, Building Materials, Fresh Produce, Liquids/Gases, Intermodal Cont., Oilfield Equipment, Livestock, Grain, Feed, Hay, Meat, US Mail, Chemicals, Commodities Dry Bulk, Refrigerated Food, Beverages, Paper Products, Agricultural/Farm Supplies, Construction, Other: IEP",
+    "safetyRating": "satisfactory",
+    "safetyRatingDate": "1992-05-08",
+    "safetyReviewDate": "1992-01-31",
+    "mcs150Date": "2025-07-07",
+    "addDate": "1974-06-01",
+    "ageInDays": 19150,
+    "isNewEntrant": false,
+    "recordableCrashRate": null,
+    "priorRevokedDotNumber": null,
+    "dunsNumber": "6338552",
+    "dataQualityFlags": [
+      "sharedPhone"
+    ],
+    "outOfService": false,
+    "outOfServiceDate": null,
+    "outOfServiceReason": null,
+    "authority": {
+      "source": "motus",
+      "sourceDataset": "inys-ebih",
+      "sourceUpdatedAt": "2026-11-04T10:09:38.000Z",
+      "authorities": [
+        {
+          "docketNumber": "MC-135797",
+          "authorityType": "Broker of Household Goods",
+          "status": "active",
+          "statusDate": "2019-12-26",
+          "statusReason": "GRANTED",
+          "grantedDate": "2019-12-26"
+        },
+        {
+          "docketNumber": "MC-135797",
+          "authorityType": "Motor Carrier of Household Goods",
+          "status": "active",
+          "statusDate": "1997-08-28",
+          "statusReason": "GRANTED",
+          "grantedDate": "1997-08-28"
+        },
+        {
+          "docketNumber": "MC-135797",
+          "authorityType": "Motor Carrier of Property (Except Household Goods)",
+          "status": "active",
+          "statusDate": "2026-08-18",
+          "statusReason": "Administrative Correction",
+          "grantedDate": null
+        },
+        {
+          "docketNumber": "MC-135797",
+          "authorityType": "Broker of Property (Except Household Goods)",
+          "status": "active",
+          "statusDate": "2009-02-27",
+          "statusReason": "GRANTED",
+          "grantedDate": "2009-02-27"
+        }
+      ],
+      "hasActiveCarrierAuthority": true,
+      "hasActiveBrokerAuthority": true,
+      "hasPendingAuthority": false,
+      "bipdRequiredUsd": 1000000,
+      "bipdOnFileUsd": 3500000,
+      "cargoInsuranceRequired": true,
+      "cargoInsuranceOnFile": true,
+      "bondRequired": true,
+      "bondOnFile": true,
+      "grantedDate": "1997-08-28",
+      "lastStatusChangeDate": "2026-08-18",
+      "lastStatusChangeReason": "Administrative Correction"
+    },
+    "insurancePolicies": [
+      {
+        "docketNumber": "MC-135797",
+        "insuranceType": "bipd",
+        "layer": "excess",
+        "formCode": "BMC-91X",
+        "insurer": "Ace American Insurance Company",
+        "policyNumber": "XSAH11347472",
+        "coverageUsd": 2500000,
+        "underlyingLimitUsd": 500000,
+        "effectiveDate": "2025-12-31",
+        "postedDate": "2026-04-21",
+        "cancelEffectiveDate": null,
+        "source": "motus"
+      },
+      {
+        "docketNumber": "MC-135797",
+        "insuranceType": "cargo",
+        "layer": "primary",
+        "formCode": "BMC-83",
+        "insurer": "Travelers Casualty and Surety Company of America",
+        "policyNumber": "105917743",
+        "coverageUsd": 5000,
+        "underlyingLimitUsd": 0,
+        "effectiveDate": "2023-10-23",
+        "postedDate": "2023-10-23",
+        "cancelEffectiveDate": null,
+        "source": "motus"
+      },
+      {
+        "docketNumber": "MC-135797",
+        "insuranceType": "bond",
+        "layer": "primary",
+        "formCode": "BMC-84",
+        "insurer": "Travelers Casualty and Surety Company of America",
+        "policyNumber": "105917743",
+        "coverageUsd": 75000,
+        "underlyingLimitUsd": 0,
+        "effectiveDate": "2014-01-13",
+        "postedDate": "2013-12-31",
+        "cancelEffectiveDate": null,
+        "source": "motus"
+      },
+      {
+        "docketNumber": "MC-135797",
+        "insuranceType": "bipd",
+        "layer": "primary",
+        "formCode": "BMC-91X",
+        "insurer": "Self-Insured",
+        "policyNumber": null,
+        "coverageUsd": 1000000,
+        "underlyingLimitUsd": 0,
+        "effectiveDate": "1993-03-01",
+        "postedDate": "2026-07-08",
+        "cancelEffectiveDate": null,
+        "source": "motus"
+      },
+      {
+        "docketNumber": "MC-135797",
+        "insuranceType": "bipd",
+        "layer": "primary",
+        "formCode": "BMC-91X",
+        "insurer": "Palisades Insurance Company",
+        "policyNumber": null,
+        "coverageUsd": 1000000,
+        "underlyingLimitUsd": 0,
+        "effectiveDate": "1993-03-01",
+        "postedDate": "1992-10-02",
+        "cancelEffectiveDate": null,
+        "source": "motus"
+      }
+    ],
+    "authoritySummary": "MC-135797 Broker of Household Goods: active since 2019-12-26; MC-135797 Motor Carrier of Household Goods: active since 1997-08-28; MC-135797 Motor Carrier of Property (Except Household Goods): active (2026-08-18); MC-135797 Broker of Property (Except Household Goods): active since 2009-02-27",
+    "insuranceSummary": "BIPD excess USD 2,500,000 (Ace American Insurance Company), eff. 2025-12-31; Cargo primary USD 5,000 (Travelers Casualty and Surety Company of America), eff. 2023-10-23; Bond primary USD 75,000 (Travelers Casualty and Surety Company of America), eff. 2014-01-13; BIPD primary USD 1,000,000 (Self-Insured), eff. 1993-03-01",
+    "revocations": [],
+    "boc3OnFile": true,
+    "processAgent": {
+      "docketNumber": "MC-135797",
+      "name": "CORPORATION SERVICE COMPANY",
+      "street": "251 LITTLE FALLS DRIVE",
+      "city": "WILMINGTON",
+      "state": "DE",
+      "postalCode": "19808",
+      "country": "US"
+    },
+    "safety": {
+      "measurementPeriodMonths": 24,
+      "snapshotUpdatedAt": "2026-10-13T07:02:56.000Z",
+      "inspections": {
+        "total": 20266,
+        "vehicle": 11112,
+        "vehicleOutOfService": 2469,
+        "vehicleOutOfServiceRate": 0.2222,
+        "driver": 20251,
+        "driverOutOfService": 147,
+        "driverOutOfServiceRate": 0.0073
+      },
+      "crashes": {
+        "total": 1479,
+        "fatal": 45,
+        "injury": 496,
+        "towaway": 938
+      },
+      "basics": {
+        "unsafeDriving": {
+          "inspectionsWithViolations": 2220,
+          "measure": 0.76,
+          "acuteCriticalViolation": false
+        },
+        "hoursOfService": {
+          "inspectionsWithViolations": 735,
+          "measure": 0.14,
+          "acuteCriticalViolation": false
+        },
+        "driverFitness": {
+          "inspectionsWithViolations": 111,
+          "measure": 0.03,
+          "acuteCriticalViolation": false
+        },
+        "controlledSubstancesAlcohol": {
+          "inspectionsWithViolations": 5,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        },
+        "vehicleMaintenance": {
+          "inspectionsWithViolations": 4276,
+          "measure": 3.42,
+          "acuteCriticalViolation": false
+        }
+      },
+      "sourceDatasets": [
+        "4y6x-dmck",
+        "4wxs-vbns"
+      ]
+    },
+    "fmcsaUrl": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=80806",
+    "sourceDataset": "az4n-8mr2",
+    "sourceDatasetName": "FMCSA Company Census File",
+    "sourceUpdatedAt": "2026-11-04T11:19:27.000Z",
+    "scrapedAt": "2026-11-05T01:55:57.149Z",
+    "riskScore": null,
+    "riskLevel": null,
+    "riskFactors": null,
+    "insuranceRenewal": null,
+    "whyNow": null,
+    "trend": null,
+    "insight": null,
+    "companyWebsite": null
+  }
+]

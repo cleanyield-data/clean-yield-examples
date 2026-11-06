@@ -1,0 +1,16 @@
+{
+  "companies": [
+    "stripe",
+    "ramp",
+    "brex",
+    "plaid",
+    "coinbase"
+  ],
+  "keywords": [
+    "account executive",
+    "sales"
+  ],
+  "monitorMode": true,
+  "monitorStateName": "fintech-sales-hiring",
+  "includeDescription": "none"
+}

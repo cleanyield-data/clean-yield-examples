@@ -1,0 +1,12 @@
+{
+  "companies": [
+    "ramp",
+    "notion"
+  ],
+  "maxJobsPerCompany": 2,
+  "includeDescription": "none",
+  "proMode": true,
+  "keywords": [
+    "engineer"
+  ]
+}

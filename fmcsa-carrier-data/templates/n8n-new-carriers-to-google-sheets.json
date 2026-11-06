@@ -1,0 +1,67 @@
+{
+  "name": "FMCSA new trucking companies → Google Sheets (weekly)",
+  "nodes": [
+    {
+      "parameters": { "rule": { "interval": [{ "field": "weeks", "triggerAtDay": [1], "triggerAtHour": 7 }] } },
+      "name": "Every Monday 7:00",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/cleanyield~fmcsa-carrier-data/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"states\": [\"TX\", \"OK\", \"LA\"],\n  \"entityTypes\": [\"carrier\"],\n  \"operationType\": \"interstate\",\n  \"addedWithinDays\": 7,\n  \"maxResults\": 2000,\n  \"monitorMode\": true,\n  \"monitorStateName\": \"n8n-new-carriers-tx-ok-la\"\n}",
+        "options": { "timeout": 300000 }
+      },
+      "name": "Run FMCSA Carrier Data",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [240, 0]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            { "name": "USDOT", "value": "={{ $json.dotNumber }}", "type": "string" },
+            { "name": "Company", "value": "={{ $json.companyName }}", "type": "string" },
+            { "name": "Legal name", "value": "={{ $json.legalName }}", "type": "string" },
+            { "name": "City", "value": "={{ $json.physicalAddress.city }}", "type": "string" },
+            { "name": "State", "value": "={{ $json.physicalAddress.state }}", "type": "string" },
+            { "name": "Phone", "value": "={{ $json.phone }}", "type": "string" },
+            { "name": "Email", "value": "={{ $json.email }}", "type": "string" },
+            { "name": "Power units", "value": "={{ $json.powerUnits }}", "type": "number" },
+            { "name": "Added", "value": "={{ $json.addDate }}", "type": "string" },
+            { "name": "SAFER", "value": "={{ $json.fmcsaUrl }}", "type": "string" }
+          ]
+        }
+      },
+      "name": "Pick columns",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [480, 0]
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": { "__rl": true, "mode": "url", "value": "<YOUR_GOOGLE_SHEET_URL>" },
+        "sheetName": { "__rl": true, "mode": "name", "value": "New carriers" },
+        "columns": { "mappingMode": "autoMapInputData", "value": {} },
+        "options": {}
+      },
+      "name": "Append to Google Sheets",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [720, 0]
+    }
+  ],
+  "connections": {
+    "Every Monday 7:00": { "main": [[{ "node": "Run FMCSA Carrier Data", "type": "main", "index": 0 }]] },
+    "Run FMCSA Carrier Data": { "main": [[{ "node": "Pick columns", "type": "main", "index": 0 }]] },
+    "Pick columns": { "main": [[{ "node": "Append to Google Sheets", "type": "main", "index": 0 }]] }
+  },
+  "settings": {}
+}

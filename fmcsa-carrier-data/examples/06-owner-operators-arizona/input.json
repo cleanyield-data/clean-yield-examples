@@ -1,0 +1,11 @@
+{
+  "states": [
+    "AZ"
+  ],
+  "maxPowerUnits": 1,
+  "authorityStatus": "active",
+  "entityTypes": [
+    "carrier"
+  ],
+  "maxResults": 20
+}

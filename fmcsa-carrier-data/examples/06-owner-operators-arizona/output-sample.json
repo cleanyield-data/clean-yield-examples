@@ -1,0 +1,551 @@
+[
+  {
+    "schemaVersion": 2,
+    "dotNumber": "7945961",
+    "mcNumbers": [
+      "MC-83558328"
+    ],
+    "dockets": [
+      {
+        "docketNumber": "MC-83558328",
+        "prefix": "MC",
+        "number": "83558328",
+        "status": "active"
+      }
+    ],
+    "legalName": "EMPIRE METALS RECYCLERS LLC",
+    "dbaName": null,
+    "companyName": "Empire Metals Recyclers",
+    "entityType": "carrier",
+    "entityTypes": [
+      "carrier"
+    ],
+    "businessType": null,
+    "usdotStatus": "active",
+    "authorityStatus": "active",
+    "carrierOperation": "interstate",
+    "operationClassification": [
+      "AUTHORIZED FOR HIRE"
+    ],
+    "hazmat": false,
+    "powerUnits": 1,
+    "trucks": 1,
+    "buses": 0,
+    "drivers": 1,
+    "cdlDrivers": 1,
+    "interstateDrivers": 1,
+    "intrastateDrivers": 0,
+    "equipment": {
+      "owned": {
+        "trucks": null,
+        "tractors": 1,
+        "trailers": 1
+      },
+      "termLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      },
+      "tripLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      }
+    },
+    "mcs150Mileage": 0,
+    "mcs150MileageYear": null,
+    "physicalAddress": {
+      "street": "23830 W MC 85 HWY",
+      "city": "BUCKEYE",
+      "state": "AZ",
+      "postalCode": "85326-9289",
+      "zip5": "85326",
+      "country": "US",
+      "countyFips": "04013",
+      "oneLine": "23830 W MC 85 HWY, BUCKEYE, AZ 85326-9289, US"
+    },
+    "mailingAddress": {
+      "street": "23830 W MC 85 HWY",
+      "city": "BUCKEYE",
+      "state": "AZ",
+      "postalCode": "85326-9289",
+      "zip5": "85326",
+      "country": "US",
+      "countyFips": "04013",
+      "oneLine": "23830 W MC 85 HWY, BUCKEYE, AZ 85326-9289, US"
+    },
+    "phone": "+16236889013",
+    "mobilePhone": null,
+    "fax": null,
+    "email": "mayra.guizar@yahoo.com",
+    "emailAsFiled": null,
+    "phoneSharedCount": 1,
+    "emailSharedCount": 1,
+    "phoneIsShared": false,
+    "emailIsShared": false,
+    "companyOfficers": null,
+    "cargoCarried": [
+      "General Freight"
+    ],
+    "cargoCarriedText": "General Freight",
+    "safetyRating": "unrated",
+    "safetyRatingDate": null,
+    "safetyReviewDate": null,
+    "mcs150Date": null,
+    "addDate": "2026-10-15",
+    "ageInDays": 21,
+    "isNewEntrant": true,
+    "recordableCrashRate": null,
+    "priorRevokedDotNumber": null,
+    "dunsNumber": null,
+    "dataQualityFlags": [],
+    "outOfService": false,
+    "outOfServiceDate": null,
+    "outOfServiceReason": null,
+    "authority": {
+      "source": "motus",
+      "sourceDataset": "inys-ebih",
+      "sourceUpdatedAt": "2026-11-04T10:09:38.000Z",
+      "authorities": [
+        {
+          "docketNumber": "MC-83558328",
+          "authorityType": "Motor Carrier of Property (Except Household Goods)",
+          "status": "active",
+          "statusDate": "2026-10-30",
+          "statusReason": "Granted",
+          "grantedDate": "2026-10-30"
+        }
+      ],
+      "hasActiveCarrierAuthority": true,
+      "hasActiveBrokerAuthority": false,
+      "hasPendingAuthority": false,
+      "bipdRequiredUsd": 750000,
+      "bipdOnFileUsd": 750000,
+      "cargoInsuranceRequired": false,
+      "cargoInsuranceOnFile": false,
+      "bondRequired": false,
+      "bondOnFile": false,
+      "grantedDate": "2026-10-30",
+      "lastStatusChangeDate": "2026-10-30",
+      "lastStatusChangeReason": "Granted"
+    },
+    "insurancePolicies": [
+      {
+        "docketNumber": "MC-83558328",
+        "insuranceType": "bipd",
+        "layer": "primary",
+        "formCode": "BMC-91X",
+        "insurer": "UNITED FINANCIAL CASUALTY COMPANY",
+        "policyNumber": "CA976804545",
+        "coverageUsd": 750000,
+        "underlyingLimitUsd": 0,
+        "effectiveDate": "2026-10-20",
+        "postedDate": "2026-10-20",
+        "cancelEffectiveDate": null,
+        "source": "motus"
+      }
+    ],
+    "authoritySummary": "MC-83558328 Motor Carrier of Property (Except Household Goods): active since 2026-10-30",
+    "insuranceSummary": "BIPD primary USD 750,000 (UNITED FINANCIAL CASUALTY COMPANY), eff. 2026-10-20",
+    "revocations": [],
+    "boc3OnFile": true,
+    "processAgent": {
+      "docketNumber": "MC-83558328",
+      "name": "#1 A+ AGENTS OF PROCESS, INC.",
+      "street": "9611 ASPEN HILL CIR",
+      "city": "LONE TREE",
+      "state": "CO",
+      "postalCode": "80124-6744",
+      "country": "US"
+    },
+    "safety": {
+      "measurementPeriodMonths": 24,
+      "snapshotUpdatedAt": "2026-10-13T07:02:36.000Z",
+      "inspections": null,
+      "crashes": null,
+      "basics": null,
+      "sourceDatasets": [
+        "4wxs-vbns"
+      ]
+    },
+    "fmcsaUrl": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=7945961",
+    "sourceDataset": "az4n-8mr2",
+    "sourceDatasetName": "FMCSA Company Census File",
+    "sourceUpdatedAt": "2026-11-04T11:19:27.000Z",
+    "scrapedAt": "2026-11-05T01:56:11.700Z",
+    "riskScore": null,
+    "riskLevel": null,
+    "riskFactors": null,
+    "insuranceRenewal": null,
+    "whyNow": null,
+    "trend": null,
+    "insight": null,
+    "companyWebsite": null
+  },
+  {
+    "schemaVersion": 2,
+    "dotNumber": "7614928",
+    "mcNumbers": [
+      "MC-88876362"
+    ],
+    "dockets": [
+      {
+        "docketNumber": "MC-88876362",
+        "prefix": "MC",
+        "number": "88876362",
+        "status": "active"
+      }
+    ],
+    "legalName": "BREEZE LANE TRANSPORTS LLC",
+    "dbaName": null,
+    "companyName": "Breeze Lane Transports",
+    "entityType": "carrier",
+    "entityTypes": [
+      "carrier"
+    ],
+    "businessType": null,
+    "usdotStatus": "active",
+    "authorityStatus": "active",
+    "carrierOperation": "interstate",
+    "operationClassification": [
+      "AUTHORIZED FOR HIRE"
+    ],
+    "hazmat": false,
+    "powerUnits": 1,
+    "trucks": 1,
+    "buses": 0,
+    "drivers": 1,
+    "cdlDrivers": 1,
+    "interstateDrivers": 1,
+    "intrastateDrivers": 0,
+    "equipment": {
+      "owned": {
+        "trucks": null,
+        "tractors": 1,
+        "trailers": 1
+      },
+      "termLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      },
+      "tripLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      }
+    },
+    "mcs150Mileage": 1,
+    "mcs150MileageYear": 2025,
+    "physicalAddress": {
+      "street": "475 N ALDER CT",
+      "city": "GILBERT",
+      "state": "AZ",
+      "postalCode": "85233-4417",
+      "zip5": "85233",
+      "country": "US",
+      "countyFips": "04013",
+      "oneLine": "475 N ALDER CT, GILBERT, AZ 85233-4417, US"
+    },
+    "mailingAddress": {
+      "street": "475 N ALDER CT",
+      "city": "GILBERT",
+      "state": "AZ",
+      "postalCode": "85233-4417",
+      "zip5": "85233",
+      "country": "US",
+      "countyFips": "04013",
+      "oneLine": "475 N ALDER CT, GILBERT, AZ 85233-4417, US"
+    },
+    "phone": "+14807377193",
+    "mobilePhone": null,
+    "fax": null,
+    "email": "darrgibbs35@yahoo.com",
+    "emailAsFiled": null,
+    "phoneSharedCount": 1,
+    "emailSharedCount": 1,
+    "phoneIsShared": false,
+    "emailIsShared": false,
+    "companyOfficers": null,
+    "cargoCarried": [
+      "General Freight"
+    ],
+    "cargoCarriedText": "General Freight",
+    "safetyRating": "unrated",
+    "safetyRatingDate": null,
+    "safetyReviewDate": null,
+    "mcs150Date": "2026-10-15",
+    "addDate": "2026-10-15",
+    "ageInDays": 21,
+    "isNewEntrant": true,
+    "recordableCrashRate": null,
+    "priorRevokedDotNumber": null,
+    "dunsNumber": null,
+    "dataQualityFlags": [],
+    "outOfService": false,
+    "outOfServiceDate": null,
+    "outOfServiceReason": null,
+    "authority": {
+      "source": "motus",
+      "sourceDataset": "inys-ebih",
+      "sourceUpdatedAt": "2026-11-04T10:09:38.000Z",
+      "authorities": [
+        {
+          "docketNumber": "MC-88876362",
+          "authorityType": "Motor Carrier of Property (Except Household Goods)",
+          "status": "active",
+          "statusDate": "2026-10-30",
+          "statusReason": "Granted",
+          "grantedDate": "2026-10-30"
+        }
+      ],
+      "hasActiveCarrierAuthority": true,
+      "hasActiveBrokerAuthority": false,
+      "hasPendingAuthority": false,
+      "bipdRequiredUsd": 750000,
+      "bipdOnFileUsd": 750000,
+      "cargoInsuranceRequired": false,
+      "cargoInsuranceOnFile": false,
+      "bondRequired": false,
+      "bondOnFile": false,
+      "grantedDate": "2026-10-30",
+      "lastStatusChangeDate": "2026-10-30",
+      "lastStatusChangeReason": "Granted"
+    },
+    "insurancePolicies": [
+      {
+        "docketNumber": "MC-88876362",
+        "insuranceType": "bipd",
+        "layer": "primary",
+        "formCode": "BMC-91X",
+        "insurer": "UNITED FINANCIAL CASUALTY COMPANY",
+        "policyNumber": "CA881244783",
+        "coverageUsd": 750000,
+        "underlyingLimitUsd": 0,
+        "effectiveDate": "2026-10-19",
+        "postedDate": "2026-10-19",
+        "cancelEffectiveDate": null,
+        "source": "motus"
+      }
+    ],
+    "authoritySummary": "MC-88876362 Motor Carrier of Property (Except Household Goods): active since 2026-10-30",
+    "insuranceSummary": "BIPD primary USD 750,000 (UNITED FINANCIAL CASUALTY COMPANY), eff. 2026-10-19",
+    "revocations": [],
+    "boc3OnFile": true,
+    "processAgent": {
+      "docketNumber": "MC-88876362",
+      "name": "TRANSPORTATION AUTHORITY LLC",
+      "street": "390 ROUTE D",
+      "city": "LOCKWOOD",
+      "state": "MO",
+      "postalCode": "65682",
+      "country": "US"
+    },
+    "safety": {
+      "measurementPeriodMonths": 24,
+      "snapshotUpdatedAt": "2026-10-13T07:02:36.000Z",
+      "inspections": null,
+      "crashes": null,
+      "basics": null,
+      "sourceDatasets": [
+        "4wxs-vbns"
+      ]
+    },
+    "fmcsaUrl": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=7614928",
+    "sourceDataset": "az4n-8mr2",
+    "sourceDatasetName": "FMCSA Company Census File",
+    "sourceUpdatedAt": "2026-11-04T11:19:27.000Z",
+    "scrapedAt": "2026-11-05T01:56:11.700Z",
+    "riskScore": null,
+    "riskLevel": null,
+    "riskFactors": null,
+    "insuranceRenewal": null,
+    "whyNow": null,
+    "trend": null,
+    "insight": null,
+    "companyWebsite": null
+  },
+  {
+    "schemaVersion": 2,
+    "dotNumber": "4722077",
+    "mcNumbers": [
+      "MC-52228001"
+    ],
+    "dockets": [
+      {
+        "docketNumber": "MC-52228001",
+        "prefix": "MC",
+        "number": "52228001",
+        "status": "active"
+      }
+    ],
+    "legalName": "TEAL BLUE TRUCKING LLC",
+    "dbaName": null,
+    "companyName": "Teal Blue Trucking",
+    "entityType": "carrier",
+    "entityTypes": [
+      "carrier"
+    ],
+    "businessType": null,
+    "usdotStatus": "active",
+    "authorityStatus": "active",
+    "carrierOperation": "interstate",
+    "operationClassification": [
+      "AUTHORIZED FOR HIRE"
+    ],
+    "hazmat": false,
+    "powerUnits": 1,
+    "trucks": 1,
+    "buses": 0,
+    "drivers": 1,
+    "cdlDrivers": 1,
+    "interstateDrivers": 1,
+    "intrastateDrivers": 0,
+    "equipment": {
+      "owned": {
+        "trucks": null,
+        "tractors": 1,
+        "trailers": 1
+      },
+      "termLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      },
+      "tripLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      }
+    },
+    "mcs150Mileage": 0,
+    "mcs150MileageYear": null,
+    "physicalAddress": {
+      "street": "1907 S 5TH AVE",
+      "city": "YUMA",
+      "state": "AZ",
+      "postalCode": "85364-5558",
+      "zip5": "85364",
+      "country": "US",
+      "countyFips": "04027",
+      "oneLine": "1907 S 5TH AVE, YUMA, AZ 85364-5558, US"
+    },
+    "mailingAddress": {
+      "street": "PO BOX 4046",
+      "city": "YUMA",
+      "state": "AZ",
+      "postalCode": "85364",
+      "zip5": "85364",
+      "country": "US",
+      "countyFips": "04027",
+      "oneLine": "PO BOX 4046, YUMA, AZ 85364, US"
+    },
+    "phone": "+19284465331",
+    "mobilePhone": null,
+    "fax": null,
+    "email": "lgbrena@gmail.com",
+    "emailAsFiled": null,
+    "phoneSharedCount": 1,
+    "emailSharedCount": 1,
+    "phoneIsShared": false,
+    "emailIsShared": false,
+    "companyOfficers": null,
+    "cargoCarried": [
+      "General Freight"
+    ],
+    "cargoCarriedText": "General Freight",
+    "safetyRating": "unrated",
+    "safetyRatingDate": null,
+    "safetyReviewDate": null,
+    "mcs150Date": null,
+    "addDate": "2026-10-14",
+    "ageInDays": 22,
+    "isNewEntrant": true,
+    "recordableCrashRate": null,
+    "priorRevokedDotNumber": null,
+    "dunsNumber": null,
+    "dataQualityFlags": [],
+    "outOfService": false,
+    "outOfServiceDate": null,
+    "outOfServiceReason": null,
+    "authority": {
+      "source": "motus",
+      "sourceDataset": "inys-ebih",
+      "sourceUpdatedAt": "2026-11-04T10:09:38.000Z",
+      "authorities": [
+        {
+          "docketNumber": "MC-52228001",
+          "authorityType": "Motor Carrier of Property (Except Household Goods)",
+          "status": "active",
+          "statusDate": "2026-10-29",
+          "statusReason": "Granted",
+          "grantedDate": "2026-10-29"
+        }
+      ],
+      "hasActiveCarrierAuthority": true,
+      "hasActiveBrokerAuthority": false,
+      "hasPendingAuthority": false,
+      "bipdRequiredUsd": 750000,
+      "bipdOnFileUsd": 750000,
+      "cargoInsuranceRequired": false,
+      "cargoInsuranceOnFile": false,
+      "bondRequired": false,
+      "bondOnFile": false,
+      "grantedDate": "2026-10-29",
+      "lastStatusChangeDate": "2026-10-29",
+      "lastStatusChangeReason": "Granted"
+    },
+    "insurancePolicies": [
+      {
+        "docketNumber": "MC-52228001",
+        "insuranceType": "bipd",
+        "layer": "primary",
+        "formCode": "BMC-91X",
+        "insurer": "UNITED FINANCIAL CASUALTY COMPANY",
+        "policyNumber": "CA881904866",
+        "coverageUsd": 750000,
+        "underlyingLimitUsd": 0,
+        "effectiveDate": "2026-10-29",
+        "postedDate": "2026-10-29",
+        "cancelEffectiveDate": null,
+        "source": "motus"
+      }
+    ],
+    "authoritySummary": "MC-52228001 Motor Carrier of Property (Except Household Goods): active since 2026-10-29",
+    "insuranceSummary": "BIPD primary USD 750,000 (UNITED FINANCIAL CASUALTY COMPANY), eff. 2026-10-29",
+    "revocations": [],
+    "boc3OnFile": true,
+    "processAgent": {
+      "docketNumber": "MC-52228001",
+      "name": "PROCESS AGENT SERVICE COMPANY, INC.",
+      "street": "945 S MARION RD",
+      "city": "SIOUX FALLS",
+      "state": "SD",
+      "postalCode": "57105",
+      "country": "US"
+    },
+    "safety": {
+      "measurementPeriodMonths": 24,
+      "snapshotUpdatedAt": "2026-10-13T07:02:36.000Z",
+      "inspections": null,
+      "crashes": null,
+      "basics": null,
+      "sourceDatasets": [
+        "4wxs-vbns"
+      ]
+    },
+    "fmcsaUrl": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=4722077",
+    "sourceDataset": "az4n-8mr2",
+    "sourceDatasetName": "FMCSA Company Census File",
+    "sourceUpdatedAt": "2026-11-04T11:19:27.000Z",
+    "scrapedAt": "2026-11-05T01:56:11.700Z",
+    "riskScore": null,
+    "riskLevel": null,
+    "riskFactors": null,
+    "insuranceRenewal": null,
+    "whyNow": null,
+    "trend": null,
+    "insight": null,
+    "companyWebsite": null
+  }
+]

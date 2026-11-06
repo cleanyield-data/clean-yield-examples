@@ -1,0 +1,10 @@
+{
+  "states": [
+    "IL"
+  ],
+  "entityTypes": [
+    "broker"
+  ],
+  "authorityStatus": "active",
+  "maxResults": 20
+}

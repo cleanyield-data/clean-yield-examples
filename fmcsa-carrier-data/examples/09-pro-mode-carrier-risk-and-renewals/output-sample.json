@@ -1,0 +1,72 @@
+[
+  {
+    "dotNumber": "4553390",
+    "legalName": "D&A STEEL LLC",
+    "usdotStatus": "active",
+    "outOfService": true,
+    "outOfServiceReason": "New Entrant Revoked - Refusal of Audit/No Contact",
+    "riskScore": 55,
+    "riskLevel": "high",
+    "riskFactors": [
+      {
+        "code": "outOfService",
+        "points": 50,
+        "detail": "Active out-of-service order since 2026-11-02 (New Entrant Revoked - Refusal of Audit/No Contact)"
+      },
+      {
+        "code": "newEntrant",
+        "points": 5,
+        "detail": "New entrant (registered less than 18 months ago, limited history)"
+      }
+    ],
+    "insuranceRenewal": null,
+    "whyNow": null,
+    "insight": null
+  },
+  {
+    "dotNumber": "3262418",
+    "legalName": "MICHAEL JOHN KING",
+    "usdotStatus": "active",
+    "outOfService": false,
+    "outOfServiceReason": null,
+    "riskScore": 0,
+    "riskLevel": "low",
+    "riskFactors": [],
+    "insuranceRenewal": {
+      "nextRenewalDate": "2027-05-22",
+      "daysToRenewal": 199,
+      "insurer": "Great West Casualty Co",
+      "policyNumber": "GRT41448A",
+      "effectiveDate": "2025-05-22",
+      "basis": "effectiveDateAnniversary"
+    },
+    "whyNow": null,
+    "insight": null
+  },
+  {
+    "dotNumber": "52767",
+    "legalName": "ACME TRUCK LINE INC",
+    "usdotStatus": "active",
+    "outOfService": false,
+    "outOfServiceReason": null,
+    "riskScore": 8,
+    "riskLevel": "low",
+    "riskFactors": [
+      {
+        "code": "vehicleOosAboveAverage",
+        "points": 8,
+        "detail": "Vehicle out-of-service rate 23.8% vs national 22.3% (24 months)"
+      }
+    ],
+    "insuranceRenewal": {
+      "nextRenewalDate": "2027-05-01",
+      "daysToRenewal": 178,
+      "insurer": "Hudson Insurance Company",
+      "policyNumber": "HMU200030-15",
+      "effectiveDate": "2024-05-01",
+      "basis": "effectiveDateAnniversary"
+    },
+    "whyNow": null,
+    "insight": null
+  }
+]

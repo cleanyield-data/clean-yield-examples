@@ -1,0 +1,15 @@
+{
+  "countries": [
+    "CO",
+    "BR",
+    "CL"
+  ],
+  "sectors": [
+    "it-software"
+  ],
+  "status": [
+    "open"
+  ],
+  "publishedWithinDays": 5,
+  "maxResults": 15
+}

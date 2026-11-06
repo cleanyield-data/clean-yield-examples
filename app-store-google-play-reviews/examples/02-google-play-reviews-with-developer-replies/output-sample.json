@@ -1,0 +1,111 @@
+[
+  {
+    "reviewId": "googleplay:com.calm.android:6e7f4e96-e307-4ddb-977f-a9f88bc43612",
+    "store": "googleplay",
+    "appId": "com.calm.android",
+    "appName": "Calm - Sleep, Meditate, Relax",
+    "country": null,
+    "language": "en",
+    "rating": 5,
+    "title": null,
+    "text": "Rajkumar",
+    "date": "2026-11-03T16:38:55.037Z",
+    "appVersion": null,
+    "authorName": null,
+    "developerReply": null,
+    "device": "phone",
+    "criteriaRatings": null,
+    "authorImageUrl": null,
+    "thumbsUp": 0,
+    "isNegative": false,
+    "url": "https://play.google.com/store/apps/details?id=com.calm.android&reviewId=6e7f4e96-e307-4ddb-977f-a9f88bc43612",
+    "topics": null,
+    "priorityScore": null,
+    "insight": null,
+    "suggestedReply": null,
+    "appDetails": null,
+    "changeType": null,
+    "scrapedAt": "2026-11-05T01:54:46.408Z",
+    "schemaVersion": 2
+  },
+  {
+    "reviewId": "googleplay:com.calm.android:8b867ec4-b693-489f-895f-b3916be91b82",
+    "store": "googleplay",
+    "appId": "com.calm.android",
+    "appName": "Calm - Sleep, Meditate, Relax",
+    "country": null,
+    "language": "en",
+    "rating": 5,
+    "title": null,
+    "text": "peak",
+    "date": "2026-11-03T04:45:02.224Z",
+    "appVersion": "7.4",
+    "authorName": null,
+    "developerReply": null,
+    "device": "phone",
+    "criteriaRatings": [
+      {
+        "criteria": "vaf_app_quality_battery_heat",
+        "label": "battery heat",
+        "rating": 3
+      },
+      {
+        "criteria": "vaf_app_quality_battery_efficiency",
+        "label": "battery efficiency",
+        "rating": 3
+      },
+      {
+        "criteria": "vaf_app_quality_stability",
+        "label": "stability",
+        "rating": 1
+      }
+    ],
+    "authorImageUrl": null,
+    "thumbsUp": 1,
+    "isNegative": false,
+    "url": "https://play.google.com/store/apps/details?id=com.calm.android&reviewId=8b867ec4-b693-489f-895f-b3916be91b82",
+    "topics": null,
+    "priorityScore": null,
+    "insight": null,
+    "suggestedReply": null,
+    "appDetails": null,
+    "changeType": null,
+    "scrapedAt": "2026-11-05T01:54:46.408Z",
+    "schemaVersion": 2
+  },
+  {
+    "reviewId": "googleplay:com.calm.android:b02cd2c7-f22c-4970-9e1b-a3bd90913429",
+    "store": "googleplay",
+    "appId": "com.calm.android",
+    "appName": "Calm - Sleep, Meditate, Relax",
+    "country": null,
+    "language": "en",
+    "rating": 3,
+    "title": null,
+    "text": "Okay well the app changed. I used to be able to change the background and just listen to it. Now it's impossible to find tha part of the app. It was at the top when first opened. Now it's hidden somewhere.",
+    "date": "2026-11-03T00:44:10.382Z",
+    "appVersion": "7.4",
+    "authorName": null,
+    "developerReply": null,
+    "device": "phone",
+    "criteriaRatings": [
+      {
+        "criteria": "vaf_app_quality_visual_appeal",
+        "label": "visual appeal",
+        "rating": 2
+      }
+    ],
+    "authorImageUrl": null,
+    "thumbsUp": 0,
+    "isNegative": false,
+    "url": "https://play.google.com/store/apps/details?id=com.calm.android&reviewId=b02cd2c7-f22c-4970-9e1b-a3bd90913429",
+    "topics": null,
+    "priorityScore": null,
+    "insight": null,
+    "suggestedReply": null,
+    "appDetails": null,
+    "changeType": null,
+    "scrapedAt": "2026-11-05T01:54:46.408Z",
+    "schemaVersion": 2
+  }
+]

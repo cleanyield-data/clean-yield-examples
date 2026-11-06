@@ -1,0 +1,9 @@
+{
+  "domains": [
+    "plausible.io",
+    "posthog.com",
+    "vercel.com"
+  ],
+  "monitorMode": true,
+  "monitorStateName": "example-accounts-weekly"
+}

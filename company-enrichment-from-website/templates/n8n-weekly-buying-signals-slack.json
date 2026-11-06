@@ -1,0 +1,58 @@
+{
+  "name": "Weekly buying signals to Slack (started hiring, new tools, new posts)",
+  "nodes": [
+    {
+      "parameters": { "rule": { "interval": [{ "field": "weeks", "triggerAtDay": [1], "triggerAtHour": 8 }] } },
+      "id": "1",
+      "name": "Every Monday 08:00",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [200, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/cleanyield~company-enrichment-from-website/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>&timeout=280",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{ \"domains\": [\"plausible.io\", \"posthog.com\", \"vercel.com\"], \"monitorMode\": true, \"monitorStateName\": \"my-accounts-weekly\" }",
+        "options": { "timeout": 300000 }
+      },
+      "id": "2",
+      "name": "Run monitor",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [420, 300]
+    },
+    {
+      "parameters": {
+        "conditions": { "string": [{ "value1": "={{ $json.changeType }}", "value2": "changed" }] }
+      },
+      "id": "3",
+      "name": "Only changed",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [640, 300]
+    },
+    {
+      "parameters": {
+        "select": "channel",
+        "channelId": { "__rl": true, "mode": "name", "value": "#sales-signals" },
+        "text": "={{ '*' + $json.companyName + '* (' + $json.domain + '): ' + $json.changes.map(c => c.detail).join('; ') }}",
+        "otherOptions": {}
+      },
+      "id": "4",
+      "name": "Post to Slack",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [860, 280]
+    }
+  ],
+  "connections": {
+    "Every Monday 08:00": { "main": [[{ "node": "Run monitor", "type": "main", "index": 0 }]] },
+    "Run monitor": { "main": [[{ "node": "Only changed", "type": "main", "index": 0 }]] },
+    "Only changed": { "main": [[{ "node": "Post to Slack", "type": "main", "index": 0 }], []] }
+  },
+  "settings": {},
+  "meta": { "templateCredsSetupCompleted": false }
+}

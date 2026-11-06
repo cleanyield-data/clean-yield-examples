@@ -1,0 +1,11 @@
+{
+  "states": [
+    "GA"
+  ],
+  "cargoTypes": [
+    "refrigeratedFood"
+  ],
+  "minPowerUnits": 5,
+  "maxPowerUnits": 50,
+  "maxResults": 20
+}

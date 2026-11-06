@@ -1,0 +1,576 @@
+[
+  {
+    "url": "https://plausible.io/",
+    "domain": "plausible.io",
+    "originalStartUrl": "https://plausible.io",
+    "referrerUrl": null,
+    "depth": 0,
+    "emails": [
+      "hello@plausible.io",
+      "jobs@plausible.io",
+      "privacy@plausible.io"
+    ],
+    "phones": [],
+    "phonesUncertain": [],
+    "linkedIns": [
+      "https://www.linkedin.com/company/plausible-analytics"
+    ],
+    "twitters": [
+      "https://x.com/PlausibleHQ"
+    ],
+    "instagrams": [],
+    "facebooks": [],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [],
+    "companyName": "Plausible Analytics",
+    "description": "Plausible is a lightweight and open-source Google Analytics alternative. Your website data is 100% yours and the privacy of your visitors is respected.",
+    "language": "en",
+    "country": "EE",
+    "primaryEmail": "hello@plausible.io",
+    "primaryPhone": null,
+    "contactPageUrl": "https://plausible.io/contact",
+    "socialProfiles": {
+      "linkedin": "https://www.linkedin.com/company/plausible-analytics",
+      "x": "https://x.com/PlausibleHQ",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "github": "https://github.com/plausible",
+      "pinterest": null,
+      "threads": null,
+      "telegram": null,
+      "discord": null,
+      "reddit": null
+    },
+    "address": {
+      "streetAddress": "Västriku tn 2",
+      "locality": "Tartu",
+      "region": null,
+      "postalCode": "50403",
+      "country": "EE",
+      "formatted": "Västriku tn 2, Tartu, 50403, EE"
+    },
+    "technologies": [
+      {
+        "name": "Plausible",
+        "category": "analytics"
+      },
+      {
+        "name": "Jekyll",
+        "category": "framework"
+      }
+    ],
+    "hiring": {
+      "isHiring": true,
+      "careersUrl": "https://plausible.io/jobs/customer-success",
+      "atsProvider": null,
+      "openRolesCount": null,
+      "evidence": "Careers page lists openings or asks to apply"
+    },
+    "latestPosts": [
+      {
+        "title": "Google Analytics pricing: Free GA4 and paid GA360 explained",
+        "url": "https://plausible.io/blog/google-analytics-pricing",
+        "publishedAt": "2026-10-22T10:00:00.000Z"
+      },
+      {
+        "title": "Shopify, Squarespace and Webflow analytics: What you can track and what’s missing",
+        "url": "https://plausible.io/blog/cms-built-in-analytics",
+        "publishedAt": "2026-10-02T07:00:00.000Z"
+      },
+      {
+        "title": "What is direct traffic? What does it include, and why is its share the highest?",
+        "url": "https://plausible.io/blog/direct-traffic",
+        "publishedAt": "2026-09-16T08:00:00.000Z"
+      },
+      {
+        "title": "Web analytics: what it is, how it works and how to use it",
+        "url": "https://plausible.io/blog/web-analytics",
+        "publishedAt": "2026-09-11T07:00:00.000Z"
+      },
+      {
+        "title": "Web analytics vs product analytics: core difference and how to choose?",
+        "url": "https://plausible.io/blog/web-analytics-vs-product-analytics",
+        "publishedAt": "2026-09-03T01:00:00.000Z"
+      }
+    ],
+    "personalEmailsOmitted": 0,
+    "sourcesChecked": [
+      {
+        "url": "https://plausible.io/robots.txt",
+        "type": "robots",
+        "status": 200,
+        "ok": true,
+        "ms": 207
+      },
+      {
+        "url": "https://plausible.io/",
+        "type": "home",
+        "status": 200,
+        "ok": true,
+        "ms": 215
+      },
+      {
+        "url": "https://plausible.io/contact",
+        "type": "contact",
+        "status": 200,
+        "ok": true,
+        "ms": 41
+      },
+      {
+        "url": "https://plausible.io/privacy",
+        "type": "privacy",
+        "status": 200,
+        "ok": true,
+        "ms": 43
+      },
+      {
+        "url": "https://plausible.io/sitemap.xml",
+        "type": "sitemap",
+        "status": 200,
+        "ok": true,
+        "ms": 44
+      },
+      {
+        "url": "https://plausible.io/imprint",
+        "type": "legal",
+        "status": 200,
+        "ok": true,
+        "ms": 50
+      },
+      {
+        "url": "https://plausible.io/terms",
+        "type": "terms",
+        "status": 200,
+        "ok": true,
+        "ms": 68
+      },
+      {
+        "url": "https://plausible.io/blog/feed.xml",
+        "type": "feed",
+        "status": 200,
+        "ok": true,
+        "ms": 111
+      },
+      {
+        "url": "https://plausible.io/about",
+        "type": "about",
+        "status": 200,
+        "ok": true,
+        "ms": 115
+      },
+      {
+        "url": "https://plausible.io/jobs/customer-success",
+        "type": "careers",
+        "status": 200,
+        "ok": true,
+        "ms": 59
+      }
+    ],
+    "pagesFetched": 9,
+    "durationMs": 533,
+    "scrapedAt": "2026-11-06T02:39:12.295Z",
+    "outputVersion": 1,
+    "schemaVersion": "1.1.0",
+    "changeType": null,
+    "changes": [],
+    "pro": null,
+    "insight": null,
+    "emailDetails": [
+      {
+        "email": "hello@plausible.io",
+        "type": "generic",
+        "isCompanyDomain": true,
+        "foundOn": "https://plausible.io/contact"
+      },
+      {
+        "email": "jobs@plausible.io",
+        "type": "role",
+        "isCompanyDomain": true,
+        "foundOn": "https://plausible.io/jobs/customer-success"
+      },
+      {
+        "email": "privacy@plausible.io",
+        "type": "role",
+        "isCompanyDomain": true,
+        "foundOn": "https://plausible.io/privacy"
+      }
+    ],
+    "phoneDetails": []
+  },
+  {
+    "url": "https://buffer.com/",
+    "domain": "buffer.com",
+    "originalStartUrl": "https://buffer.com",
+    "referrerUrl": null,
+    "depth": 0,
+    "emails": [
+      "hello@buffer.com",
+      "copyright@buffer.com",
+      "legal@buffer.com",
+      "press@buffer.com",
+      "privacy@buffer.com",
+      "security@buffer.com"
+    ],
+    "phones": [],
+    "phonesUncertain": [],
+    "linkedIns": [
+      "https://www.linkedin.com/company/bufferapp"
+    ],
+    "twitters": [
+      "https://x.com/buffer"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/buffer"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/bufferapp"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/bufferapp"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [
+      "https://discord.gg/aQdKKr6kDY"
+    ],
+    "snapchats": [],
+    "threads": [
+      "https://www.threads.net/@buffer"
+    ],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [],
+    "companyName": "Buffer",
+    "description": "Use Buffer to manage your social media so that you can create and share your content everywhere, consistently. Try our forever free plan or upgrade for more.",
+    "language": "en",
+    "country": null,
+    "primaryEmail": "hello@buffer.com",
+    "primaryPhone": null,
+    "contactPageUrl": "https://buffer.com/contact",
+    "socialProfiles": {
+      "linkedin": "https://www.linkedin.com/company/bufferapp",
+      "x": "https://x.com/buffer",
+      "facebook": "https://www.facebook.com/bufferapp",
+      "instagram": "https://www.instagram.com/buffer",
+      "youtube": "https://www.youtube.com/bufferapp",
+      "tiktok": null,
+      "github": "https://github.com/bufferapp",
+      "pinterest": null,
+      "threads": "https://www.threads.net/@buffer",
+      "telegram": null,
+      "discord": "https://discord.gg/aQdKKr6kDY",
+      "reddit": null
+    },
+    "address": null,
+    "technologies": [
+      {
+        "name": "Google Tag Manager",
+        "category": "analytics"
+      },
+      {
+        "name": "CookieYes",
+        "category": "consent"
+      },
+      {
+        "name": "Next.js",
+        "category": "framework"
+      },
+      {
+        "name": "React",
+        "category": "framework"
+      },
+      {
+        "name": "Cloudflare",
+        "category": "hosting-cdn"
+      }
+    ],
+    "hiring": {
+      "isHiring": true,
+      "careersUrl": "https://buffer.com/journey",
+      "atsProvider": null,
+      "openRolesCount": null,
+      "evidence": "Careers page lists openings or asks to apply"
+    },
+    "latestPosts": [],
+    "personalEmailsOmitted": 0,
+    "sourcesChecked": [
+      {
+        "url": "https://buffer.com/robots.txt",
+        "type": "robots",
+        "status": 200,
+        "ok": true,
+        "ms": 288
+      },
+      {
+        "url": "https://buffer.com/",
+        "type": "home",
+        "status": 200,
+        "ok": true,
+        "ms": 409
+      },
+      {
+        "url": "https://buffer.com/press",
+        "type": "blog",
+        "status": 200,
+        "ok": true,
+        "ms": 111
+      },
+      {
+        "url": "https://buffer.com/journey",
+        "type": "careers",
+        "status": 200,
+        "ok": true,
+        "ms": 174
+      },
+      {
+        "url": "https://buffer.com/sitemap.xml",
+        "type": "sitemap",
+        "status": 200,
+        "ok": true,
+        "ms": 176
+      },
+      {
+        "url": "https://buffer.com/legal",
+        "type": "legal",
+        "status": 200,
+        "ok": true,
+        "ms": 192
+      },
+      {
+        "url": "https://buffer.com/about",
+        "type": "about",
+        "status": 200,
+        "ok": true,
+        "ms": 338
+      },
+      {
+        "url": "https://buffer.com/contact",
+        "type": "contact",
+        "status": 200,
+        "ok": true,
+        "ms": 99
+      }
+    ],
+    "pagesFetched": 7,
+    "durationMs": 1073,
+    "scrapedAt": "2026-11-06T02:39:12.838Z",
+    "outputVersion": 1,
+    "schemaVersion": "1.1.0",
+    "changeType": null,
+    "changes": [],
+    "pro": null,
+    "insight": null,
+    "emailDetails": [
+      {
+        "email": "hello@buffer.com",
+        "type": "generic",
+        "isCompanyDomain": true,
+        "foundOn": "https://buffer.com/legal"
+      },
+      {
+        "email": "copyright@buffer.com",
+        "type": "role",
+        "isCompanyDomain": true,
+        "foundOn": "https://buffer.com/legal"
+      },
+      {
+        "email": "legal@buffer.com",
+        "type": "role",
+        "isCompanyDomain": true,
+        "foundOn": "https://buffer.com/legal"
+      },
+      {
+        "email": "press@buffer.com",
+        "type": "role",
+        "isCompanyDomain": true,
+        "foundOn": "https://buffer.com/press"
+      },
+      {
+        "email": "privacy@buffer.com",
+        "type": "role",
+        "isCompanyDomain": true,
+        "foundOn": "https://buffer.com/legal"
+      },
+      {
+        "email": "security@buffer.com",
+        "type": "role",
+        "isCompanyDomain": true,
+        "foundOn": "https://buffer.com/legal"
+      }
+    ],
+    "phoneDetails": []
+  },
+  {
+    "url": "https://ghost.org/",
+    "domain": "ghost.org",
+    "originalStartUrl": "https://ghost.org",
+    "referrerUrl": null,
+    "depth": 0,
+    "emails": [
+      "hello@ghost.org",
+      "support@ghost.org"
+    ],
+    "phones": [],
+    "phonesUncertain": [],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [],
+    "facebooks": [],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [],
+    "companyName": "Ghost",
+    "description": "Beautiful, modern publishing with email newsletters and paid subscriptions built-in. Used by Platformer, 404Media, Lever News, Tangle, The Browser, and thousands more.",
+    "language": "en",
+    "country": "GB",
+    "primaryEmail": "hello@ghost.org",
+    "primaryPhone": null,
+    "contactPageUrl": "https://ghost.org/contact/",
+    "socialProfiles": {
+      "linkedin": null,
+      "x": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "github": "https://github.com/TryGhost",
+      "pinterest": null,
+      "threads": null,
+      "telegram": null,
+      "discord": null,
+      "reddit": null
+    },
+    "address": null,
+    "technologies": [
+      {
+        "name": "Google Tag Manager",
+        "category": "analytics"
+      },
+      {
+        "name": "Alpine.js",
+        "category": "framework"
+      },
+      {
+        "name": "Hugo",
+        "category": "framework"
+      },
+      {
+        "name": "Netlify",
+        "category": "hosting-cdn"
+      }
+    ],
+    "hiring": {
+      "isHiring": true,
+      "careersUrl": "https://careers.ghost.org/",
+      "atsProvider": "homerun",
+      "openRolesCount": null,
+      "evidence": "Careers page links to a homerun job board"
+    },
+    "latestPosts": [],
+    "personalEmailsOmitted": 0,
+    "sourcesChecked": [
+      {
+        "url": "https://ghost.org/robots.txt",
+        "type": "robots",
+        "status": 200,
+        "ok": true,
+        "ms": 290
+      },
+      {
+        "url": "https://ghost.org/",
+        "type": "home",
+        "status": 200,
+        "ok": true,
+        "ms": 330
+      },
+      {
+        "url": "https://ghost.org/contact/",
+        "type": "contact",
+        "status": 200,
+        "ok": true,
+        "ms": 96
+      },
+      {
+        "url": "https://ghost.org/news/",
+        "type": "blog",
+        "status": 200,
+        "ok": true,
+        "ms": 187
+      },
+      {
+        "url": "https://ghost.org/sitemap.xml",
+        "type": "sitemap",
+        "status": 200,
+        "ok": true,
+        "ms": 200
+      },
+      {
+        "url": "https://ghost.org/terms/",
+        "type": "terms",
+        "status": 200,
+        "ok": true,
+        "ms": 106
+      },
+      {
+        "url": "https://ghost.org/privacy/",
+        "type": "privacy",
+        "status": 200,
+        "ok": true,
+        "ms": 223
+      },
+      {
+        "url": "https://ghost.org/about/",
+        "type": "about",
+        "status": 200,
+        "ok": true,
+        "ms": 236
+      },
+      {
+        "url": "https://careers.ghost.org/",
+        "type": "careers",
+        "status": 200,
+        "ok": true,
+        "ms": 907
+      }
+    ],
+    "pagesFetched": 8,
+    "durationMs": 1340,
+    "scrapedAt": "2026-11-06T02:39:13.105Z",
+    "outputVersion": 1,
+    "schemaVersion": "1.1.0",
+    "changeType": null,
+    "changes": [],
+    "pro": null,
+    "insight": null,
+    "emailDetails": [
+      {
+        "email": "hello@ghost.org",
+        "type": "generic",
+        "isCompanyDomain": true,
+        "foundOn": "https://ghost.org/privacy/"
+      },
+      {
+        "email": "support@ghost.org",
+        "type": "role",
+        "isCompanyDomain": true,
+        "foundOn": "https://ghost.org/contact/"
+      }
+    ],
+    "phoneDetails": []
+  }
+]

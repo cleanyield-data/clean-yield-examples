@@ -1,0 +1,525 @@
+[
+  {
+    "domain": "plausible.io",
+    "url": "https://plausible.io/",
+    "companyName": "Plausible Analytics",
+    "description": "Plausible is a lightweight and open-source Google Analytics alternative. Your website data is 100% yours and the privacy of your visitors is respected.",
+    "language": "en",
+    "country": "EE",
+    "emails": [
+      {
+        "email": "hello@plausible.io",
+        "type": "generic",
+        "isCompanyDomain": true,
+        "foundOn": "https://plausible.io/contact"
+      },
+      {
+        "email": "jobs@plausible.io",
+        "type": "role",
+        "isCompanyDomain": true,
+        "foundOn": "https://plausible.io/jobs/customer-success"
+      },
+      {
+        "email": "privacy@plausible.io",
+        "type": "role",
+        "isCompanyDomain": true,
+        "foundOn": "https://plausible.io/privacy"
+      }
+    ],
+    "phones": [],
+    "primaryEmail": "hello@plausible.io",
+    "primaryPhone": null,
+    "contactPageUrl": "https://plausible.io/contact",
+    "socialProfiles": {
+      "linkedin": "https://www.linkedin.com/company/plausible-analytics",
+      "x": "https://x.com/PlausibleHQ",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "github": "https://github.com/plausible",
+      "pinterest": null,
+      "threads": null,
+      "telegram": null,
+      "discord": null,
+      "reddit": null
+    },
+    "address": {
+      "streetAddress": "Västriku tn 2",
+      "locality": "Tartu",
+      "region": null,
+      "postalCode": "50403",
+      "country": "EE",
+      "formatted": "Västriku tn 2, Tartu, 50403, EE"
+    },
+    "technologies": [
+      {
+        "name": "Plausible",
+        "category": "analytics"
+      },
+      {
+        "name": "Jekyll",
+        "category": "framework"
+      }
+    ],
+    "hiring": {
+      "isHiring": true,
+      "careersUrl": "https://plausible.io/jobs/customer-success",
+      "atsProvider": null,
+      "openRolesCount": null,
+      "evidence": "Careers page lists openings or asks to apply"
+    },
+    "latestPosts": [
+      {
+        "title": "Google Analytics pricing: Free GA4 and paid GA360 explained",
+        "url": "https://plausible.io/blog/google-analytics-pricing",
+        "publishedAt": "2026-10-22T10:00:00.000Z"
+      },
+      {
+        "title": "Shopify, Squarespace and Webflow analytics: What you can track and what’s missing",
+        "url": "https://plausible.io/blog/cms-built-in-analytics",
+        "publishedAt": "2026-10-02T07:00:00.000Z"
+      },
+      {
+        "title": "What is direct traffic? What does it include, and why is its share the highest?",
+        "url": "https://plausible.io/blog/direct-traffic",
+        "publishedAt": "2026-09-16T08:00:00.000Z"
+      },
+      {
+        "title": "Web analytics: what it is, how it works and how to use it",
+        "url": "https://plausible.io/blog/web-analytics",
+        "publishedAt": "2026-09-11T07:00:00.000Z"
+      },
+      {
+        "title": "Web analytics vs product analytics: core difference and how to choose?",
+        "url": "https://plausible.io/blog/web-analytics-vs-product-analytics",
+        "publishedAt": "2026-09-03T01:00:00.000Z"
+      }
+    ],
+    "personalEmailsOmitted": 0,
+    "sourcesChecked": [
+      {
+        "url": "https://plausible.io/robots.txt",
+        "type": "robots",
+        "status": 200,
+        "ok": true,
+        "ms": 159
+      },
+      {
+        "url": "https://plausible.io/",
+        "type": "home",
+        "status": 200,
+        "ok": true,
+        "ms": 160
+      },
+      {
+        "url": "https://plausible.io/privacy",
+        "type": "privacy",
+        "status": 200,
+        "ok": true,
+        "ms": 123
+      },
+      {
+        "url": "https://plausible.io/imprint",
+        "type": "legal",
+        "status": 200,
+        "ok": true,
+        "ms": 126
+      },
+      {
+        "url": "https://plausible.io/about",
+        "type": "about",
+        "status": 200,
+        "ok": true,
+        "ms": 126
+      },
+      {
+        "url": "https://plausible.io/contact",
+        "type": "contact",
+        "status": 200,
+        "ok": true,
+        "ms": 129
+      },
+      {
+        "url": "https://plausible.io/blog/feed.xml",
+        "type": "feed",
+        "status": 200,
+        "ok": true,
+        "ms": 130
+      },
+      {
+        "url": "https://plausible.io/sitemap.xml",
+        "type": "sitemap",
+        "status": 200,
+        "ok": true,
+        "ms": 258
+      },
+      {
+        "url": "https://plausible.io/terms",
+        "type": "terms",
+        "status": 200,
+        "ok": true,
+        "ms": 137
+      },
+      {
+        "url": "https://plausible.io/jobs/customer-success",
+        "type": "careers",
+        "status": 200,
+        "ok": true,
+        "ms": 28
+      }
+    ],
+    "pagesFetched": 9,
+    "durationMs": 584,
+    "scrapedAt": "2026-11-06T02:20:02.315Z",
+    "outputVersion": 1,
+    "schemaVersion": "1.1.0",
+    "changeType": "new",
+    "changes": [],
+    "pro": null,
+    "insight": null
+  },
+  {
+    "domain": "posthog.com",
+    "url": "https://posthog.com/",
+    "companyName": "PostHog",
+    "description": "PostHog automatically diagnoses problems, fixes bugs, and generates pull requests – all without you having to prompt it.",
+    "language": "en",
+    "country": "US",
+    "emails": [
+      {
+        "email": "sales@posthog.com",
+        "type": "role",
+        "isCompanyDomain": true,
+        "foundOn": "https://posthog.com/talk-to-a-human"
+      }
+    ],
+    "phones": [],
+    "primaryEmail": "sales@posthog.com",
+    "primaryPhone": null,
+    "contactPageUrl": "https://posthog.com/talk-to-a-human",
+    "socialProfiles": {
+      "linkedin": "https://www.linkedin.com/company/posthog",
+      "x": "https://x.com/PostHog",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "github": "https://github.com/PostHog",
+      "pinterest": null,
+      "threads": null,
+      "telegram": null,
+      "discord": null,
+      "reddit": null
+    },
+    "address": {
+      "streetAddress": "2261 Market Street #4008",
+      "locality": "San Francisco",
+      "region": "CA",
+      "postalCode": "94114",
+      "country": "US",
+      "formatted": "2261 Market Street #4008, San Francisco, CA 94114, US"
+    },
+    "technologies": [
+      {
+        "name": "PostHog",
+        "category": "analytics"
+      },
+      {
+        "name": "Bootstrap",
+        "category": "framework"
+      },
+      {
+        "name": "Gatsby",
+        "category": "framework"
+      },
+      {
+        "name": "React",
+        "category": "framework"
+      },
+      {
+        "name": "Vercel",
+        "category": "hosting-cdn"
+      }
+    ],
+    "hiring": {
+      "isHiring": true,
+      "careersUrl": "https://posthog.com/careers",
+      "atsProvider": null,
+      "openRolesCount": null,
+      "evidence": "Careers page found with no \"no openings\" notice (roles load dynamically)"
+    },
+    "latestPosts": [
+      {
+        "title": "Why we're moving our warehouse product off DuckDB",
+        "url": "https://posthog.com/blog/moving-off-duckdb",
+        "publishedAt": "2026-11-02T00:00:00.000Z"
+      },
+      {
+        "title": "What people are prompting in PostHog AI",
+        "url": "https://posthog.com/blog/what-people-are-prompting",
+        "publishedAt": "2026-10-30T00:00:00.000Z"
+      },
+      {
+        "title": "Do you even benchmark? How we evaluate agents at scale (with real examples)",
+        "url": "https://posthog.com/blog/how-to-benchmark-ai-agents",
+        "publishedAt": "2026-10-28T00:00:00.000Z"
+      },
+      {
+        "title": "Engineers are shipping faster, so we made our CI self-driving to keep up",
+        "url": "https://posthog.com/blog/self-driving-ci",
+        "publishedAt": "2026-10-28T00:00:00.000Z"
+      },
+      {
+        "title": "Queries are 2x faster, but we're making some event properties temporary",
+        "url": "https://posthog.com/blog/changing-event-storage",
+        "publishedAt": "2026-10-27T00:00:00.000Z"
+      }
+    ],
+    "personalEmailsOmitted": 0,
+    "sourcesChecked": [
+      {
+        "url": "https://posthog.com/robots.txt",
+        "type": "robots",
+        "status": 200,
+        "ok": true,
+        "ms": 228
+      },
+      {
+        "url": "https://posthog.com/",
+        "type": "home",
+        "status": 200,
+        "ok": true,
+        "ms": 345
+      },
+      {
+        "url": "https://posthog.com/sitemap/sitemap-index.xml",
+        "type": "sitemap",
+        "status": 200,
+        "ok": true,
+        "ms": 137
+      },
+      {
+        "url": "https://posthog.com/talk-to-a-human",
+        "type": "contact",
+        "status": 200,
+        "ok": true,
+        "ms": 180
+      },
+      {
+        "url": "https://posthog.com/about",
+        "type": "about",
+        "status": 200,
+        "ok": true,
+        "ms": 184
+      },
+      {
+        "url": "https://posthog.com/careers",
+        "type": "careers",
+        "status": 200,
+        "ok": true,
+        "ms": 196
+      },
+      {
+        "url": "https://posthog.com/rss.xml",
+        "type": "feed",
+        "status": 200,
+        "ok": true,
+        "ms": 207
+      }
+    ],
+    "pagesFetched": 6,
+    "durationMs": 1019,
+    "scrapedAt": "2026-11-06T02:20:02.753Z",
+    "outputVersion": 1,
+    "schemaVersion": "1.1.0",
+    "changeType": "new",
+    "changes": [],
+    "pro": null,
+    "insight": null
+  },
+  {
+    "domain": "vercel.com",
+    "url": "https://vercel.com/",
+    "companyName": "Vercel",
+    "description": "The autonomous stack for every app and agent.",
+    "language": "en",
+    "country": "US",
+    "emails": [
+      {
+        "email": "legalnotices@vercel.com",
+        "type": "role",
+        "isCompanyDomain": true,
+        "foundOn": "https://vercel.com/legal/terms"
+      },
+      {
+        "email": "privacy@vercel.com",
+        "type": "role",
+        "isCompanyDomain": true,
+        "foundOn": "https://vercel.com/legal/privacy-notice"
+      },
+      {
+        "email": "security@vercel.com",
+        "type": "role",
+        "isCompanyDomain": true,
+        "foundOn": "https://vercel.com/legal/terms"
+      }
+    ],
+    "phones": [],
+    "primaryEmail": "legalnotices@vercel.com",
+    "primaryPhone": null,
+    "contactPageUrl": "https://vercel.com/contact/sales",
+    "socialProfiles": {
+      "linkedin": "https://www.linkedin.com/company/vercel",
+      "x": "https://x.com/vercel",
+      "facebook": "https://www.facebook.com/VercelHQ",
+      "instagram": "https://www.instagram.com/vercel",
+      "youtube": "https://www.youtube.com/@VercelHQ",
+      "tiktok": null,
+      "github": "https://github.com/vercel",
+      "pinterest": null,
+      "threads": null,
+      "telegram": null,
+      "discord": null,
+      "reddit": "https://www.reddit.com/r/vercel"
+    },
+    "address": {
+      "streetAddress": "440 N Barranca Ave #4133",
+      "locality": "Covina",
+      "region": "CA",
+      "postalCode": "91723",
+      "country": "US",
+      "formatted": "440 N Barranca Ave #4133, Covina, CA 91723, US"
+    },
+    "technologies": [
+      {
+        "name": "Next.js",
+        "category": "framework"
+      },
+      {
+        "name": "React",
+        "category": "framework"
+      },
+      {
+        "name": "Vercel",
+        "category": "hosting-cdn"
+      }
+    ],
+    "hiring": {
+      "isHiring": true,
+      "careersUrl": "https://vercel.com/careers",
+      "atsProvider": "greenhouse",
+      "openRolesCount": 87,
+      "evidence": "87 open role(s) on the public greenhouse job board"
+    },
+    "latestPosts": [
+      {
+        "title": "Introducing Vercel Schedules",
+        "url": "https://vercel.com/blog/introducing-vercel-schedules",
+        "publishedAt": "2026-11-04T13:00:00.000Z"
+      },
+      {
+        "title": "How Zapier turns ideas into working software in hours with Vercel",
+        "url": "https://vercel.com/customers/how-zapier-turns-ideas-into-working-software-in-hours-with-vercel",
+        "publishedAt": "2026-11-03T04:00:00.000Z"
+      },
+      {
+        "title": "How Mercor ships internal apps and billions of production tokens on one platform",
+        "url": "https://vercel.com/customers/how-mercor-ships-internal-apps-and-billions-of-production-tokens-on-one-platform",
+        "publishedAt": "2026-11-03T04:00:00.000Z"
+      },
+      {
+        "title": "How OpenEvidence scales medical search for 650K doctors",
+        "url": "https://vercel.com/customers/how-openevidence-scales-medical-search-for-doctors",
+        "publishedAt": "2026-11-03T00:00:00.000Z"
+      },
+      {
+        "title": "Introducing Vercel Security Review",
+        "url": "https://vercel.com/blog/vercel-security-review",
+        "publishedAt": "2026-11-02T13:00:00.000Z"
+      }
+    ],
+    "personalEmailsOmitted": 0,
+    "sourcesChecked": [
+      {
+        "url": "https://vercel.com/robots.txt",
+        "type": "robots",
+        "status": 200,
+        "ok": true,
+        "ms": 156
+      },
+      {
+        "url": "https://vercel.com/",
+        "type": "home",
+        "status": 200,
+        "ok": true,
+        "ms": 229
+      },
+      {
+        "url": "https://vercel.com/legal",
+        "type": "legal",
+        "status": 200,
+        "ok": true,
+        "ms": 174
+      },
+      {
+        "url": "https://vercel.com/blog",
+        "type": "blog",
+        "status": 200,
+        "ok": true,
+        "ms": 177
+      },
+      {
+        "url": "https://vercel.com/legal/privacy-notice",
+        "type": "privacy",
+        "status": 200,
+        "ok": true,
+        "ms": 186
+      },
+      {
+        "url": "https://vercel.com/contact/sales",
+        "type": "contact",
+        "status": 200,
+        "ok": true,
+        "ms": 271
+      },
+      {
+        "url": "https://vercel.com/legal/terms",
+        "type": "terms",
+        "status": 200,
+        "ok": true,
+        "ms": 140
+      },
+      {
+        "url": "https://vercel.com/careers",
+        "type": "careers",
+        "status": 200,
+        "ok": true,
+        "ms": 333
+      },
+      {
+        "url": "https://vercel.com/about",
+        "type": "about",
+        "status": 200,
+        "ok": true,
+        "ms": 724
+      },
+      {
+        "url": "https://boards-api.greenhouse.io/v1/boards/vercel/jobs",
+        "type": "ats-api",
+        "status": 200,
+        "ok": true,
+        "ms": 148
+      }
+    ],
+    "pagesFetched": 9,
+    "durationMs": 1679,
+    "scrapedAt": "2026-11-06T02:20:03.415Z",
+    "outputVersion": 1,
+    "schemaVersion": "1.1.0",
+    "changeType": "new",
+    "changes": [],
+    "pro": null,
+    "insight": null
+  }
+]

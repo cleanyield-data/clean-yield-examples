@@ -1,0 +1,13 @@
+{
+  "domains": [
+    "bluebottlecoffee.com",
+    "n26.com",
+    "plausible.io"
+  ],
+  "proMode": true,
+  "idealCustomer": {
+    "mustBeHiring": true,
+    "minOpenRoles": 10,
+    "mustHaveContact": true
+  }
+}

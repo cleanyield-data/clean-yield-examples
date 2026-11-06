@@ -1,0 +1,594 @@
+[
+  {
+    "schemaVersion": 2,
+    "dotNumber": "6537452",
+    "mcNumbers": [
+      "MC-67338043"
+    ],
+    "dockets": [
+      {
+        "docketNumber": "MC-67338043",
+        "prefix": "MC",
+        "number": "67338043",
+        "status": "active"
+      }
+    ],
+    "legalName": "SUN LOGISTICS MIA, INC.",
+    "dbaName": null,
+    "companyName": "Sun Logistics Mia",
+    "entityType": "carrier",
+    "entityTypes": [
+      "carrier"
+    ],
+    "businessType": null,
+    "usdotStatus": "active",
+    "authorityStatus": "active",
+    "carrierOperation": "interstate",
+    "operationClassification": [
+      "AUTHORIZED FOR HIRE"
+    ],
+    "hazmat": false,
+    "powerUnits": 7,
+    "trucks": 7,
+    "buses": 0,
+    "drivers": 7,
+    "cdlDrivers": 7,
+    "interstateDrivers": 1,
+    "intrastateDrivers": 6,
+    "equipment": {
+      "owned": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": 10
+      },
+      "termLeased": {
+        "trucks": 3,
+        "tractors": 4,
+        "trailers": null
+      },
+      "tripLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      }
+    },
+    "mcs150Mileage": 0,
+    "mcs150MileageYear": null,
+    "physicalAddress": {
+      "street": "12250 NW 28TH AVE",
+      "city": "MIAMI",
+      "state": "FL",
+      "postalCode": "33167-2521",
+      "zip5": "33167",
+      "country": "US",
+      "countyFips": "12086",
+      "oneLine": "12250 NW 28TH AVE, MIAMI, FL 33167-2521, US"
+    },
+    "mailingAddress": {
+      "street": "12250 NW 28TH AVE",
+      "city": "MIAMI",
+      "state": "FL",
+      "postalCode": "33167-2521",
+      "zip5": "33167",
+      "country": "US",
+      "countyFips": "12086",
+      "oneLine": "12250 NW 28TH AVE, MIAMI, FL 33167-2521, US"
+    },
+    "phone": "+13058234000",
+    "mobilePhone": null,
+    "fax": null,
+    "email": "tbreen@sunlogistics.com",
+    "emailAsFiled": null,
+    "phoneSharedCount": 3,
+    "emailSharedCount": 1,
+    "phoneIsShared": false,
+    "emailIsShared": false,
+    "companyOfficers": null,
+    "cargoCarried": [
+      "General Freight"
+    ],
+    "cargoCarriedText": "General Freight",
+    "safetyRating": "unrated",
+    "safetyRatingDate": null,
+    "safetyReviewDate": null,
+    "mcs150Date": null,
+    "addDate": "2026-10-15",
+    "ageInDays": 22,
+    "isNewEntrant": true,
+    "recordableCrashRate": null,
+    "priorRevokedDotNumber": null,
+    "dunsNumber": null,
+    "dataQualityFlags": [],
+    "outOfService": false,
+    "outOfServiceDate": null,
+    "outOfServiceReason": null,
+    "authority": {
+      "source": "motus",
+      "sourceDataset": "inys-ebih",
+      "sourceUpdatedAt": "2026-11-05T10:08:59.000Z",
+      "authorities": [
+        {
+          "docketNumber": "MC-67338043",
+          "authorityType": "Motor Carrier of Property (Except Household Goods)",
+          "status": "active",
+          "statusDate": "2026-10-27",
+          "statusReason": "Granted",
+          "grantedDate": "2026-10-27"
+        }
+      ],
+      "hasActiveCarrierAuthority": true,
+      "hasActiveBrokerAuthority": false,
+      "hasPendingAuthority": false,
+      "bipdRequiredUsd": 750000,
+      "bipdOnFileUsd": 750000,
+      "cargoInsuranceRequired": false,
+      "cargoInsuranceOnFile": false,
+      "bondRequired": false,
+      "bondOnFile": false,
+      "grantedDate": "2026-10-27",
+      "lastStatusChangeDate": "2026-10-27",
+      "lastStatusChangeReason": "Granted"
+    },
+    "insurancePolicies": [
+      {
+        "docketNumber": "MC-67338043",
+        "insuranceType": "bipd",
+        "layer": "primary",
+        "formCode": "BMC-91X",
+        "insurer": "MSIG Specialty Insurance USA Inc",
+        "policyNumber": "TRP1000066-00",
+        "coverageUsd": 750000,
+        "underlyingLimitUsd": 0,
+        "effectiveDate": "2026-10-15",
+        "postedDate": "2026-10-15",
+        "cancelEffectiveDate": null,
+        "source": "motus"
+      }
+    ],
+    "authoritySummary": "MC-67338043 Motor Carrier of Property (Except Household Goods): active since 2026-10-27",
+    "insuranceSummary": "BIPD primary USD 750,000 (MSIG Specialty Insurance USA Inc), eff. 2026-10-15",
+    "revocations": [],
+    "boc3OnFile": true,
+    "processAgent": {
+      "docketNumber": "MC-67338043",
+      "name": "AMERICAN TRUCKING ASSOCIATIONS",
+      "street": "80 M ST SE STE 800",
+      "city": "WASHINGTON",
+      "state": "DC",
+      "postalCode": "20003-3557",
+      "country": "US"
+    },
+    "safety": {
+      "measurementPeriodMonths": 24,
+      "snapshotUpdatedAt": "2026-10-13T07:02:36.000Z",
+      "inspections": null,
+      "crashes": null,
+      "basics": null,
+      "sourceDatasets": [
+        "4wxs-vbns"
+      ]
+    },
+    "fmcsaUrl": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=6537452",
+    "sourceDataset": "az4n-8mr2",
+    "sourceDatasetName": "FMCSA Company Census File",
+    "sourceUpdatedAt": "2026-11-05T11:19:13.000Z",
+    "scrapedAt": "2026-11-06T02:40:41.439Z",
+    "riskScore": null,
+    "riskLevel": null,
+    "riskFactors": null,
+    "insuranceRenewal": null,
+    "whyNow": null,
+    "trend": null,
+    "insight": null,
+    "companyWebsite": null
+  },
+  {
+    "schemaVersion": 2,
+    "dotNumber": "4845581",
+    "mcNumbers": [
+      "MC-66759167"
+    ],
+    "dockets": [
+      {
+        "docketNumber": "MC-66759167",
+        "prefix": "MC",
+        "number": "66759167",
+        "status": "active"
+      }
+    ],
+    "legalName": "AAPD TRANSPORTATION LLC",
+    "dbaName": null,
+    "companyName": "Aapd Transportation",
+    "entityType": "carrier",
+    "entityTypes": [
+      "carrier"
+    ],
+    "businessType": null,
+    "usdotStatus": "active",
+    "authorityStatus": "active",
+    "carrierOperation": "interstate",
+    "operationClassification": [
+      "AUTHORIZED FOR HIRE"
+    ],
+    "hazmat": false,
+    "powerUnits": 7,
+    "trucks": 7,
+    "buses": 0,
+    "drivers": 7,
+    "cdlDrivers": 7,
+    "interstateDrivers": 7,
+    "intrastateDrivers": 0,
+    "equipment": {
+      "owned": {
+        "trucks": null,
+        "tractors": 7,
+        "trailers": 7
+      },
+      "termLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      },
+      "tripLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      }
+    },
+    "mcs150Mileage": 0,
+    "mcs150MileageYear": null,
+    "physicalAddress": {
+      "street": "512 NW 208TH TERRACE",
+      "city": "PEMBROKE PINES",
+      "state": "FL",
+      "postalCode": "33029",
+      "zip5": "33029",
+      "country": "US",
+      "countyFips": "12011",
+      "oneLine": "512 NW 208TH TERRACE, PEMBROKE PINES, FL 33029, US"
+    },
+    "mailingAddress": {
+      "street": "512 NW 208TH TERRACE",
+      "city": "PEMBROKE PINES",
+      "state": "FL",
+      "postalCode": "33029",
+      "zip5": "33029",
+      "country": "US",
+      "countyFips": "12011",
+      "oneLine": "512 NW 208TH TERRACE, PEMBROKE PINES, FL 33029, US"
+    },
+    "phone": "+19173046051",
+    "mobilePhone": null,
+    "fax": null,
+    "email": "aapdtransportationllc@gmail.com",
+    "emailAsFiled": null,
+    "phoneSharedCount": 1,
+    "emailSharedCount": 1,
+    "phoneIsShared": false,
+    "emailIsShared": false,
+    "companyOfficers": null,
+    "cargoCarried": [
+      "General Freight"
+    ],
+    "cargoCarriedText": "General Freight",
+    "safetyRating": "unrated",
+    "safetyRatingDate": null,
+    "safetyReviewDate": null,
+    "mcs150Date": null,
+    "addDate": "2026-09-25",
+    "ageInDays": 42,
+    "isNewEntrant": true,
+    "recordableCrashRate": null,
+    "priorRevokedDotNumber": null,
+    "dunsNumber": null,
+    "dataQualityFlags": [],
+    "outOfService": false,
+    "outOfServiceDate": null,
+    "outOfServiceReason": null,
+    "authority": {
+      "source": "motus",
+      "sourceDataset": "inys-ebih",
+      "sourceUpdatedAt": "2026-11-05T10:08:59.000Z",
+      "authorities": [
+        {
+          "docketNumber": "MC-66759167",
+          "authorityType": "Motor Carrier of Property (Except Household Goods)",
+          "status": "active",
+          "statusDate": "2026-10-11",
+          "statusReason": "Granted",
+          "grantedDate": "2026-10-11"
+        }
+      ],
+      "hasActiveCarrierAuthority": true,
+      "hasActiveBrokerAuthority": false,
+      "hasPendingAuthority": false,
+      "bipdRequiredUsd": 750000,
+      "bipdOnFileUsd": 750000,
+      "cargoInsuranceRequired": false,
+      "cargoInsuranceOnFile": false,
+      "bondRequired": false,
+      "bondOnFile": false,
+      "grantedDate": "2026-10-11",
+      "lastStatusChangeDate": "2026-10-11",
+      "lastStatusChangeReason": "Granted"
+    },
+    "insurancePolicies": [
+      {
+        "docketNumber": "MC-66759167",
+        "insuranceType": "bipd",
+        "layer": "primary",
+        "formCode": "BMC-91X",
+        "insurer": "GEiCO Marine Insurance Company",
+        "policyNumber": "9300380363",
+        "coverageUsd": 750000,
+        "underlyingLimitUsd": 0,
+        "effectiveDate": "2026-10-02",
+        "postedDate": "2026-10-03",
+        "cancelEffectiveDate": null,
+        "source": "motus"
+      }
+    ],
+    "authoritySummary": "MC-66759167 Motor Carrier of Property (Except Household Goods): active since 2026-10-11",
+    "insuranceSummary": "BIPD primary USD 750,000 (GEiCO Marine Insurance Company), eff. 2026-10-02",
+    "revocations": [],
+    "boc3OnFile": true,
+    "processAgent": {
+      "docketNumber": "MC-66759167",
+      "name": "PROCESS AGENT SERVICE COMPANY, INC.",
+      "street": "945 S MARION RD",
+      "city": "SIOUX FALLS",
+      "state": "SD",
+      "postalCode": "57105",
+      "country": "US"
+    },
+    "safety": {
+      "measurementPeriodMonths": 24,
+      "snapshotUpdatedAt": "2026-10-13T07:02:36.000Z",
+      "inspections": null,
+      "crashes": null,
+      "basics": null,
+      "sourceDatasets": [
+        "4wxs-vbns"
+      ]
+    },
+    "fmcsaUrl": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=4845581",
+    "sourceDataset": "az4n-8mr2",
+    "sourceDatasetName": "FMCSA Company Census File",
+    "sourceUpdatedAt": "2026-11-05T11:19:13.000Z",
+    "scrapedAt": "2026-11-06T02:40:41.439Z",
+    "riskScore": null,
+    "riskLevel": null,
+    "riskFactors": null,
+    "insuranceRenewal": null,
+    "whyNow": null,
+    "trend": null,
+    "insight": null,
+    "companyWebsite": null
+  },
+  {
+    "schemaVersion": 2,
+    "dotNumber": "8600194",
+    "mcNumbers": [
+      "MC-72817625"
+    ],
+    "dockets": [
+      {
+        "docketNumber": "MC-72817625",
+        "prefix": "MC",
+        "number": "72817625",
+        "status": "active"
+      }
+    ],
+    "legalName": "L&B CARGO LLC",
+    "dbaName": null,
+    "companyName": "L&B Cargo",
+    "entityType": "carrier",
+    "entityTypes": [
+      "carrier"
+    ],
+    "businessType": null,
+    "usdotStatus": "active",
+    "authorityStatus": "active",
+    "carrierOperation": "interstate",
+    "operationClassification": [
+      "PRIVATE PROPERTY",
+      "AUTHORIZED FOR HIRE"
+    ],
+    "hazmat": false,
+    "powerUnits": 5,
+    "trucks": 5,
+    "buses": 0,
+    "drivers": 1,
+    "cdlDrivers": 1,
+    "interstateDrivers": 1,
+    "intrastateDrivers": 0,
+    "equipment": {
+      "owned": {
+        "trucks": null,
+        "tractors": 5,
+        "trailers": 1
+      },
+      "termLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      },
+      "tripLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      }
+    },
+    "mcs150Mileage": 0,
+    "mcs150MileageYear": null,
+    "physicalAddress": {
+      "street": "3049 14TH AVE NE",
+      "city": "NAPLES",
+      "state": "FL",
+      "postalCode": "34120",
+      "zip5": "34120",
+      "country": "US",
+      "countyFips": "12021",
+      "oneLine": "3049 14TH AVE NE, NAPLES, FL 34120, US"
+    },
+    "mailingAddress": {
+      "street": "3049 14TH AVE NE",
+      "city": "NAPLES",
+      "state": "FL",
+      "postalCode": "34120",
+      "zip5": "34120",
+      "country": "US",
+      "countyFips": "12021",
+      "oneLine": "3049 14TH AVE NE, NAPLES, FL 34120, US"
+    },
+    "phone": "+12395270780",
+    "mobilePhone": null,
+    "fax": null,
+    "email": "lbcargo33@gmail.com",
+    "emailAsFiled": null,
+    "phoneSharedCount": 1,
+    "emailSharedCount": 1,
+    "phoneIsShared": false,
+    "emailIsShared": false,
+    "companyOfficers": null,
+    "cargoCarried": [
+      "General Freight"
+    ],
+    "cargoCarriedText": "General Freight",
+    "safetyRating": "unrated",
+    "safetyRatingDate": null,
+    "safetyReviewDate": null,
+    "mcs150Date": null,
+    "addDate": "2026-09-03",
+    "ageInDays": 64,
+    "isNewEntrant": true,
+    "recordableCrashRate": null,
+    "priorRevokedDotNumber": null,
+    "dunsNumber": null,
+    "dataQualityFlags": [
+      "fleetCountsInconsistent"
+    ],
+    "outOfService": false,
+    "outOfServiceDate": null,
+    "outOfServiceReason": null,
+    "authority": {
+      "source": "motus",
+      "sourceDataset": "inys-ebih",
+      "sourceUpdatedAt": "2026-11-05T10:08:59.000Z",
+      "authorities": [
+        {
+          "docketNumber": "MC-72817625",
+          "authorityType": "Motor Carrier of Property (Except Household Goods)",
+          "status": "active",
+          "statusDate": "2026-10-09",
+          "statusReason": "Granted",
+          "grantedDate": "2026-10-09"
+        }
+      ],
+      "hasActiveCarrierAuthority": true,
+      "hasActiveBrokerAuthority": false,
+      "hasPendingAuthority": false,
+      "bipdRequiredUsd": 750000,
+      "bipdOnFileUsd": 750000,
+      "cargoInsuranceRequired": false,
+      "cargoInsuranceOnFile": false,
+      "bondRequired": false,
+      "bondOnFile": false,
+      "grantedDate": "2026-10-09",
+      "lastStatusChangeDate": "2026-10-09",
+      "lastStatusChangeReason": "Granted"
+    },
+    "insurancePolicies": [
+      {
+        "docketNumber": "MC-72817625",
+        "insuranceType": "bipd",
+        "layer": "primary",
+        "formCode": "BMC-91X",
+        "insurer": "Brooklyn Specialty Insurance Co. RRG, Inc.",
+        "policyNumber": "HHP-110-102026",
+        "coverageUsd": 750000,
+        "underlyingLimitUsd": 0,
+        "effectiveDate": "2026-10-09",
+        "postedDate": "2026-10-09",
+        "cancelEffectiveDate": null,
+        "source": "motus"
+      }
+    ],
+    "authoritySummary": "MC-72817625 Motor Carrier of Property (Except Household Goods): active since 2026-10-09",
+    "insuranceSummary": "BIPD primary USD 750,000 (Brooklyn Specialty Insurance Co. RRG, Inc.), eff. 2026-10-09",
+    "revocations": [],
+    "boc3OnFile": true,
+    "processAgent": {
+      "docketNumber": "MC-72817625",
+      "name": "ALLAMERICAN AGENTS OF PROCESS",
+      "street": "945 S MARION RD",
+      "city": "SIOUX FALLS",
+      "state": "SD",
+      "postalCode": "57106",
+      "country": "US"
+    },
+    "safety": {
+      "measurementPeriodMonths": 24,
+      "snapshotUpdatedAt": "2026-10-13T07:02:56.000Z",
+      "inspections": {
+        "total": 0,
+        "vehicle": 0,
+        "vehicleOutOfService": 0,
+        "vehicleOutOfServiceRate": null,
+        "driver": 0,
+        "driverOutOfService": 0,
+        "driverOutOfServiceRate": null
+      },
+      "crashes": {
+        "total": 0,
+        "fatal": 0,
+        "injury": 0,
+        "towaway": 0
+      },
+      "basics": {
+        "unsafeDriving": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        },
+        "hoursOfService": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        },
+        "driverFitness": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        },
+        "controlledSubstancesAlcohol": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        },
+        "vehicleMaintenance": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        }
+      },
+      "sourceDatasets": [
+        "4y6x-dmck",
+        "4wxs-vbns"
+      ]
+    },
+    "fmcsaUrl": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=8600194",
+    "sourceDataset": "az4n-8mr2",
+    "sourceDatasetName": "FMCSA Company Census File",
+    "sourceUpdatedAt": "2026-11-05T11:19:13.000Z",
+    "scrapedAt": "2026-11-06T02:40:41.439Z",
+    "riskScore": null,
+    "riskLevel": null,
+    "riskFactors": null,
+    "insuranceRenewal": null,
+    "whyNow": null,
+    "trend": null,
+    "insight": null,
+    "companyWebsite": null
+  }
+]

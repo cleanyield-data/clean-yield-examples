@@ -1,0 +1,435 @@
+[
+  {
+    "schemaVersion": 2,
+    "dotNumber": "8922183",
+    "mcNumbers": [],
+    "dockets": [],
+    "legalName": "PROCEDURA CORP.",
+    "dbaName": null,
+    "companyName": "Procedura",
+    "entityType": "carrier",
+    "entityTypes": [
+      "carrier"
+    ],
+    "businessType": null,
+    "usdotStatus": "active",
+    "authorityStatus": "none",
+    "carrierOperation": "interstate",
+    "operationClassification": [
+      "PRIVATE PROPERTY"
+    ],
+    "hazmat": false,
+    "powerUnits": 0,
+    "trucks": 0,
+    "buses": 0,
+    "drivers": 4,
+    "cdlDrivers": 2,
+    "interstateDrivers": 2,
+    "intrastateDrivers": 2,
+    "equipment": {
+      "owned": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": 1
+      },
+      "termLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      },
+      "tripLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      }
+    },
+    "mcs150Mileage": 0,
+    "mcs150MileageYear": null,
+    "physicalAddress": {
+      "street": "1046 S WASHINGTON ST",
+      "city": "AFTON",
+      "state": "WY",
+      "postalCode": "83110-9406",
+      "zip5": "83110",
+      "country": "US",
+      "countyFips": "56023",
+      "oneLine": "1046 S WASHINGTON ST, AFTON, WY 83110-9406, US"
+    },
+    "mailingAddress": {
+      "street": "1046 S WASHINGTON ST",
+      "city": "AFTON",
+      "state": "WY",
+      "postalCode": "83110-9406",
+      "zip5": "83110",
+      "country": "US",
+      "countyFips": "56023",
+      "oneLine": "1046 S WASHINGTON ST, AFTON, WY 83110-9406, US"
+    },
+    "phone": "+13072497794",
+    "mobilePhone": null,
+    "fax": null,
+    "email": "kevin@procedura.org",
+    "emailAsFiled": null,
+    "phoneSharedCount": 1,
+    "emailSharedCount": 1,
+    "phoneIsShared": false,
+    "emailIsShared": false,
+    "companyOfficers": null,
+    "cargoCarried": [
+      "Machinery, Large Objects"
+    ],
+    "cargoCarriedText": "Machinery, Large Objects",
+    "safetyRating": "unrated",
+    "safetyRatingDate": null,
+    "safetyReviewDate": null,
+    "mcs150Date": null,
+    "addDate": "2026-11-02",
+    "ageInDays": 3,
+    "isNewEntrant": true,
+    "recordableCrashRate": null,
+    "priorRevokedDotNumber": null,
+    "dunsNumber": "144858561",
+    "dataQualityFlags": [],
+    "outOfService": false,
+    "outOfServiceDate": null,
+    "outOfServiceReason": null,
+    "authority": null,
+    "insurancePolicies": [],
+    "authoritySummary": null,
+    "insuranceSummary": null,
+    "revocations": null,
+    "boc3OnFile": null,
+    "processAgent": null,
+    "safety": {
+      "measurementPeriodMonths": 24,
+      "snapshotUpdatedAt": "2026-10-13T07:02:36.000Z",
+      "inspections": null,
+      "crashes": null,
+      "basics": null,
+      "sourceDatasets": [
+        "4wxs-vbns"
+      ]
+    },
+    "fmcsaUrl": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=8922183",
+    "sourceDataset": "az4n-8mr2",
+    "sourceDatasetName": "FMCSA Company Census File",
+    "sourceUpdatedAt": "2026-11-04T11:19:27.000Z",
+    "scrapedAt": "2026-11-05T01:56:20.164Z",
+    "riskScore": null,
+    "riskLevel": null,
+    "riskFactors": null,
+    "insuranceRenewal": null,
+    "whyNow": null,
+    "trend": null,
+    "insight": null,
+    "companyWebsite": null,
+    "changeType": "new",
+    "changes": []
+  },
+  {
+    "schemaVersion": 2,
+    "dotNumber": "7886005",
+    "mcNumbers": [
+      "MC-86984262"
+    ],
+    "dockets": [
+      {
+        "docketNumber": "MC-86984262",
+        "prefix": "MC",
+        "number": "86984262",
+        "status": "pending"
+      }
+    ],
+    "legalName": "LAKEHOUSE TRANSPORT LLC",
+    "dbaName": null,
+    "companyName": "Lakehouse Transport",
+    "entityType": "carrier",
+    "entityTypes": [
+      "carrier"
+    ],
+    "businessType": null,
+    "usdotStatus": "active",
+    "authorityStatus": "pending",
+    "carrierOperation": "interstate",
+    "operationClassification": [
+      "AUTHORIZED FOR HIRE"
+    ],
+    "hazmat": false,
+    "powerUnits": 1,
+    "trucks": 1,
+    "buses": 0,
+    "drivers": 1,
+    "cdlDrivers": 0,
+    "interstateDrivers": 1,
+    "intrastateDrivers": 0,
+    "equipment": {
+      "owned": {
+        "trucks": 1,
+        "tractors": null,
+        "trailers": 1
+      },
+      "termLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      },
+      "tripLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      }
+    },
+    "mcs150Mileage": 0,
+    "mcs150MileageYear": null,
+    "physicalAddress": {
+      "street": "4408 CLEVELAND AVE",
+      "city": "CHEYENNE",
+      "state": "WY",
+      "postalCode": "82001-2008",
+      "zip5": "82001",
+      "country": "US",
+      "countyFips": "56021",
+      "oneLine": "4408 CLEVELAND AVE, CHEYENNE, WY 82001-2008, US"
+    },
+    "mailingAddress": {
+      "street": "4408 CLEVELAND AVE",
+      "city": "CHEYENNE",
+      "state": "WY",
+      "postalCode": "82001-2008",
+      "zip5": "82001",
+      "country": "US",
+      "countyFips": "56021",
+      "oneLine": "4408 CLEVELAND AVE, CHEYENNE, WY 82001-2008, US"
+    },
+    "phone": "+13076310081",
+    "mobilePhone": null,
+    "fax": null,
+    "email": "lakehousetransport@gmail.com",
+    "emailAsFiled": null,
+    "phoneSharedCount": 1,
+    "emailSharedCount": 1,
+    "phoneIsShared": false,
+    "emailIsShared": false,
+    "companyOfficers": null,
+    "cargoCarried": [
+      "General Freight"
+    ],
+    "cargoCarriedText": "General Freight",
+    "safetyRating": "unrated",
+    "safetyRatingDate": null,
+    "safetyReviewDate": null,
+    "mcs150Date": null,
+    "addDate": "2026-11-02",
+    "ageInDays": 3,
+    "isNewEntrant": true,
+    "recordableCrashRate": null,
+    "priorRevokedDotNumber": null,
+    "dunsNumber": null,
+    "dataQualityFlags": [],
+    "outOfService": false,
+    "outOfServiceDate": null,
+    "outOfServiceReason": null,
+    "authority": {
+      "source": "motus",
+      "sourceDataset": "inys-ebih",
+      "sourceUpdatedAt": "2026-11-04T10:09:38.000Z",
+      "authorities": [
+        {
+          "docketNumber": "MC-86984262",
+          "authorityType": "Motor Carrier of Property (Except Household Goods)",
+          "status": "pending",
+          "statusDate": "2026-11-03",
+          "statusReason": "Published to FMCSA Register",
+          "grantedDate": null
+        }
+      ],
+      "hasActiveCarrierAuthority": false,
+      "hasActiveBrokerAuthority": false,
+      "hasPendingAuthority": true,
+      "bipdRequiredUsd": 750000,
+      "bipdOnFileUsd": 0,
+      "cargoInsuranceRequired": false,
+      "cargoInsuranceOnFile": false,
+      "bondRequired": false,
+      "bondOnFile": false,
+      "grantedDate": null,
+      "lastStatusChangeDate": "2026-11-03",
+      "lastStatusChangeReason": "Published to FMCSA Register"
+    },
+    "insurancePolicies": [],
+    "authoritySummary": "MC-86984262 Motor Carrier of Property (Except Household Goods): pending (2026-11-03)",
+    "insuranceSummary": null,
+    "revocations": [],
+    "boc3OnFile": true,
+    "processAgent": {
+      "docketNumber": "MC-86984262",
+      "name": "DOTMC LLC",
+      "street": "3348 SPIRAL LN",
+      "city": "EFFINGHAM",
+      "state": "SC",
+      "postalCode": "29541-4832",
+      "country": "US"
+    },
+    "safety": {
+      "measurementPeriodMonths": 24,
+      "snapshotUpdatedAt": "2026-10-13T07:02:36.000Z",
+      "inspections": null,
+      "crashes": null,
+      "basics": null,
+      "sourceDatasets": [
+        "4wxs-vbns"
+      ]
+    },
+    "fmcsaUrl": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=7886005",
+    "sourceDataset": "az4n-8mr2",
+    "sourceDatasetName": "FMCSA Company Census File",
+    "sourceUpdatedAt": "2026-11-04T11:19:27.000Z",
+    "scrapedAt": "2026-11-05T01:56:20.164Z",
+    "riskScore": null,
+    "riskLevel": null,
+    "riskFactors": null,
+    "insuranceRenewal": null,
+    "whyNow": null,
+    "trend": null,
+    "insight": null,
+    "companyWebsite": null,
+    "changeType": "new",
+    "changes": []
+  },
+  {
+    "schemaVersion": 2,
+    "dotNumber": "6984121",
+    "mcNumbers": [],
+    "dockets": [],
+    "legalName": "BULLDOG INC",
+    "dbaName": null,
+    "companyName": "Bulldog",
+    "entityType": "carrier",
+    "entityTypes": [
+      "carrier"
+    ],
+    "businessType": null,
+    "usdotStatus": "active",
+    "authorityStatus": "none",
+    "carrierOperation": "interstate",
+    "operationClassification": [
+      "PRIVATE PROPERTY"
+    ],
+    "hazmat": false,
+    "powerUnits": 5,
+    "trucks": 5,
+    "buses": 0,
+    "drivers": 8,
+    "cdlDrivers": 2,
+    "interstateDrivers": 4,
+    "intrastateDrivers": 4,
+    "equipment": {
+      "owned": {
+        "trucks": 4,
+        "tractors": 1,
+        "trailers": 6
+      },
+      "termLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      },
+      "tripLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      }
+    },
+    "mcs150Mileage": 0,
+    "mcs150MileageYear": null,
+    "physicalAddress": {
+      "street": "3601 HANNUM RD",
+      "city": "GILLETTE",
+      "state": "WY",
+      "postalCode": "82716-1620",
+      "zip5": "82716",
+      "country": "US",
+      "countyFips": "56005",
+      "oneLine": "3601 HANNUM RD, GILLETTE, WY 82716-1620, US"
+    },
+    "mailingAddress": {
+      "street": "P.O. BOX 2623",
+      "city": "GILLETTE",
+      "state": "WY",
+      "postalCode": "82717",
+      "zip5": "82717",
+      "country": "US",
+      "countyFips": "56005",
+      "oneLine": "P.O. BOX 2623, GILLETTE, WY 82717, US"
+    },
+    "phone": "+13076600962",
+    "mobilePhone": "+13076600962",
+    "fax": null,
+    "email": "charleybredthauer@msn.com",
+    "emailAsFiled": null,
+    "phoneSharedCount": 2,
+    "emailSharedCount": 2,
+    "phoneIsShared": false,
+    "emailIsShared": false,
+    "companyOfficers": null,
+    "cargoCarried": [
+      "Building Materials",
+      "Fresh Produce",
+      "Livestock",
+      "Grain, Feed, Hay",
+      "Garbage/Refuse",
+      "Agricultural/Farm Supplies",
+      "Construction",
+      "Water Well"
+    ],
+    "cargoCarriedText": "Building Materials, Fresh Produce, Livestock, Grain, Feed, Hay, Garbage/Refuse, Agricultural/Farm Supplies, Construction, Water Well",
+    "safetyRating": "unrated",
+    "safetyRatingDate": null,
+    "safetyReviewDate": null,
+    "mcs150Date": "2026-11-03",
+    "addDate": "2026-11-02",
+    "ageInDays": 3,
+    "isNewEntrant": true,
+    "recordableCrashRate": null,
+    "priorRevokedDotNumber": null,
+    "dunsNumber": null,
+    "dataQualityFlags": [
+      "fleetCountsInconsistent"
+    ],
+    "outOfService": false,
+    "outOfServiceDate": null,
+    "outOfServiceReason": null,
+    "authority": null,
+    "insurancePolicies": [],
+    "authoritySummary": null,
+    "insuranceSummary": null,
+    "revocations": null,
+    "boc3OnFile": null,
+    "processAgent": null,
+    "safety": {
+      "measurementPeriodMonths": 24,
+      "snapshotUpdatedAt": "2026-10-13T07:02:36.000Z",
+      "inspections": null,
+      "crashes": null,
+      "basics": null,
+      "sourceDatasets": [
+        "4wxs-vbns"
+      ]
+    },
+    "fmcsaUrl": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=6984121",
+    "sourceDataset": "az4n-8mr2",
+    "sourceDatasetName": "FMCSA Company Census File",
+    "sourceUpdatedAt": "2026-11-04T11:19:27.000Z",
+    "scrapedAt": "2026-11-05T01:56:20.164Z",
+    "riskScore": null,
+    "riskLevel": null,
+    "riskFactors": null,
+    "insuranceRenewal": null,
+    "whyNow": null,
+    "trend": null,
+    "insight": null,
+    "companyWebsite": null,
+    "changeType": "new",
+    "changes": []
+  }
+]

@@ -1,0 +1,91 @@
+[
+  {
+    "domain": "bluebottlecoffee.com",
+    "companyName": "Blue Bottle Coffee",
+    "primaryEmail": "support@bluebottlecoffee.com",
+    "primaryPhone": "+15106613510",
+    "hiring": {
+      "isHiring": true,
+      "careersUrl": "https://bluebottlecoffee.com/us/eng/careers",
+      "atsProvider": "lever",
+      "openRolesCount": 72,
+      "evidence": "72 open role(s) on the public lever job board"
+    },
+    "pro": {
+      "buyingIntentScore": 50,
+      "buyingSignals": [
+        {
+          "type": "hiring_fast",
+          "detail": "72 open roles on lever",
+          "weight": 35
+        },
+        {
+          "type": "sales_stack",
+          "detail": "Invests in sales/marketing tools: Zendesk",
+          "weight": 5
+        },
+        {
+          "type": "contactable",
+          "detail": "1 email(s) and 1 phone(s) found",
+          "weight": 10
+        }
+      ],
+      "estimatedSize": {
+        "range": "201-1000",
+        "basis": "72 open roles"
+      },
+      "icpFitScore": 100,
+      "icpMatched": [
+        "is hiring",
+        "10+ open roles",
+        "has email or phone"
+      ],
+      "icpMissed": [],
+      "whyNow": "72 open roles on lever.",
+      "trend": null
+    },
+    "insight": null
+  },
+  {
+    "domain": "n26.com",
+    "companyName": "N26",
+    "primaryEmail": "presse@n26.com",
+    "primaryPhone": "+4930203080",
+    "hiring": {
+      "isHiring": true,
+      "careersUrl": "https://job-boards.greenhouse.io/n26",
+      "atsProvider": "greenhouse",
+      "openRolesCount": 36,
+      "evidence": "36 open role(s) on the public greenhouse job board"
+    },
+    "pro": {
+      "buyingIntentScore": 45,
+      "buyingSignals": [
+        {
+          "type": "hiring_fast",
+          "detail": "36 open roles on greenhouse",
+          "weight": 35
+        },
+        {
+          "type": "contactable",
+          "detail": "3 email(s) and 2 phone(s) found",
+          "weight": 10
+        }
+      ],
+      "estimatedSize": {
+        "range": "201-1000",
+        "basis": "36 open roles"
+      },
+      "icpFitScore": 100,
+      "icpMatched": [
+        "is hiring",
+        "10+ open roles",
+        "has email or phone"
+      ],
+      "icpMissed": [],
+      "whyNow": "36 open roles on greenhouse.",
+      "trend": null
+    },
+    "insight": null
+  }
+]

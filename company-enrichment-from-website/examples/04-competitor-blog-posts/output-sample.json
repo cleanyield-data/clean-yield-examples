@@ -1,0 +1,263 @@
+[
+  {
+    "domain": "posthog.com",
+    "url": "https://posthog.com/",
+    "companyName": "PostHog",
+    "description": "PostHog automatically diagnoses problems, fixes bugs, and generates pull requests – all without you having to prompt it.",
+    "language": "en",
+    "country": "US",
+    "emails": [],
+    "phones": [],
+    "primaryEmail": null,
+    "primaryPhone": null,
+    "contactPageUrl": null,
+    "socialProfiles": {
+      "linkedin": null,
+      "x": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "github": null,
+      "pinterest": null,
+      "threads": null,
+      "telegram": null,
+      "discord": null,
+      "reddit": null
+    },
+    "address": {
+      "streetAddress": "2261 Market Street #4008",
+      "locality": "San Francisco",
+      "region": "CA",
+      "postalCode": "94114",
+      "country": "US",
+      "formatted": "2261 Market Street #4008, San Francisco, CA 94114, US"
+    },
+    "technologies": [],
+    "hiring": null,
+    "latestPosts": [
+      {
+        "title": "Why we're moving our warehouse product off DuckDB",
+        "url": "https://posthog.com/blog/moving-off-duckdb",
+        "publishedAt": "2026-11-02T00:00:00.000Z"
+      },
+      {
+        "title": "What people are prompting in PostHog AI",
+        "url": "https://posthog.com/blog/what-people-are-prompting",
+        "publishedAt": "2026-10-30T00:00:00.000Z"
+      },
+      {
+        "title": "Do you even benchmark? How we evaluate agents at scale (with real examples)",
+        "url": "https://posthog.com/blog/how-to-benchmark-ai-agents",
+        "publishedAt": "2026-10-28T00:00:00.000Z"
+      }
+    ],
+    "personalEmailsOmitted": 0,
+    "sourcesChecked": [
+      {
+        "url": "https://posthog.com/robots.txt",
+        "type": "robots",
+        "status": 200,
+        "ok": true,
+        "ms": 205
+      },
+      {
+        "url": "https://posthog.com/",
+        "type": "home",
+        "status": 200,
+        "ok": true,
+        "ms": 390
+      },
+      {
+        "url": "https://posthog.com/rss.xml",
+        "type": "feed",
+        "status": 200,
+        "ok": true,
+        "ms": 105
+      }
+    ],
+    "pagesFetched": 2,
+    "durationMs": 642,
+    "scrapedAt": "2026-11-06T02:19:56.757Z",
+    "outputVersion": 1,
+    "schemaVersion": "1.1.0",
+    "changeType": null,
+    "changes": [],
+    "pro": null,
+    "insight": null
+  },
+  {
+    "domain": "plausible.io",
+    "url": "https://plausible.io/",
+    "companyName": "Plausible Analytics",
+    "description": "Plausible is a lightweight and open-source Google Analytics alternative. Your website data is 100% yours and the privacy of your visitors is respected.",
+    "language": "en",
+    "country": "EE",
+    "emails": [],
+    "phones": [],
+    "primaryEmail": null,
+    "primaryPhone": null,
+    "contactPageUrl": null,
+    "socialProfiles": {
+      "linkedin": null,
+      "x": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "github": null,
+      "pinterest": null,
+      "threads": null,
+      "telegram": null,
+      "discord": null,
+      "reddit": null
+    },
+    "address": {
+      "streetAddress": "Västriku tn 2",
+      "locality": "Tartu",
+      "region": null,
+      "postalCode": "50403",
+      "country": "EE",
+      "formatted": "Västriku tn 2, Tartu, 50403, EE"
+    },
+    "technologies": [],
+    "hiring": null,
+    "latestPosts": [
+      {
+        "title": "Google Analytics pricing: Free GA4 and paid GA360 explained",
+        "url": "https://plausible.io/blog/google-analytics-pricing",
+        "publishedAt": "2026-10-22T10:00:00.000Z"
+      },
+      {
+        "title": "Shopify, Squarespace and Webflow analytics: What you can track and what’s missing",
+        "url": "https://plausible.io/blog/cms-built-in-analytics",
+        "publishedAt": "2026-10-02T07:00:00.000Z"
+      },
+      {
+        "title": "What is direct traffic? What does it include, and why is its share the highest?",
+        "url": "https://plausible.io/blog/direct-traffic",
+        "publishedAt": "2026-09-16T08:00:00.000Z"
+      }
+    ],
+    "personalEmailsOmitted": 0,
+    "sourcesChecked": [
+      {
+        "url": "https://plausible.io/robots.txt",
+        "type": "robots",
+        "status": 200,
+        "ok": true,
+        "ms": 204
+      },
+      {
+        "url": "https://plausible.io/",
+        "type": "home",
+        "status": 200,
+        "ok": true,
+        "ms": 209
+      },
+      {
+        "url": "https://plausible.io/blog/feed.xml",
+        "type": "feed",
+        "status": 200,
+        "ok": true,
+        "ms": 405
+      }
+    ],
+    "pagesFetched": 2,
+    "durationMs": 655,
+    "scrapedAt": "2026-11-06T02:19:56.768Z",
+    "outputVersion": 1,
+    "schemaVersion": "1.1.0",
+    "changeType": null,
+    "changes": [],
+    "pro": null,
+    "insight": null
+  },
+  {
+    "domain": "sentry.io",
+    "url": "https://sentry.io/welcome/",
+    "companyName": "Sentry",
+    "description": "Application performance monitoring for developers & software teams to see errors clearer, solve issues faster & continue learning continuously. Get started at sentry.io.",
+    "language": "en",
+    "country": "US",
+    "emails": [],
+    "phones": [],
+    "primaryEmail": null,
+    "primaryPhone": null,
+    "contactPageUrl": null,
+    "socialProfiles": {
+      "linkedin": null,
+      "x": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "github": null,
+      "pinterest": null,
+      "threads": null,
+      "telegram": null,
+      "discord": null,
+      "reddit": null
+    },
+    "address": {
+      "streetAddress": "45 Fremont St",
+      "locality": "San Francisco",
+      "region": "CA",
+      "postalCode": "94105",
+      "country": "US",
+      "formatted": "45 Fremont St, San Francisco, CA 94105, US"
+    },
+    "technologies": [],
+    "hiring": null,
+    "latestPosts": [
+      {
+        "title": "Finding performance wins in our own traces with a coding agent",
+        "url": "https://blog.sentry.io/performance-wins-traces-coding-agent/",
+        "publishedAt": "2026-11-03T09:00:00.000Z"
+      },
+      {
+        "title": "Android profiling now uses Perfetto via ProfilingManager",
+        "url": "https://blog.sentry.io/android-profilingmanager-perfetto/",
+        "publishedAt": "2026-11-02T09:00:00.000Z"
+      },
+      {
+        "title": "Measuring soft navigation web vitals",
+        "url": "https://blog.sentry.io/measuring-soft-navigation-web-vitals/",
+        "publishedAt": "2026-10-29T00:00:00.000Z"
+      }
+    ],
+    "personalEmailsOmitted": 0,
+    "sourcesChecked": [
+      {
+        "url": "https://sentry.io/robots.txt",
+        "type": "robots",
+        "status": 200,
+        "ok": true,
+        "ms": 84
+      },
+      {
+        "url": "https://sentry.io/",
+        "type": "home",
+        "status": 200,
+        "ok": true,
+        "ms": 264
+      },
+      {
+        "url": "https://blog.sentry.io/",
+        "type": "blog",
+        "status": 200,
+        "ok": true,
+        "ms": 420
+      }
+    ],
+    "pagesFetched": 2,
+    "durationMs": 802,
+    "scrapedAt": "2026-11-06T02:19:56.918Z",
+    "outputVersion": 1,
+    "schemaVersion": "1.1.0",
+    "changeType": null,
+    "changes": [],
+    "pro": null,
+    "insight": null
+  }
+]

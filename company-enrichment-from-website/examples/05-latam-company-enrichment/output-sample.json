@@ -1,0 +1,410 @@
+[
+  {
+    "domain": "totvs.com",
+    "url": "https://www.totvs.com/",
+    "companyName": "TOTVS",
+    "description": "Conheça a TOTVS, a maior empresa de tecnologia do Brasil e tudo o que podemos oferecer para sua empresa crescer e se tornar referência em seu segmento.",
+    "language": "pt",
+    "country": "BR",
+    "emails": [
+      {
+        "email": "sp.cloud.csirt@totvs.com.br",
+        "type": "role",
+        "isCompanyDomain": true,
+        "foundOn": "https://www.totvs.com/"
+      }
+    ],
+    "phones": [
+      {
+        "phone": "+558007098100",
+        "national": "0800 709 8100",
+        "country": "BR",
+        "source": "tel-link",
+        "isWhatsApp": false,
+        "foundOn": "https://www.totvs.com/"
+      }
+    ],
+    "primaryEmail": "sp.cloud.csirt@totvs.com.br",
+    "primaryPhone": "+558007098100",
+    "contactPageUrl": "https://www.totvs.com/contato/",
+    "socialProfiles": {
+      "linkedin": "https://www.linkedin.com/company/totvs",
+      "x": "https://x.com/totvs",
+      "facebook": "https://www.facebook.com/totvs",
+      "instagram": "https://www.instagram.com/totvs",
+      "youtube": "https://www.youtube.com/totvs",
+      "tiktok": null,
+      "github": null,
+      "pinterest": null,
+      "threads": null,
+      "telegram": null,
+      "discord": null,
+      "reddit": null
+    },
+    "address": null,
+    "technologies": [
+      {
+        "name": "WordPress",
+        "category": "cms"
+      },
+      {
+        "name": "HubSpot",
+        "category": "crm-marketing"
+      },
+      {
+        "name": "RD Station",
+        "category": "crm-marketing"
+      },
+      {
+        "name": "Google Tag Manager",
+        "category": "analytics"
+      },
+      {
+        "name": "Microsoft Clarity",
+        "category": "analytics"
+      },
+      {
+        "name": "Meta Pixel",
+        "category": "advertising"
+      },
+      {
+        "name": "jQuery",
+        "category": "framework"
+      },
+      {
+        "name": "Cloudflare",
+        "category": "hosting-cdn"
+      }
+    ],
+    "hiring": {
+      "isHiring": true,
+      "careersUrl": "https://www.totvs.com/trabalhe-conosco/",
+      "atsProvider": null,
+      "openRolesCount": null,
+      "evidence": "Careers page found with no \"no openings\" notice (roles load dynamically)"
+    },
+    "latestPosts": [],
+    "personalEmailsOmitted": 2,
+    "sourcesChecked": [
+      {
+        "url": "https://totvs.com/robots.txt",
+        "type": "robots",
+        "status": 200,
+        "ok": true,
+        "ms": 412
+      },
+      {
+        "url": "https://totvs.com/",
+        "type": "home",
+        "status": 200,
+        "ok": true,
+        "ms": 458
+      },
+      {
+        "url": "https://www.totvs.com/blog/",
+        "type": "blog",
+        "status": 200,
+        "ok": true,
+        "ms": 99
+      },
+      {
+        "url": "https://www.totvs.com/sitemap_index.xml",
+        "type": "sitemap",
+        "status": 200,
+        "ok": true,
+        "ms": 190
+      },
+      {
+        "url": "https://www.totvs.com/sobre/",
+        "type": "about",
+        "status": 200,
+        "ok": true,
+        "ms": 210
+      },
+      {
+        "url": "https://www.totvs.com/juridico/",
+        "type": "legal",
+        "status": 200,
+        "ok": true,
+        "ms": 230
+      },
+      {
+        "url": "https://www.totvs.com/trabalhe-conosco/",
+        "type": "careers",
+        "status": 200,
+        "ok": true,
+        "ms": 270
+      },
+      {
+        "url": "https://www.totvs.com/blog/feed/",
+        "type": "feed",
+        "status": 410,
+        "ok": false,
+        "ms": 177,
+        "error": "HTTP 410"
+      },
+      {
+        "url": "https://www.totvs.com/contato",
+        "type": "contact",
+        "status": 200,
+        "ok": true,
+        "ms": 371
+      }
+    ],
+    "pagesFetched": 8,
+    "durationMs": 1359,
+    "scrapedAt": "2026-11-06T02:19:59.015Z",
+    "outputVersion": 1,
+    "schemaVersion": "1.1.0",
+    "changeType": null,
+    "changes": [],
+    "pro": null,
+    "insight": null
+  },
+  {
+    "domain": "cafetortoni.com.ar",
+    "url": "https://cafetortoni.com.ar/",
+    "companyName": "Gran Café Tortoni",
+    "description": "Bienvenidos al sitio web del Gran Café Tortoni, fundado en 1858 es el Café más antiguo de Buenos Aires. ¡Te invitamos a conocernos!",
+    "language": "es",
+    "country": "AR",
+    "emails": [
+      {
+        "email": "tortoni@cafetortoni.com.ar",
+        "type": "generic",
+        "isCompanyDomain": true,
+        "foundOn": "https://cafetortoni.com.ar/"
+      }
+    ],
+    "phones": [
+      {
+        "phone": "+541143424328",
+        "national": "011 4342-4328",
+        "country": "AR",
+        "source": "tel-link",
+        "isWhatsApp": false,
+        "foundOn": "https://cafetortoni.com.ar/"
+      },
+      {
+        "phone": "+5491123926410",
+        "national": "011 15-2392-6410",
+        "country": "AR",
+        "source": "text",
+        "isWhatsApp": true,
+        "foundOn": "https://cafetortoni.com.ar/"
+      }
+    ],
+    "primaryEmail": "tortoni@cafetortoni.com.ar",
+    "primaryPhone": "+541143424328",
+    "contactPageUrl": null,
+    "socialProfiles": {
+      "linkedin": null,
+      "x": null,
+      "facebook": "https://www.facebook.com/grancafetortoni",
+      "instagram": "https://www.instagram.com/grancafetortoni",
+      "youtube": null,
+      "tiktok": null,
+      "github": null,
+      "pinterest": null,
+      "threads": null,
+      "telegram": null,
+      "discord": null,
+      "reddit": null
+    },
+    "address": null,
+    "technologies": [
+      {
+        "name": "Bootstrap",
+        "category": "framework"
+      },
+      {
+        "name": "jQuery",
+        "category": "framework"
+      },
+      {
+        "name": "PHP",
+        "category": "framework"
+      },
+      {
+        "name": "LiteSpeed",
+        "category": "hosting-cdn"
+      }
+    ],
+    "hiring": {
+      "isHiring": false,
+      "careersUrl": null,
+      "atsProvider": null,
+      "openRolesCount": null,
+      "evidence": "No careers page or job board found"
+    },
+    "latestPosts": [],
+    "personalEmailsOmitted": 0,
+    "sourcesChecked": [
+      {
+        "url": "https://cafetortoni.com.ar/robots.txt",
+        "type": "robots",
+        "status": 200,
+        "ok": true,
+        "ms": 525
+      },
+      {
+        "url": "https://cafetortoni.com.ar/",
+        "type": "home",
+        "status": 200,
+        "ok": true,
+        "ms": 598
+      },
+      {
+        "url": "https://cafetortoni.com.ar/sitemap.xml",
+        "type": "sitemap",
+        "status": 404,
+        "ok": false,
+        "ms": 147,
+        "error": "HTTP 404"
+      },
+      {
+        "url": "https://cafetortoni.com.ar/index.php/historia",
+        "type": "about",
+        "status": 200,
+        "ok": true,
+        "ms": 274
+      },
+      {
+        "url": "https://cafetortoni.com.ar/contacto",
+        "type": "contact",
+        "status": 404,
+        "ok": false,
+        "ms": 603,
+        "error": "HTTP 404"
+      }
+    ],
+    "pagesFetched": 4,
+    "durationMs": 1500,
+    "scrapedAt": "2026-11-06T02:19:59.152Z",
+    "outputVersion": 1,
+    "schemaVersion": "1.1.0",
+    "changeType": null,
+    "changes": [],
+    "pro": null,
+    "insight": null
+  },
+  {
+    "domain": "liverpool.com.mx",
+    "url": "https://www.liverpool.com.mx/tienda/home",
+    "companyName": "Liverpool México",
+    "description": "En Liverpool México encuentra todo lo que necesitas para tu hogar, moda, tecnología y vive la mejor experiencia de compra. Somos parte de tu vida.",
+    "language": "es",
+    "country": "MX",
+    "emails": [
+      {
+        "email": "atencion@liverpool.com.mx",
+        "type": "role",
+        "isCompanyDomain": true,
+        "foundOn": "https://www.liverpool.com.mx/tienda/home"
+      }
+    ],
+    "phones": [
+      {
+        "phone": "+525552629999",
+        "national": "55 5262 9999",
+        "country": "MX",
+        "source": "whatsapp-link",
+        "isWhatsApp": true,
+        "foundOn": "https://www.liverpool.com.mx/tienda/home"
+      }
+    ],
+    "primaryEmail": "atencion@liverpool.com.mx",
+    "primaryPhone": "+525552629999",
+    "contactPageUrl": null,
+    "socialProfiles": {
+      "linkedin": null,
+      "x": "https://x.com/liverpoolMexico",
+      "facebook": "https://www.facebook.com/liverpoolmexico",
+      "instagram": "https://www.instagram.com/liverpool_mexico",
+      "youtube": null,
+      "tiktok": null,
+      "github": null,
+      "pinterest": null,
+      "threads": null,
+      "telegram": null,
+      "discord": null,
+      "reddit": null
+    },
+    "address": null,
+    "technologies": [
+      {
+        "name": "Google Tag Manager",
+        "category": "analytics"
+      },
+      {
+        "name": "Next.js",
+        "category": "framework"
+      },
+      {
+        "name": "React",
+        "category": "framework"
+      },
+      {
+        "name": "Akamai",
+        "category": "hosting-cdn"
+      }
+    ],
+    "hiring": {
+      "isHiring": false,
+      "careersUrl": null,
+      "atsProvider": null,
+      "openRolesCount": null,
+      "evidence": "No careers page or job board found"
+    },
+    "latestPosts": [],
+    "personalEmailsOmitted": 0,
+    "sourcesChecked": [
+      {
+        "url": "https://liverpool.com.mx/",
+        "type": "home",
+        "status": 200,
+        "ok": true,
+        "ms": 2013
+      },
+      {
+        "url": "https://liverpool.com.mx/robots.txt",
+        "type": "robots",
+        "status": 200,
+        "ok": true,
+        "ms": 2217
+      },
+      {
+        "url": "https://www.liverpool.com.mx/ayuda/index.html",
+        "type": "privacy",
+        "status": 200,
+        "ok": true,
+        "ms": 226
+      },
+      {
+        "url": "https://www.liverpool.com.mx/sitemap.xml",
+        "type": "sitemap",
+        "status": 404,
+        "ok": false,
+        "ms": 306,
+        "error": "HTTP 404"
+      },
+      {
+        "url": "https://www.liverpool.com.mx/contacto",
+        "type": "contact",
+        "status": 404,
+        "ok": false,
+        "ms": 214,
+        "error": "HTTP 404"
+      }
+    ],
+    "pagesFetched": 4,
+    "durationMs": 2984,
+    "scrapedAt": "2026-11-06T02:20:00.641Z",
+    "outputVersion": 1,
+    "schemaVersion": "1.1.0",
+    "changeType": null,
+    "changes": [],
+    "pro": null,
+    "insight": null
+  }
+]

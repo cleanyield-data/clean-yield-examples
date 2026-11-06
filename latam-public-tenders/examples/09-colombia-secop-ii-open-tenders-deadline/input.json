@@ -1,0 +1,14 @@
+{
+  "countries": [
+    "CO"
+  ],
+  "sectors": [
+    "construction",
+    "consulting"
+  ],
+  "status": [
+    "open"
+  ],
+  "publishedWithinDays": 14,
+  "maxResults": 15
+}

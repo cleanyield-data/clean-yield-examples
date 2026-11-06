@@ -1,0 +1,14 @@
+{
+  "companies": [
+    "openai",
+    "ramp",
+    "notion",
+    "linear"
+  ],
+  "minSalary": 200000,
+  "salaryCurrency": "USD",
+  "keywords": [
+    "engineer"
+  ],
+  "includeDescription": "none"
+}

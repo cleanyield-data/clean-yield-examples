@@ -1,0 +1,16 @@
+{
+  "apps": [
+    "https://apps.apple.com/us/app/duolingo-language-lessons/id570060128",
+    "com.duolingo"
+  ],
+  "countries": [
+    "us"
+  ],
+  "languages": [
+    "en"
+  ],
+  "maxReviewsPerApp": 30,
+  "monitorMode": true,
+  "monitorStateName": "example-duolingo-monitor",
+  "notifyOnlyNegative": true
+}

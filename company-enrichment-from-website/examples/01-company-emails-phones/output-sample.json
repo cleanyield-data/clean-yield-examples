@@ -1,0 +1,318 @@
+[
+  {
+    "domain": "katzsdelicatessen.com",
+    "url": "https://katzsdelicatessen.com/",
+    "companyName": "Katz's Delicatessen",
+    "description": "Katz's Deli Shipping Menu",
+    "language": "en",
+    "country": "US",
+    "emails": [
+      {
+        "email": "press@katzsdelicatessen.com",
+        "type": "role",
+        "isCompanyDomain": true,
+        "foundOn": "https://katzsdelicatessen.com/"
+      },
+      {
+        "email": "sales@katzsdelicatessen.com",
+        "type": "role",
+        "isCompanyDomain": true,
+        "foundOn": "https://katzsdelicatessen.com/privacypolicy"
+      }
+    ],
+    "phones": [
+      {
+        "phone": "+12122542246",
+        "national": "(212) 254-2246",
+        "country": "US",
+        "source": "tel-link",
+        "isWhatsApp": false,
+        "foundOn": "https://katzsdelicatessen.com/"
+      },
+      {
+        "phone": "+18004468364",
+        "national": "(800) 446-8364",
+        "country": "US",
+        "source": "tel-link",
+        "isWhatsApp": false,
+        "foundOn": "https://katzsdelicatessen.com/"
+      }
+    ],
+    "primaryEmail": "press@katzsdelicatessen.com",
+    "primaryPhone": "+12122542246",
+    "contactPageUrl": "https://katzsdelicatessen.com/contact",
+    "socialProfiles": {
+      "linkedin": null,
+      "x": "https://x.com/KatzsDeli",
+      "facebook": "https://www.facebook.com/katzsdeli",
+      "instagram": "https://www.instagram.com/katzsdeli",
+      "youtube": null,
+      "tiktok": null,
+      "github": null,
+      "pinterest": null,
+      "threads": null,
+      "telegram": null,
+      "discord": null,
+      "reddit": null
+    },
+    "address": null,
+    "technologies": [],
+    "hiring": null,
+    "latestPosts": [],
+    "personalEmailsOmitted": 0,
+    "sourcesChecked": [
+      {
+        "url": "https://katzsdelicatessen.com/robots.txt",
+        "type": "robots",
+        "status": 200,
+        "ok": true,
+        "ms": 328
+      },
+      {
+        "url": "https://katzsdelicatessen.com/",
+        "type": "home",
+        "status": 200,
+        "ok": true,
+        "ms": 448
+      },
+      {
+        "url": "https://katzsdelicatessen.com/media/sitemap/sitemap.xml",
+        "type": "sitemap",
+        "status": 200,
+        "ok": true,
+        "ms": 38
+      },
+      {
+        "url": "https://katzsdelicatessen.com/our-story",
+        "type": "about",
+        "status": 200,
+        "ok": true,
+        "ms": 106
+      },
+      {
+        "url": "https://katzsdelicatessen.com/privacypolicy",
+        "type": "privacy",
+        "status": 200,
+        "ok": true,
+        "ms": 122
+      },
+      {
+        "url": "https://katzsdelicatessen.com/contact",
+        "type": "contact",
+        "status": 200,
+        "ok": true,
+        "ms": 536
+      }
+    ],
+    "pagesFetched": 5,
+    "durationMs": 1140,
+    "scrapedAt": "2026-11-06T02:19:51.270Z",
+    "outputVersion": 1,
+    "schemaVersion": "1.1.0",
+    "changeType": null,
+    "changes": [],
+    "pro": null,
+    "insight": null
+  },
+  {
+    "domain": "tartinebakery.com",
+    "url": "https://tartinebakery.com/",
+    "companyName": "Tartine Bakery",
+    "description": null,
+    "language": "en",
+    "country": "US",
+    "emails": [
+      {
+        "email": "info@tartinebakery.com",
+        "type": "generic",
+        "isCompanyDomain": true,
+        "foundOn": "https://tartinebakery.com/"
+      },
+      {
+        "email": "press@tartinebakery.com",
+        "type": "role",
+        "isCompanyDomain": true,
+        "foundOn": "https://tartinebakery.com/"
+      },
+      {
+        "email": "privacy@tartinebakery.com",
+        "type": "role",
+        "isCompanyDomain": true,
+        "foundOn": "https://tartinebakery.com/privacy-policy"
+      }
+    ],
+    "phones": [],
+    "primaryEmail": "info@tartinebakery.com",
+    "primaryPhone": null,
+    "contactPageUrl": null,
+    "socialProfiles": {
+      "linkedin": null,
+      "x": null,
+      "facebook": "https://www.facebook.com/tartinebakerysf",
+      "instagram": "https://www.instagram.com/tartinebakery",
+      "youtube": null,
+      "tiktok": null,
+      "github": null,
+      "pinterest": null,
+      "threads": null,
+      "telegram": null,
+      "discord": null,
+      "reddit": null
+    },
+    "address": null,
+    "technologies": [],
+    "hiring": null,
+    "latestPosts": [],
+    "personalEmailsOmitted": 0,
+    "sourcesChecked": [
+      {
+        "url": "https://tartinebakery.com/robots.txt",
+        "type": "robots",
+        "status": 200,
+        "ok": true,
+        "ms": 317
+      },
+      {
+        "url": "https://tartinebakery.com/",
+        "type": "home",
+        "status": 200,
+        "ok": true,
+        "ms": 332
+      },
+      {
+        "url": "https://tartinebakery.com/about",
+        "type": "about",
+        "status": 200,
+        "ok": true,
+        "ms": 62
+      },
+      {
+        "url": "https://tartinebakery.com/privacy-policy",
+        "type": "privacy",
+        "status": 200,
+        "ok": true,
+        "ms": 172
+      },
+      {
+        "url": "https://tartinebakery.com/terms-of-service",
+        "type": "terms",
+        "status": 200,
+        "ok": true,
+        "ms": 172
+      },
+      {
+        "url": "https://tartinebakery.com/sitemap.xml",
+        "type": "sitemap",
+        "status": 200,
+        "ok": true,
+        "ms": 302
+      },
+      {
+        "url": "https://tartinebakery.com/contact",
+        "type": "contact",
+        "status": 404,
+        "ok": false,
+        "ms": 453,
+        "error": "HTTP 404"
+      }
+    ],
+    "pagesFetched": 6,
+    "durationMs": 1162,
+    "scrapedAt": "2026-11-06T02:19:51.295Z",
+    "outputVersion": 1,
+    "schemaVersion": "1.1.0",
+    "changeType": null,
+    "changes": [],
+    "pro": null,
+    "insight": null
+  },
+  {
+    "domain": "russanddaughters.com",
+    "url": "https://russanddaughters.com/",
+    "companyName": "Russ & Daughters",
+    "description": "Russ & Daughters is a New York culinary and cultural icon, known for the highest quality appetizing foods: smoked fish, caviar, bagels, bialys, babka, and other traditional baked goods. The home of bagels and lox since 1914, Russ & Daughters has been continuously owned and operated by four generations of the Russ family. The original landmark shop on East Houston Street has been in the same spot for 108 years. Russ & Daughters continues to provide the tastes and traditions of a true New York…",
+    "language": "en",
+    "country": null,
+    "emails": [
+      {
+        "email": "info@russanddaughters.com",
+        "type": "generic",
+        "isCompanyDomain": true,
+        "foundOn": "https://russanddaughters.com/"
+      }
+    ],
+    "phones": [
+      {
+        "phone": "+12124754880",
+        "national": "(212) 475-4880",
+        "country": "US",
+        "source": "tel-link",
+        "isWhatsApp": false,
+        "foundOn": "https://russanddaughters.com/"
+      }
+    ],
+    "primaryEmail": "info@russanddaughters.com",
+    "primaryPhone": "+12124754880",
+    "contactPageUrl": "https://shop.russanddaughters.com/locations",
+    "socialProfiles": {
+      "linkedin": null,
+      "x": null,
+      "facebook": null,
+      "instagram": "https://www.instagram.com/russanddaughters",
+      "youtube": null,
+      "tiktok": "https://www.tiktok.com/@russanddaughters",
+      "github": null,
+      "pinterest": null,
+      "threads": null,
+      "telegram": null,
+      "discord": null,
+      "reddit": null
+    },
+    "address": null,
+    "technologies": [],
+    "hiring": null,
+    "latestPosts": [],
+    "personalEmailsOmitted": 1,
+    "sourcesChecked": [
+      {
+        "url": "https://russanddaughters.com/",
+        "type": "home",
+        "status": 200,
+        "ok": true,
+        "ms": 802
+      },
+      {
+        "url": "https://russanddaughters.com/robots.txt",
+        "type": "robots",
+        "status": 404,
+        "ok": false,
+        "ms": 836,
+        "error": "HTTP 404"
+      },
+      {
+        "url": "https://russanddaughters.com/sitemap.xml",
+        "type": "sitemap",
+        "status": 404,
+        "ok": false,
+        "ms": 323,
+        "error": "HTTP 404"
+      },
+      {
+        "url": "http://shop.russanddaughters.com/locations",
+        "type": "contact",
+        "status": 200,
+        "ok": true,
+        "ms": 611
+      }
+    ],
+    "pagesFetched": 3,
+    "durationMs": 1466,
+    "scrapedAt": "2026-11-06T02:19:51.600Z",
+    "outputVersion": 1,
+    "schemaVersion": "1.1.0",
+    "changeType": null,
+    "changes": [],
+    "pro": null,
+    "insight": null
+  }
+]

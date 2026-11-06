@@ -1,0 +1,7 @@
+{
+  "companies": [
+    "anthropic"
+  ],
+  "maxJobsPerCompany": 50,
+  "includeDescription": "text"
+}

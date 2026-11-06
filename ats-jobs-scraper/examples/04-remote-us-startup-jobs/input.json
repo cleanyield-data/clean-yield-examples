@@ -1,0 +1,19 @@
+{
+  "companies": [
+    "gitlab",
+    "discord",
+    "posthog",
+    "supabase",
+    "jumpcloud",
+    "elevenlabs"
+  ],
+  "workplaceTypes": [
+    "remote"
+  ],
+  "locations": [
+    "United States",
+    "remote"
+  ],
+  "postedWithinDays": 30,
+  "includeDescription": "none"
+}

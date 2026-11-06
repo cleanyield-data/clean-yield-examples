@@ -1,0 +1,10 @@
+{
+  "companies": [
+    "https://www.figma.com/careers/",
+    "Scale AI",
+    "Match Group",
+    "zzz-not-a-real-company"
+  ],
+  "maxJobsPerCompany": 3,
+  "includeDescription": "none"
+}

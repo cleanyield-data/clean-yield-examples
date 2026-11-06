@@ -1,0 +1,17 @@
+{
+  "apps": [
+    "com.ubercab",
+    "me.lyft.android",
+    "ee.mtakso.client",
+    "368677368",
+    "529379082"
+  ],
+  "countries": [
+    "us"
+  ],
+  "languages": [
+    "en"
+  ],
+  "maxReviewsPerApp": 400,
+  "generateReport": true
+}

@@ -1,0 +1,10 @@
+{
+  "countries": [
+    "BR"
+  ],
+  "closingFrom": "2026-11-05",
+  "closingTo": "2026-11-12",
+  "minAmountUsd": 50000,
+  "publishedWithinDays": 7,
+  "maxResults": 10
+}

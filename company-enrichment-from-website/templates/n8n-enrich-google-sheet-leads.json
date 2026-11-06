@@ -1,0 +1,85 @@
+{
+  "name": "Enrich company domains from Google Sheets (Company Enrichment from Website)",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "1",
+      "name": "Manual trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [200, 300]
+    },
+    {
+      "parameters": {
+        "documentId": { "__rl": true, "mode": "url", "value": "https://docs.google.com/spreadsheets/d/<YOUR_SHEET_ID>/edit" },
+        "sheetName": { "__rl": true, "mode": "name", "value": "Accounts" },
+        "options": {}
+      },
+      "id": "2",
+      "name": "Read domains",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4,
+      "position": [420, 300]
+    },
+    {
+      "parameters": {
+        "batchSize": 25,
+        "options": {}
+      },
+      "id": "3",
+      "name": "Batches of 25",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [640, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/cleanyield~company-enrichment-from-website/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>&timeout=280",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ domains: $input.all().map(i => i.json.domain), sections: ['contacts', 'social', 'technologies', 'hiring'] }) }}",
+        "options": { "timeout": 300000 }
+      },
+      "id": "4",
+      "name": "Enrich (sync)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [860, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "return $input.all().map(({ json: c }) => ({ json: {\n  domain: c.domain,\n  company: c.companyName,\n  country: c.country,\n  email: (c.emails[0] || {}).email || '',\n  phone: (c.phones[0] || {}).phone || '',\n  linkedin: c.socialProfiles.linkedin || '',\n  tech: c.technologies.filter(t => t.category !== 'hosting-cdn' && t.category !== 'framework').map(t => t.name).join(', '),\n  hiring: c.hiring ? c.hiring.isHiring : '',\n  openRoles: c.hiring ? c.hiring.openRolesCount : '',\n  ats: c.hiring ? c.hiring.atsProvider : ''\n} }));"
+      },
+      "id": "5",
+      "name": "Flatten",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1080, 300]
+    },
+    {
+      "parameters": {
+        "operation": "appendOrUpdate",
+        "documentId": { "__rl": true, "mode": "url", "value": "https://docs.google.com/spreadsheets/d/<YOUR_SHEET_ID>/edit" },
+        "sheetName": { "__rl": true, "mode": "name", "value": "Enriched" },
+        "columns": { "mappingMode": "autoMapInputData", "value": {}, "matchingColumns": ["domain"] },
+        "options": {}
+      },
+      "id": "6",
+      "name": "Write enriched rows",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4,
+      "position": [1300, 300]
+    }
+  ],
+  "connections": {
+    "Manual trigger": { "main": [[{ "node": "Read domains", "type": "main", "index": 0 }]] },
+    "Read domains": { "main": [[{ "node": "Batches of 25", "type": "main", "index": 0 }]] },
+    "Batches of 25": { "main": [[], [{ "node": "Enrich (sync)", "type": "main", "index": 0 }]] },
+    "Enrich (sync)": { "main": [[{ "node": "Flatten", "type": "main", "index": 0 }]] },
+    "Flatten": { "main": [[{ "node": "Write enriched rows", "type": "main", "index": 0 }]] },
+    "Write enriched rows": { "main": [[{ "node": "Batches of 25", "type": "main", "index": 0 }]] }
+  },
+  "settings": {},
+  "meta": { "templateCredsSetupCompleted": false }
+}

@@ -1,0 +1,12 @@
+{
+  "states": [
+    "FL"
+  ],
+  "entityTypes": [
+    "carrier"
+  ],
+  "authorityStatus": "active",
+  "minPowerUnits": 5,
+  "maxPowerUnits": 50,
+  "maxResults": 25
+}

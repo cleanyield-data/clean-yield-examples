@@ -1,0 +1,11 @@
+{
+  "companies": [
+    "stripe",
+    "ramp",
+    "notion",
+    "spotify",
+    "posthog"
+  ],
+  "postedAfter": "2026-10-25",
+  "includeDescription": "none"
+}

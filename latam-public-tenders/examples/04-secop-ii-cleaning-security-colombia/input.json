@@ -1,0 +1,11 @@
+{
+  "countries": [
+    "CO"
+  ],
+  "sectors": [
+    "cleaning",
+    "security"
+  ],
+  "publishedWithinDays": 10,
+  "maxResults": 10
+}

@@ -1,0 +1,119 @@
+{
+  "name": "Weekly app reviews (iOS + Android) → Google Sheets",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "weeks",
+              "triggerAtDay": [
+                1
+              ],
+              "triggerAtHour": 8
+            }
+          ]
+        }
+      },
+      "name": "Every Monday",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/cleanyield~app-store-google-play-reviews/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"apps\": [\n    \"https://apps.apple.com/us/app/YOUR-APP/id000000000\",\n    \"com.yourcompany.yourapp\"\n  ],\n  \"countries\": [\n    \"us\",\n    \"gb\"\n  ],\n  \"languages\": [\n    \"en\"\n  ],\n  \"reviewsSince\": \"7 days\",\n  \"maxReviewsPerApp\": 1000\n}",
+        "options": {
+          "timeout": 300000
+        }
+      },
+      "name": "Get last week's reviews",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        240,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "<YOUR_SPREADSHEET_ID>",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "Reviews",
+          "mode": "name"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "reviewId": "={{ $json.reviewId }}",
+            "store": "={{ $json.store }}",
+            "app": "={{ $json.appName }}",
+            "country": "={{ $json.country }}",
+            "language": "={{ $json.language }}",
+            "rating": "={{ $json.rating }}",
+            "title": "={{ $json.title }}",
+            "text": "={{ $json.text }}",
+            "date": "={{ $json.date }}",
+            "version": "={{ $json.appVersion }}",
+            "developerReply": "={{ $json.developerReply ? $json.developerReply.text : '' }}",
+            "url": "={{ $json.url }}"
+          },
+          "matchingColumns": [],
+          "schema": []
+        },
+        "options": {}
+      },
+      "name": "Append to Google Sheets",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        480,
+        0
+      ]
+    }
+  ],
+  "connections": {
+    "Every Monday": {
+      "main": [
+        [
+          {
+            "node": "Get last week's reviews",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get last week's reviews": {
+      "main": [
+        [
+          {
+            "node": "Append to Google Sheets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "meta": {
+    "templateCredsSetupCompleted": false
+  }
+}

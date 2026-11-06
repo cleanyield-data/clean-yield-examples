@@ -1,0 +1,72 @@
+{
+  "name": "Public tenders pipeline: new tenders → Google Sheets (deduplicated by tenderId)",
+  "nodes": [
+    {
+      "parameters": { "rule": { "interval": [{ "field": "days", "triggerAtHour": 6 }] } },
+      "name": "Every day 6:00",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/cleanyield~latam-public-tenders/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"countries\": [\"BR\"],\n  \"regions\": [\"SP\", \"MG\", \"PR\"],\n  \"sectors\": [\"medical\"],\n  \"status\": [\"open\"],\n  \"publishedWithinDays\": 7,\n  \"maxResults\": 500,\n  \"monitorMode\": true,\n  \"monitorStateName\": \"n8n-medical-br-south-east\"\n}",
+        "options": { "timeout": 290000 }
+      },
+      "name": "Get new tenders",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [240, 0]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            { "name": "tenderId", "value": "={{ $json.tenderId }}", "type": "string" },
+            { "name": "change", "value": "={{ $json.changeType }}", "type": "string" },
+            { "name": "country", "value": "={{ $json.country }}", "type": "string" },
+            { "name": "title", "value": "={{ $json.title }}", "type": "string" },
+            { "name": "buyer", "value": "={{ $json.buyer.name }}", "type": "string" },
+            { "name": "buyerTaxId", "value": "={{ $json.buyer.taxId }}", "type": "string" },
+            { "name": "region", "value": "={{ $json.buyer.region }}", "type": "string" },
+            { "name": "status", "value": "={{ $json.status }}", "type": "string" },
+            { "name": "procedure", "value": "={{ $json.procedureTypeOriginal }}", "type": "string" },
+            { "name": "amount", "value": "={{ $json.amount ? $json.amount.value : '' }}", "type": "string" },
+            { "name": "currency", "value": "={{ $json.amount ? $json.amount.currency : '' }}", "type": "string" },
+            { "name": "amountUsd", "value": "={{ $json.amount ? $json.amount.valueUsd : '' }}", "type": "string" },
+            { "name": "closesLocal", "value": "={{ $json.closingAtLocal || $json.closingDate }}", "type": "string" },
+            { "name": "url", "value": "={{ $json.url }}", "type": "string" }
+          ]
+        },
+        "options": {}
+      },
+      "name": "Pick columns",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [480, 0]
+    },
+    {
+      "parameters": {
+        "operation": "appendOrUpdate",
+        "documentId": { "__rl": true, "mode": "url", "value": "https://docs.google.com/spreadsheets/d/<YOUR_SHEET_ID>/edit" },
+        "sheetName": { "__rl": true, "mode": "name", "value": "Tenders" },
+        "columns": { "mappingMode": "autoMapInputData", "matchingColumns": ["tenderId"] },
+        "options": {}
+      },
+      "name": "Append or update row",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [720, 0]
+    }
+  ],
+  "connections": {
+    "Every day 6:00": { "main": [[{ "node": "Get new tenders", "type": "main", "index": 0 }]] },
+    "Get new tenders": { "main": [[{ "node": "Pick columns", "type": "main", "index": 0 }]] },
+    "Pick columns": { "main": [[{ "node": "Append or update row", "type": "main", "index": 0 }]] }
+  },
+  "settings": {}
+}

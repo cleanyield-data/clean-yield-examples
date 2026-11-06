@@ -1,0 +1,263 @@
+[
+  {
+    "domain": "gitlab.com",
+    "url": "https://about.gitlab.com/",
+    "companyName": "GitLab",
+    "description": "Teams and agents ship trusted software faster with GitLab, the intelligent orchestration platform with context and governance for the entire software lifecycle.",
+    "language": "en",
+    "country": "US",
+    "emails": [],
+    "phones": [],
+    "primaryEmail": null,
+    "primaryPhone": null,
+    "contactPageUrl": null,
+    "socialProfiles": {
+      "linkedin": null,
+      "x": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "github": null,
+      "pinterest": null,
+      "threads": null,
+      "telegram": null,
+      "discord": null,
+      "reddit": null
+    },
+    "address": {
+      "streetAddress": "268 Bush Street #350",
+      "locality": "San Francisco",
+      "region": "CA",
+      "postalCode": "94104",
+      "country": "US",
+      "formatted": "268 Bush Street #350, San Francisco, CA 94104, US"
+    },
+    "technologies": [
+      {
+        "name": "Marketo",
+        "category": "crm-marketing"
+      },
+      {
+        "name": "Optimizely",
+        "category": "ab-testing"
+      },
+      {
+        "name": "OneTrust",
+        "category": "consent"
+      },
+      {
+        "name": "Nuxt",
+        "category": "framework"
+      },
+      {
+        "name": "Vue.js",
+        "category": "framework"
+      },
+      {
+        "name": "Cloudflare",
+        "category": "hosting-cdn"
+      }
+    ],
+    "hiring": null,
+    "latestPosts": [],
+    "personalEmailsOmitted": 0,
+    "sourcesChecked": [
+      {
+        "url": "https://gitlab.com/robots.txt",
+        "type": "robots",
+        "status": 200,
+        "ok": true,
+        "ms": 219
+      },
+      {
+        "url": "https://gitlab.com/",
+        "type": "home",
+        "status": 200,
+        "ok": true,
+        "ms": 566
+      }
+    ],
+    "pagesFetched": 1,
+    "durationMs": 663,
+    "scrapedAt": "2026-11-06T02:19:52.929Z",
+    "outputVersion": 1,
+    "schemaVersion": "1.1.0",
+    "changeType": null,
+    "changes": [],
+    "pro": null,
+    "insight": null
+  },
+  {
+    "domain": "levainbakery.com",
+    "url": "https://levainbakery.com/",
+    "companyName": "Levain Bakery",
+    "description": "Famous for our 6-ounce chocolate chip walnut cookie, Levain Bakery has something for everyone. Send decadent cookie gifts now or visit one of our NYC bakeries!",
+    "language": "en",
+    "country": null,
+    "emails": [],
+    "phones": [],
+    "primaryEmail": null,
+    "primaryPhone": null,
+    "contactPageUrl": null,
+    "socialProfiles": {
+      "linkedin": null,
+      "x": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "github": null,
+      "pinterest": null,
+      "threads": null,
+      "telegram": null,
+      "discord": null,
+      "reddit": null
+    },
+    "address": null,
+    "technologies": [
+      {
+        "name": "Shopify",
+        "category": "ecommerce"
+      },
+      {
+        "name": "Attentive",
+        "category": "crm-marketing"
+      },
+      {
+        "name": "Klaviyo",
+        "category": "crm-marketing"
+      },
+      {
+        "name": "Reddit Pixel",
+        "category": "advertising"
+      },
+      {
+        "name": "Shop Pay",
+        "category": "payments"
+      },
+      {
+        "name": "Yotpo",
+        "category": "reviews"
+      },
+      {
+        "name": "Cloudflare",
+        "category": "hosting-cdn"
+      }
+    ],
+    "hiring": null,
+    "latestPosts": [],
+    "personalEmailsOmitted": 0,
+    "sourcesChecked": [
+      {
+        "url": "https://levainbakery.com/robots.txt",
+        "type": "robots",
+        "status": 200,
+        "ok": true,
+        "ms": 535
+      },
+      {
+        "url": "https://levainbakery.com/",
+        "type": "home",
+        "status": 200,
+        "ok": true,
+        "ms": 692
+      }
+    ],
+    "pagesFetched": 1,
+    "durationMs": 841,
+    "scrapedAt": "2026-11-06T02:19:53.105Z",
+    "outputVersion": 1,
+    "schemaVersion": "1.1.0",
+    "changeType": null,
+    "changes": [],
+    "pro": null,
+    "insight": null
+  },
+  {
+    "domain": "tiendanube.com",
+    "url": "https://www.tiendanube.com/",
+    "companyName": "Tiendanube",
+    "description": "El mejor diseño para tu marca, 100+ aplicaciones para potenciar tu tienda y soporte humano cuando necesites. Vendé con la plataforma de e-commerce más elegida de Argentina.",
+    "language": "es",
+    "country": "AR",
+    "emails": [],
+    "phones": [],
+    "primaryEmail": null,
+    "primaryPhone": null,
+    "contactPageUrl": null,
+    "socialProfiles": {
+      "linkedin": null,
+      "x": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "github": null,
+      "pinterest": null,
+      "threads": null,
+      "telegram": null,
+      "discord": null,
+      "reddit": null
+    },
+    "address": null,
+    "technologies": [
+      {
+        "name": "WordPress",
+        "category": "cms"
+      },
+      {
+        "name": "Tiendanube",
+        "category": "ecommerce"
+      },
+      {
+        "name": "HubSpot",
+        "category": "crm-marketing"
+      },
+      {
+        "name": "Google Analytics",
+        "category": "analytics"
+      },
+      {
+        "name": "Google Tag Manager",
+        "category": "analytics"
+      },
+      {
+        "name": "VWO",
+        "category": "ab-testing"
+      },
+      {
+        "name": "Cloudflare",
+        "category": "hosting-cdn"
+      }
+    ],
+    "hiring": null,
+    "latestPosts": [],
+    "personalEmailsOmitted": 0,
+    "sourcesChecked": [
+      {
+        "url": "https://tiendanube.com/robots.txt",
+        "type": "robots",
+        "status": 200,
+        "ok": true,
+        "ms": 678
+      },
+      {
+        "url": "https://tiendanube.com/",
+        "type": "home",
+        "status": 200,
+        "ok": true,
+        "ms": 848
+      }
+    ],
+    "pagesFetched": 1,
+    "durationMs": 999,
+    "scrapedAt": "2026-11-06T02:19:53.264Z",
+    "outputVersion": 1,
+    "schemaVersion": "1.1.0",
+    "changeType": null,
+    "changes": [],
+    "pro": null,
+    "insight": null
+  }
+]

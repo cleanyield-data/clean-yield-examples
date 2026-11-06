@@ -1,0 +1,674 @@
+[
+  {
+    "schemaVersion": 2,
+    "dotNumber": "52767",
+    "mcNumbers": [
+      "MC-120675",
+      "MC-204229",
+      "MC-442453"
+    ],
+    "dockets": [
+      {
+        "docketNumber": "MC-120675",
+        "prefix": "MC",
+        "number": "120675",
+        "status": "active"
+      },
+      {
+        "docketNumber": "MC-204229",
+        "prefix": "MC",
+        "number": "204229",
+        "status": "active"
+      },
+      {
+        "docketNumber": "MC-442453",
+        "prefix": "MC",
+        "number": "442453",
+        "status": "active"
+      },
+      {
+        "docketNumber": "FF-17385",
+        "prefix": "FF",
+        "number": "17385",
+        "status": "active"
+      }
+    ],
+    "legalName": "ACME TRUCK LINE INC",
+    "dbaName": "ACME SUPPLY CHAIN SOLUTIONS",
+    "companyName": "Acme Supply Chain Solutions",
+    "entityType": "carrier",
+    "entityTypes": [
+      "carrier",
+      "freightForwarder"
+    ],
+    "businessType": "corporation",
+    "usdotStatus": "active",
+    "authorityStatus": "active",
+    "carrierOperation": "interstate",
+    "operationClassification": [
+      "PRIVATE PASSENGER, BUSINESS",
+      "PRIVATE PASSENGER, NON-BUSINESS",
+      "AUTHORIZED FOR HIRE"
+    ],
+    "hazmat": true,
+    "powerUnits": 1116,
+    "trucks": 1108,
+    "buses": 8,
+    "drivers": 1065,
+    "cdlDrivers": 887,
+    "interstateDrivers": 1065,
+    "intrastateDrivers": 0,
+    "equipment": {
+      "owned": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": 124
+      },
+      "termLeased": {
+        "trucks": 293,
+        "tractors": 758,
+        "trailers": 640
+      },
+      "tripLeased": {
+        "trucks": null,
+        "tractors": 57,
+        "trailers": null
+      }
+    },
+    "mcs150Mileage": 45011670,
+    "mcs150MileageYear": 2025,
+    "physicalAddress": {
+      "street": "200 WESTBANK EXPRESSWAY",
+      "city": "GRETNA",
+      "state": "LA",
+      "postalCode": "70053",
+      "zip5": "70053",
+      "country": "US",
+      "countyFips": "22051",
+      "oneLine": "200 WESTBANK EXPRESSWAY, GRETNA, LA 70053, US"
+    },
+    "mailingAddress": {
+      "street": "PO BOX 183",
+      "city": "HARVEY",
+      "state": "LA",
+      "postalCode": "70059-0183",
+      "zip5": "70059",
+      "country": "US",
+      "countyFips": "22051",
+      "oneLine": "PO BOX 183, HARVEY, LA 70059-0183, US"
+    },
+    "phone": "+15043682510",
+    "mobilePhone": null,
+    "fax": "+15043689389",
+    "email": "admindept@acmetruck.com",
+    "emailAsFiled": null,
+    "phoneSharedCount": 3,
+    "emailSharedCount": 1,
+    "phoneIsShared": false,
+    "emailIsShared": false,
+    "companyOfficers": null,
+    "cargoCarried": [
+      "General Freight",
+      "Metal: sheets, coils, rolls",
+      "Drive/Tow away",
+      "Logs, Poles, Beams, Lumber",
+      "Building Materials",
+      "Mobile Homes",
+      "Machinery, Large Objects",
+      "Liquids/Gases",
+      "Intermodal Cont.",
+      "Passengers",
+      "Oilfield Equipment",
+      "Livestock",
+      "Grain, Feed, Hay",
+      "Chemicals",
+      "Commodities Dry Bulk",
+      "Beverages",
+      "Paper Products",
+      "Agricultural/Farm Supplies",
+      "Construction"
+    ],
+    "cargoCarriedText": "General Freight, Metal: sheets, coils, rolls, Drive/Tow away, Logs, Poles, Beams, Lumber, Building Materials, Mobile Homes, Machinery, Large Objects, Liquids/Gases, Intermodal Cont., Passengers, Oilfield Equipment, Livestock, Grain, Feed, Hay, Chemicals, Commodities Dry Bulk, Beverages, Paper Products, Agricultural/Farm Supplies, Construction",
+    "safetyRating": "satisfactory",
+    "safetyRatingDate": "2015-02-05",
+    "safetyReviewDate": "2015-01-26",
+    "mcs150Date": "2026-04-18",
+    "addDate": "1974-06-01",
+    "ageInDays": 19150,
+    "isNewEntrant": false,
+    "recordableCrashRate": null,
+    "priorRevokedDotNumber": null,
+    "dunsNumber": "59118810",
+    "dataQualityFlags": [],
+    "outOfService": false,
+    "outOfServiceDate": null,
+    "outOfServiceReason": null,
+    "authority": {
+      "source": "motus",
+      "sourceDataset": "inys-ebih",
+      "sourceUpdatedAt": "2026-11-04T10:09:38.000Z",
+      "authorities": [
+        {
+          "docketNumber": "MC-442453",
+          "authorityType": "Motor Carrier of Passengers",
+          "status": "active",
+          "statusDate": "2003-03-18",
+          "statusReason": "GRANTED",
+          "grantedDate": "2003-03-18"
+        },
+        {
+          "docketNumber": "MC-204229",
+          "authorityType": "Motor Carrier of Property (Except Household Goods)",
+          "status": "active",
+          "statusDate": "2026-06-09",
+          "statusReason": "Administrative status adjustment",
+          "grantedDate": null
+        },
+        {
+          "docketNumber": "FF-17385",
+          "authorityType": "Freight Forwarder of Property (Except Household Goods)",
+          "status": "active",
+          "statusDate": "2017-01-19",
+          "statusReason": "GRANTED",
+          "grantedDate": "2017-01-19"
+        },
+        {
+          "docketNumber": "MC-120675",
+          "authorityType": "Motor Carrier of Property (Except Household Goods)",
+          "status": "active",
+          "statusDate": "1991-12-26",
+          "statusReason": "GRANTED",
+          "grantedDate": "1991-12-26"
+        }
+      ],
+      "hasActiveCarrierAuthority": true,
+      "hasActiveBrokerAuthority": false,
+      "hasPendingAuthority": false,
+      "bipdRequiredUsd": 1500000,
+      "bipdOnFileUsd": 10000000,
+      "cargoInsuranceRequired": false,
+      "cargoInsuranceOnFile": false,
+      "bondRequired": true,
+      "bondOnFile": true,
+      "grantedDate": "1991-12-26",
+      "lastStatusChangeDate": "2026-06-09",
+      "lastStatusChangeReason": "Administrative status adjustment"
+    },
+    "insurancePolicies": [
+      {
+        "docketNumber": "MC-442453",
+        "insuranceType": "bipd",
+        "layer": "primary",
+        "formCode": "BMC-91X",
+        "insurer": "Hudson Insurance Company",
+        "policyNumber": "HMU200030-15",
+        "coverageUsd": 5000000,
+        "underlyingLimitUsd": 0,
+        "effectiveDate": "2024-05-01",
+        "postedDate": "2024-05-31",
+        "cancelEffectiveDate": null,
+        "source": "motus"
+      },
+      {
+        "docketNumber": "MC-120675",
+        "insuranceType": "bipd",
+        "layer": "primary",
+        "formCode": "BMC-91X",
+        "insurer": "Hudson Insurance Company",
+        "policyNumber": "HMU200030-15",
+        "coverageUsd": 5000000,
+        "underlyingLimitUsd": 0,
+        "effectiveDate": "2024-05-01",
+        "postedDate": "2024-05-31",
+        "cancelEffectiveDate": null,
+        "source": "motus"
+      },
+      {
+        "docketNumber": "FF-17385",
+        "insuranceType": "bond",
+        "layer": "primary",
+        "formCode": "BMC-84",
+        "insurer": "American Alternative Insurance Corporation",
+        "policyNumber": "2016120288",
+        "coverageUsd": 75000,
+        "underlyingLimitUsd": 0,
+        "effectiveDate": "2020-06-01",
+        "postedDate": "2020-05-27",
+        "cancelEffectiveDate": null,
+        "source": "motus"
+      },
+      {
+        "docketNumber": "MC-442453",
+        "insuranceType": "bipd",
+        "layer": "excess",
+        "formCode": "BMC-91X",
+        "insurer": "LEXINGTON INSURANCE COMPANY",
+        "policyNumber": "018321166",
+        "coverageUsd": 5000000,
+        "underlyingLimitUsd": 4000000,
+        "effectiveDate": "2015-05-01",
+        "postedDate": "2015-03-30",
+        "cancelEffectiveDate": null,
+        "source": "motus"
+      },
+      {
+        "docketNumber": "MC-204229",
+        "insuranceType": "bipd",
+        "layer": "primary",
+        "formCode": "BMC-91X",
+        "insurer": "Indemnity Insurance Company of North America",
+        "policyNumber": "ISA HO1882363",
+        "coverageUsd": 1000000,
+        "underlyingLimitUsd": 0,
+        "effectiveDate": "1996-02-01",
+        "postedDate": "1996-06-25",
+        "cancelEffectiveDate": null,
+        "source": "motus"
+      }
+    ],
+    "authoritySummary": "MC-442453 Motor Carrier of Passengers: active since 2003-03-18; MC-204229 Motor Carrier of Property (Except Household Goods): active (2026-06-09); FF-17385 Freight Forwarder of Property (Except Household Goods): active since 2017-01-19; MC-120675 Motor Carrier of Property (Except Household Goods): active since 1991-12-26",
+    "insuranceSummary": "BIPD primary USD 5,000,000 (Hudson Insurance Company), eff. 2024-05-01; Bond primary USD 75,000 (American Alternative Insurance Corporation), eff. 2020-06-01; BIPD excess USD 5,000,000 (LEXINGTON INSURANCE COMPANY), eff. 2015-05-01",
+    "revocations": [],
+    "boc3OnFile": null,
+    "processAgent": null,
+    "safety": {
+      "measurementPeriodMonths": 24,
+      "snapshotUpdatedAt": "2026-10-13T07:02:56.000Z",
+      "inspections": {
+        "total": 1323,
+        "vehicle": 1071,
+        "vehicleOutOfService": 255,
+        "vehicleOutOfServiceRate": 0.2381,
+        "driver": 1322,
+        "driverOutOfService": 17,
+        "driverOutOfServiceRate": 0.0129
+      },
+      "crashes": {
+        "total": 32,
+        "fatal": 0,
+        "injury": 13,
+        "towaway": 19
+      },
+      "basics": {
+        "unsafeDriving": {
+          "inspectionsWithViolations": 44,
+          "measure": 0.33,
+          "acuteCriticalViolation": false
+        },
+        "hoursOfService": {
+          "inspectionsWithViolations": 51,
+          "measure": 0.12,
+          "acuteCriticalViolation": false
+        },
+        "driverFitness": {
+          "inspectionsWithViolations": 14,
+          "measure": 0.1,
+          "acuteCriticalViolation": false
+        },
+        "controlledSubstancesAlcohol": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        },
+        "vehicleMaintenance": {
+          "inspectionsWithViolations": 501,
+          "measure": 4.51,
+          "acuteCriticalViolation": false
+        }
+      },
+      "sourceDatasets": [
+        "4y6x-dmck",
+        "4wxs-vbns"
+      ]
+    },
+    "fmcsaUrl": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=52767",
+    "sourceDataset": "az4n-8mr2",
+    "sourceDatasetName": "FMCSA Company Census File",
+    "sourceUpdatedAt": "2026-11-04T11:19:27.000Z",
+    "scrapedAt": "2026-11-05T01:56:15.967Z",
+    "riskScore": null,
+    "riskLevel": null,
+    "riskFactors": null,
+    "insuranceRenewal": null,
+    "whyNow": null,
+    "trend": null,
+    "insight": null,
+    "companyWebsite": null
+  },
+  {
+    "schemaVersion": 2,
+    "dotNumber": "3344351",
+    "mcNumbers": [],
+    "dockets": [],
+    "legalName": "JEFFERSON PARISH GOVERNMENT",
+    "dbaName": "JEFFERSON PARISH",
+    "companyName": "Jefferson Parish",
+    "entityType": "carrier",
+    "entityTypes": [
+      "carrier"
+    ],
+    "businessType": null,
+    "usdotStatus": "active",
+    "authorityStatus": "none",
+    "carrierOperation": "intrastateNonHazmat",
+    "operationClassification": [
+      "PRIVATE PROPERTY"
+    ],
+    "hazmat": true,
+    "powerUnits": 977,
+    "trucks": 910,
+    "buses": 67,
+    "drivers": 1138,
+    "cdlDrivers": 125,
+    "interstateDrivers": 0,
+    "intrastateDrivers": 1138,
+    "equipment": {
+      "owned": {
+        "trucks": 902,
+        "tractors": 8,
+        "trailers": 360
+      },
+      "termLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      },
+      "tripLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      }
+    },
+    "mcs150Mileage": 7000000,
+    "mcs150MileageYear": 2024,
+    "physicalAddress": {
+      "street": "1221 ELMWOOD PARK BLVD",
+      "city": "JEFFERSON",
+      "state": "LA",
+      "postalCode": "70123",
+      "zip5": "70123",
+      "country": "US",
+      "countyFips": "22051",
+      "oneLine": "1221 ELMWOOD PARK BLVD, JEFFERSON, LA 70123, US"
+    },
+    "mailingAddress": {
+      "street": "PO BOX 10242",
+      "city": "JEFFERSON",
+      "state": "LA",
+      "postalCode": "70181-0242",
+      "zip5": "70181",
+      "country": "US",
+      "countyFips": "22051",
+      "oneLine": "PO BOX 10242, JEFFERSON, LA 70181-0242, US"
+    },
+    "phone": "+15047366180",
+    "mobilePhone": null,
+    "fax": null,
+    "email": "jonas.perriott@jeffparish.gov",
+    "emailAsFiled": null,
+    "phoneSharedCount": 1,
+    "emailSharedCount": 1,
+    "phoneIsShared": false,
+    "emailIsShared": false,
+    "companyOfficers": null,
+    "cargoCarried": [
+      "Machinery, Large Objects",
+      "Liquids/Gases",
+      "Passengers"
+    ],
+    "cargoCarriedText": "Machinery, Large Objects, Liquids/Gases, Passengers",
+    "safetyRating": "unrated",
+    "safetyRatingDate": null,
+    "safetyReviewDate": null,
+    "mcs150Date": "2025-03-27",
+    "addDate": "2019-10-09",
+    "ageInDays": 2584,
+    "isNewEntrant": false,
+    "recordableCrashRate": null,
+    "priorRevokedDotNumber": null,
+    "dunsNumber": "785986501",
+    "dataQualityFlags": [
+      "fleetCountsInconsistent"
+    ],
+    "outOfService": false,
+    "outOfServiceDate": null,
+    "outOfServiceReason": null,
+    "authority": null,
+    "insurancePolicies": [],
+    "authoritySummary": null,
+    "insuranceSummary": null,
+    "revocations": null,
+    "boc3OnFile": null,
+    "processAgent": null,
+    "safety": {
+      "measurementPeriodMonths": 24,
+      "snapshotUpdatedAt": "2026-10-13T07:03:45.000Z",
+      "inspections": {
+        "total": 1,
+        "vehicle": 1,
+        "vehicleOutOfService": 0,
+        "vehicleOutOfServiceRate": 0,
+        "driver": 1,
+        "driverOutOfService": 1,
+        "driverOutOfServiceRate": 1
+      },
+      "crashes": {
+        "total": 0,
+        "fatal": 0,
+        "injury": 0,
+        "towaway": 0
+      },
+      "basics": {
+        "unsafeDriving": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        },
+        "hoursOfService": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        },
+        "driverFitness": {
+          "inspectionsWithViolations": 1,
+          "measure": 10,
+          "acuteCriticalViolation": false
+        },
+        "controlledSubstancesAlcohol": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        },
+        "vehicleMaintenance": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        }
+      },
+      "sourceDatasets": [
+        "h9zy-gjn8",
+        "4wxs-vbns"
+      ]
+    },
+    "fmcsaUrl": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=3344351",
+    "sourceDataset": "az4n-8mr2",
+    "sourceDatasetName": "FMCSA Company Census File",
+    "sourceUpdatedAt": "2026-11-04T11:19:27.000Z",
+    "scrapedAt": "2026-11-05T01:56:15.967Z",
+    "riskScore": null,
+    "riskLevel": null,
+    "riskFactors": null,
+    "insuranceRenewal": null,
+    "whyNow": null,
+    "trend": null,
+    "insight": null,
+    "companyWebsite": null
+  },
+  {
+    "schemaVersion": 2,
+    "dotNumber": "237962",
+    "mcNumbers": [],
+    "dockets": [],
+    "legalName": "SCP DISTRIBUTORS LLC",
+    "dbaName": null,
+    "companyName": "SCP Distributors",
+    "entityType": "carrier",
+    "entityTypes": [
+      "carrier",
+      "shipper"
+    ],
+    "businessType": "corporation",
+    "usdotStatus": "active",
+    "authorityStatus": "none",
+    "carrierOperation": "interstate",
+    "operationClassification": [
+      "PRIVATE PROPERTY"
+    ],
+    "hazmat": true,
+    "powerUnits": 480,
+    "trucks": 480,
+    "buses": 0,
+    "drivers": 428,
+    "cdlDrivers": 404,
+    "interstateDrivers": 428,
+    "intrastateDrivers": 0,
+    "equipment": {
+      "owned": {
+        "trucks": 276,
+        "tractors": 156,
+        "trailers": 182
+      },
+      "termLeased": {
+        "trucks": 42,
+        "tractors": 6,
+        "trailers": 13
+      },
+      "tripLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      }
+    },
+    "mcs150Mileage": 8347000,
+    "mcs150MileageYear": 2025,
+    "physicalAddress": {
+      "street": "109 NORTHPARK BLVD STE 400",
+      "city": "COVINGTON",
+      "state": "LA",
+      "postalCode": "70433",
+      "zip5": "70433",
+      "country": "US",
+      "countyFips": "22103",
+      "oneLine": "109 NORTHPARK BLVD STE 400, COVINGTON, LA 70433, US"
+    },
+    "mailingAddress": {
+      "street": "109 NORTHPARK BLVD",
+      "city": "COVINGTON",
+      "state": "LA",
+      "postalCode": "70433",
+      "zip5": "70433",
+      "country": "US",
+      "countyFips": "22103",
+      "oneLine": "109 NORTHPARK BLVD, COVINGTON, LA 70433, US"
+    },
+    "phone": "+19858015128",
+    "mobilePhone": null,
+    "fax": "+19857923089",
+    "email": "douglas.friloux@poolcorp.com",
+    "emailAsFiled": null,
+    "phoneSharedCount": 2,
+    "emailSharedCount": 3,
+    "phoneIsShared": false,
+    "emailIsShared": false,
+    "companyOfficers": null,
+    "cargoCarried": [
+      "Chemicals",
+      "Other: SWIMMING POOL PRODUCTS"
+    ],
+    "cargoCarriedText": "Chemicals, Other: SWIMMING POOL PRODUCTS",
+    "safetyRating": "satisfactory",
+    "safetyRatingDate": "1994-05-09",
+    "safetyReviewDate": "1994-03-24",
+    "mcs150Date": "2026-02-20",
+    "addDate": "1983-09-14",
+    "ageInDays": 15758,
+    "isNewEntrant": false,
+    "recordableCrashRate": null,
+    "priorRevokedDotNumber": null,
+    "dunsNumber": "872965363",
+    "dataQualityFlags": [],
+    "outOfService": false,
+    "outOfServiceDate": null,
+    "outOfServiceReason": null,
+    "authority": null,
+    "insurancePolicies": [],
+    "authoritySummary": null,
+    "insuranceSummary": null,
+    "revocations": null,
+    "boc3OnFile": null,
+    "processAgent": null,
+    "safety": {
+      "measurementPeriodMonths": 24,
+      "snapshotUpdatedAt": "2026-10-13T07:02:56.000Z",
+      "inspections": {
+        "total": 530,
+        "vehicle": 390,
+        "vehicleOutOfService": 73,
+        "vehicleOutOfServiceRate": 0.1872,
+        "driver": 523,
+        "driverOutOfService": 3,
+        "driverOutOfServiceRate": 0.0057
+      },
+      "crashes": {
+        "total": 9,
+        "fatal": 2,
+        "injury": 3,
+        "towaway": 4
+      },
+      "basics": {
+        "unsafeDriving": {
+          "inspectionsWithViolations": 25,
+          "measure": 0.55,
+          "acuteCriticalViolation": false
+        },
+        "hoursOfService": {
+          "inspectionsWithViolations": 2,
+          "measure": 0.02,
+          "acuteCriticalViolation": false
+        },
+        "driverFitness": {
+          "inspectionsWithViolations": 3,
+          "measure": 0.05,
+          "acuteCriticalViolation": false
+        },
+        "controlledSubstancesAlcohol": {
+          "inspectionsWithViolations": 0,
+          "measure": 0,
+          "acuteCriticalViolation": false
+        },
+        "vehicleMaintenance": {
+          "inspectionsWithViolations": 120,
+          "measure": 2.69,
+          "acuteCriticalViolation": false
+        }
+      },
+      "sourceDatasets": [
+        "4y6x-dmck",
+        "4wxs-vbns"
+      ]
+    },
+    "fmcsaUrl": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=237962",
+    "sourceDataset": "az4n-8mr2",
+    "sourceDatasetName": "FMCSA Company Census File",
+    "sourceUpdatedAt": "2026-11-04T11:19:27.000Z",
+    "scrapedAt": "2026-11-05T01:56:15.967Z",
+    "riskScore": null,
+    "riskLevel": null,
+    "riskFactors": null,
+    "insuranceRenewal": null,
+    "whyNow": null,
+    "trend": null,
+    "insight": null,
+    "companyWebsite": null
+  }
+]

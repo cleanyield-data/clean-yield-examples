@@ -1,0 +1,132 @@
+{
+  "name": "New negative app reviews (App Store + Google Play) → Slack",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours",
+              "hoursInterval": 6
+            }
+          ]
+        }
+      },
+      "name": "Every 6 hours",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/cleanyield~app-store-google-play-reviews/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"apps\": [\n    \"https://apps.apple.com/us/app/YOUR-APP/id000000000\",\n    \"com.yourcompany.yourapp\"\n  ],\n  \"countries\": [\n    \"us\"\n  ],\n  \"languages\": [\n    \"en\"\n  ],\n  \"maxReviewsPerApp\": 200,\n  \"monitorMode\": true,\n  \"monitorStateName\": \"my-app-reviews-n8n\"\n}",
+        "options": {
+          "timeout": 300000
+        }
+      },
+      "name": "Get new reviews (monitor mode)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        240,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "typeValidation": "loose"
+          },
+          "conditions": [
+            {
+              "leftValue": "={{ $json.isNegative }}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "name": "Only 1–2★",
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 2,
+      "position": [
+        480,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "<YOUR_SLACK_INCOMING_WEBHOOK_URL>",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ text: '⭐'.repeat($json.rating) + ' *' + $json.appName + '* (' + ($json.store === 'appstore' ? 'App Store ' + $json.country : 'Google Play ' + $json.language) + (($json.appVersion) ? ' v' + $json.appVersion : '') + ')\\n' + (($json.title) ? '*' + $json.title + '* — ' : '') + $json.text + '\\n' + $json.url }) }}",
+        "options": {}
+      },
+      "name": "Post to Slack",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        720,
+        0
+      ]
+    }
+  ],
+  "connections": {
+    "Every 6 hours": {
+      "main": [
+        [
+          {
+            "node": "Get new reviews (monitor mode)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get new reviews (monitor mode)": {
+      "main": [
+        [
+          {
+            "node": "Only 1–2★",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Only 1–2★": {
+      "main": [
+        [
+          {
+            "node": "Post to Slack",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "meta": {
+    "templateCredsSetupCompleted": false
+  }
+}

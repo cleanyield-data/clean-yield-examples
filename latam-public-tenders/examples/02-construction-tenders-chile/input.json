@@ -1,0 +1,11 @@
+{
+  "countries": [
+    "CL"
+  ],
+  "sectors": [
+    "construction"
+  ],
+  "minAmountUsd": 100000,
+  "publishedWithinDays": 3,
+  "maxResults": 10
+}

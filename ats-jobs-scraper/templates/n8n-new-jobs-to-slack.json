@@ -1,0 +1,133 @@
+{
+  "name": "New jobs at watched companies \u2192 Slack (daily, ATS Jobs Scraper)",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "days",
+              "triggerAtHour": 8
+            }
+          ]
+        }
+      },
+      "name": "Every morning",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "id": "a1"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/cleanyield~ats-jobs-scraper/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"companies\": [\n    \"stripe\",\n    \"ramp\",\n    \"https://jobs.lever.co/spotify\",\n    \"openai\"\n  ],\n  \"keywords\": [\n    \"engineer\"\n  ],\n  \"locations\": [\n    \"United States\",\n    \"remote\"\n  ],\n  \"monitorMode\": true,\n  \"monitorStateName\": \"n8n-engineering-watchlist\",\n  \"skipExistingOnFirstRun\": true,\n  \"includeDescription\": \"none\"\n}",
+        "options": {
+          "timeout": 300000
+        }
+      },
+      "name": "Run ATS Jobs Scraper (monitor mode)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        260,
+        0
+      ],
+      "id": "a2"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "typeValidation": "loose"
+          },
+          "conditions": [
+            {
+              "leftValue": "={{ $json.changeType }}",
+              "rightValue": "new",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        }
+      },
+      "name": "Only new jobs",
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 2,
+      "position": [
+        520,
+        0
+      ],
+      "id": "a3"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "<YOUR_SLACK_INCOMING_WEBHOOK_URL>",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ text: `New job at ${$json.company}: *${$json.title}* \u2014 ${$json.location ?? ''} ${$json.salaryText ? '\u2014 ' + $json.salaryText : ''}\\n${$json.url}` }) }}",
+        "options": {}
+      },
+      "name": "Post to Slack",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        780,
+        0
+      ],
+      "id": "a4"
+    }
+  ],
+  "connections": {
+    "Every morning": {
+      "main": [
+        [
+          {
+            "node": "Run ATS Jobs Scraper (monitor mode)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Run ATS Jobs Scraper (monitor mode)": {
+      "main": [
+        [
+          {
+            "node": "Only new jobs",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Only new jobs": {
+      "main": [
+        [
+          {
+            "node": "Post to Slack",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "meta": {
+    "templateCredsSetupCompleted": false
+  }
+}

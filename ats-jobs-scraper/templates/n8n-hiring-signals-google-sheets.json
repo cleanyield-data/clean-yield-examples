@@ -1,0 +1,154 @@
+{
+  "name": "Is this company hiring? Enrich a Google Sheet of companies (ATS Jobs Scraper)",
+  "nodes": [
+    {
+      "parameters": {},
+      "name": "Manual trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "b1"
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "<YOUR_SHEET_ID>",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "Companies",
+          "mode": "name"
+        },
+        "options": {}
+      },
+      "name": "Read companies (column: company)",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        220,
+        0
+      ],
+      "id": "b2"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/cleanyield~ats-jobs-scraper/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ companies: [$json.company], maxJobsPerCompany: 200, includeDescription: 'none' }) }}",
+        "options": {
+          "timeout": 120000
+        }
+      },
+      "name": "Get open jobs (sync)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        440,
+        0
+      ],
+      "id": "b3"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Una fila por empresa: cantidad de empleos abiertos, \u00e1reas y si publica salarios\nconst rows = $input.all().map(i => i.json);\nconst byCompany = {};\nfor (const j of rows) {\n  const k = j.companyToken; if (!k) continue;\n  byCompany[k] ??= { company: j.company, ats: j.ats, boardUrl: j.boardUrl, openJobs: 0, departments: {}, withSalary: 0, newest: j.postedAt };\n  const c = byCompany[k]; c.openJobs++; if (j.salaryMin) c.withSalary++;\n  c.departments[j.department ?? 'Other'] = (c.departments[j.department ?? 'Other'] ?? 0) + 1;\n}\nreturn Object.values(byCompany).map(c => ({ json: { ...c, topDepartments: Object.entries(c.departments).sort((a,b)=>b[1]-a[1]).slice(0,3).map(([d,n])=>`${d} (${n})`).join(', ') } }));"
+      },
+      "name": "Summarize hiring",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        660,
+        0
+      ],
+      "id": "b4"
+    },
+    {
+      "parameters": {
+        "operation": "appendOrUpdate",
+        "documentId": {
+          "__rl": true,
+          "value": "<YOUR_SHEET_ID>",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "Hiring",
+          "mode": "name"
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "matchingColumns": [
+            "company"
+          ]
+        },
+        "options": {}
+      },
+      "name": "Write hiring signals",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        880,
+        0
+      ],
+      "id": "b5"
+    }
+  ],
+  "connections": {
+    "Manual trigger": {
+      "main": [
+        [
+          {
+            "node": "Read companies (column: company)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read companies (column: company)": {
+      "main": [
+        [
+          {
+            "node": "Get open jobs (sync)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get open jobs (sync)": {
+      "main": [
+        [
+          {
+            "node": "Summarize hiring",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Summarize hiring": {
+      "main": [
+        [
+          {
+            "node": "Write hiring signals",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "meta": {
+    "templateCredsSetupCompleted": false
+  }
+}

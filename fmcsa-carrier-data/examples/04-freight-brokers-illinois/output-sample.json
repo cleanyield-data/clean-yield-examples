@@ -1,0 +1,539 @@
+[
+  {
+    "schemaVersion": 2,
+    "dotNumber": "9244823",
+    "mcNumbers": [
+      "MC-83374262"
+    ],
+    "dockets": [
+      {
+        "docketNumber": "MC-83374262",
+        "prefix": "MC",
+        "number": "83374262",
+        "status": "active"
+      }
+    ],
+    "legalName": "ELIKA LOGISTICS LLC",
+    "dbaName": null,
+    "companyName": "Elika Logistics",
+    "entityType": "broker",
+    "entityTypes": [
+      "broker"
+    ],
+    "businessType": null,
+    "usdotStatus": "active",
+    "authorityStatus": "active",
+    "carrierOperation": "intrastateNonHazmat",
+    "operationClassification": [],
+    "hazmat": false,
+    "powerUnits": 0,
+    "trucks": 0,
+    "buses": null,
+    "drivers": null,
+    "cdlDrivers": null,
+    "interstateDrivers": 0,
+    "intrastateDrivers": 0,
+    "equipment": {
+      "owned": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      },
+      "termLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      },
+      "tripLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      }
+    },
+    "mcs150Mileage": 0,
+    "mcs150MileageYear": null,
+    "physicalAddress": {
+      "street": "1416 7 PINES RD APT A2",
+      "city": "SCHAUMBURG",
+      "state": "IL",
+      "postalCode": "60193-2160",
+      "zip5": "60193",
+      "country": "US",
+      "countyFips": "17031",
+      "oneLine": "1416 7 PINES RD APT A2, SCHAUMBURG, IL 60193-2160, US"
+    },
+    "mailingAddress": {
+      "street": "1416 7 PINES RD APT A2",
+      "city": "SCHAUMBURG",
+      "state": "IL",
+      "postalCode": "60193-2160",
+      "zip5": "60193",
+      "country": "US",
+      "countyFips": "17031",
+      "oneLine": "1416 7 PINES RD APT A2, SCHAUMBURG, IL 60193-2160, US"
+    },
+    "phone": "+17736814741",
+    "mobilePhone": null,
+    "fax": null,
+    "email": "info@elikalogistics.com",
+    "emailAsFiled": null,
+    "phoneSharedCount": 1,
+    "emailSharedCount": 1,
+    "phoneIsShared": false,
+    "emailIsShared": false,
+    "companyOfficers": null,
+    "cargoCarried": [],
+    "cargoCarriedText": null,
+    "safetyRating": "unrated",
+    "safetyRatingDate": null,
+    "safetyReviewDate": null,
+    "mcs150Date": null,
+    "addDate": "2026-10-13",
+    "ageInDays": 23,
+    "isNewEntrant": true,
+    "recordableCrashRate": null,
+    "priorRevokedDotNumber": null,
+    "dunsNumber": null,
+    "dataQualityFlags": [],
+    "outOfService": false,
+    "outOfServiceDate": null,
+    "outOfServiceReason": null,
+    "authority": {
+      "source": "motus",
+      "sourceDataset": "inys-ebih",
+      "sourceUpdatedAt": "2026-11-04T10:09:38.000Z",
+      "authorities": [
+        {
+          "docketNumber": "MC-83374262",
+          "authorityType": "Broker of Property (Except Household Goods)",
+          "status": "active",
+          "statusDate": "2026-10-26",
+          "statusReason": "Granted",
+          "grantedDate": "2026-10-26"
+        }
+      ],
+      "hasActiveCarrierAuthority": false,
+      "hasActiveBrokerAuthority": true,
+      "hasPendingAuthority": false,
+      "bipdRequiredUsd": 0,
+      "bipdOnFileUsd": 0,
+      "cargoInsuranceRequired": false,
+      "cargoInsuranceOnFile": false,
+      "bondRequired": true,
+      "bondOnFile": true,
+      "grantedDate": "2026-10-26",
+      "lastStatusChangeDate": "2026-10-26",
+      "lastStatusChangeReason": "Granted"
+    },
+    "insurancePolicies": [
+      {
+        "docketNumber": "MC-83374262",
+        "insuranceType": "bond",
+        "layer": null,
+        "formCode": "BMC-84",
+        "insurer": "Amherst National Insurance Company",
+        "policyNumber": "JA002923",
+        "coverageUsd": 75000,
+        "underlyingLimitUsd": 0,
+        "effectiveDate": "2026-10-12",
+        "postedDate": "2026-10-21",
+        "cancelEffectiveDate": null,
+        "source": "motus"
+      }
+    ],
+    "authoritySummary": "MC-83374262 Broker of Property (Except Household Goods): active since 2026-10-26",
+    "insuranceSummary": "Bond USD 75,000 (Amherst National Insurance Company), eff. 2026-10-12",
+    "revocations": [],
+    "boc3OnFile": true,
+    "processAgent": {
+      "docketNumber": "MC-83374262",
+      "name": "DOTPROCESSAGENTS.COM LLC",
+      "street": "1410 N PORTER AVE",
+      "city": "NORMAN",
+      "state": "OK",
+      "postalCode": "73071",
+      "country": "US"
+    },
+    "safety": {
+      "measurementPeriodMonths": 24,
+      "snapshotUpdatedAt": "2026-10-13T07:02:36.000Z",
+      "inspections": null,
+      "crashes": null,
+      "basics": null,
+      "sourceDatasets": [
+        "4wxs-vbns"
+      ]
+    },
+    "fmcsaUrl": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=9244823",
+    "sourceDataset": "az4n-8mr2",
+    "sourceDatasetName": "FMCSA Company Census File",
+    "sourceUpdatedAt": "2026-11-04T11:19:27.000Z",
+    "scrapedAt": "2026-11-05T01:56:02.172Z",
+    "riskScore": null,
+    "riskLevel": null,
+    "riskFactors": null,
+    "insuranceRenewal": null,
+    "whyNow": null,
+    "trend": null,
+    "insight": null,
+    "companyWebsite": null
+  },
+  {
+    "schemaVersion": 2,
+    "dotNumber": "6087676",
+    "mcNumbers": [
+      "MC-53517455"
+    ],
+    "dockets": [
+      {
+        "docketNumber": "MC-53517455",
+        "prefix": "MC",
+        "number": "53517455",
+        "status": "active"
+      }
+    ],
+    "legalName": "TO LOGISTICS LLC",
+    "dbaName": null,
+    "companyName": "TO Logistics",
+    "entityType": "broker",
+    "entityTypes": [
+      "broker"
+    ],
+    "businessType": null,
+    "usdotStatus": "active",
+    "authorityStatus": "active",
+    "carrierOperation": "intrastateNonHazmat",
+    "operationClassification": [],
+    "hazmat": false,
+    "powerUnits": 0,
+    "trucks": 0,
+    "buses": null,
+    "drivers": null,
+    "cdlDrivers": null,
+    "interstateDrivers": 0,
+    "intrastateDrivers": 0,
+    "equipment": {
+      "owned": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      },
+      "termLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      },
+      "tripLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      }
+    },
+    "mcs150Mileage": 0,
+    "mcs150MileageYear": null,
+    "physicalAddress": {
+      "street": "1110 CARBERRY CIR",
+      "city": "INVERNESS",
+      "state": "IL",
+      "postalCode": "60067-4289",
+      "zip5": "60067",
+      "country": "US",
+      "countyFips": "17031",
+      "oneLine": "1110 CARBERRY CIR, INVERNESS, IL 60067-4289, US"
+    },
+    "mailingAddress": {
+      "street": "1110 CARBERRY CIR",
+      "city": "INVERNESS",
+      "state": "IL",
+      "postalCode": "60067-4289",
+      "zip5": "60067",
+      "country": "US",
+      "countyFips": "17031",
+      "oneLine": "1110 CARBERRY CIR, INVERNESS, IL 60067-4289, US"
+    },
+    "phone": "+18472870469",
+    "mobilePhone": null,
+    "fax": null,
+    "email": "tologistics@tishak.com",
+    "emailAsFiled": null,
+    "phoneSharedCount": 1,
+    "emailSharedCount": 1,
+    "phoneIsShared": false,
+    "emailIsShared": false,
+    "companyOfficers": null,
+    "cargoCarried": [],
+    "cargoCarriedText": null,
+    "safetyRating": "unrated",
+    "safetyRatingDate": null,
+    "safetyReviewDate": null,
+    "mcs150Date": null,
+    "addDate": "2026-10-12",
+    "ageInDays": 24,
+    "isNewEntrant": true,
+    "recordableCrashRate": null,
+    "priorRevokedDotNumber": null,
+    "dunsNumber": null,
+    "dataQualityFlags": [],
+    "outOfService": false,
+    "outOfServiceDate": null,
+    "outOfServiceReason": null,
+    "authority": {
+      "source": "motus",
+      "sourceDataset": "inys-ebih",
+      "sourceUpdatedAt": "2026-11-04T10:09:38.000Z",
+      "authorities": [
+        {
+          "docketNumber": "MC-53517455",
+          "authorityType": "Broker of Property (Except Household Goods)",
+          "status": "active",
+          "statusDate": "2026-10-30",
+          "statusReason": "Granted",
+          "grantedDate": "2026-10-30"
+        }
+      ],
+      "hasActiveCarrierAuthority": false,
+      "hasActiveBrokerAuthority": true,
+      "hasPendingAuthority": false,
+      "bipdRequiredUsd": 0,
+      "bipdOnFileUsd": 0,
+      "cargoInsuranceRequired": false,
+      "cargoInsuranceOnFile": false,
+      "bondRequired": true,
+      "bondOnFile": true,
+      "grantedDate": "2026-10-30",
+      "lastStatusChangeDate": "2026-10-30",
+      "lastStatusChangeReason": "Granted"
+    },
+    "insurancePolicies": [
+      {
+        "docketNumber": "MC-53517455",
+        "insuranceType": "bond",
+        "layer": null,
+        "formCode": "BMC-84",
+        "insurer": "Swiss Re Corporate Solutions America Insurance Corporation",
+        "policyNumber": "2383448",
+        "coverageUsd": 75000,
+        "underlyingLimitUsd": 0,
+        "effectiveDate": "2026-10-20",
+        "postedDate": "2026-10-20",
+        "cancelEffectiveDate": null,
+        "source": "motus"
+      }
+    ],
+    "authoritySummary": "MC-53517455 Broker of Property (Except Household Goods): active since 2026-10-30",
+    "insuranceSummary": "Bond USD 75,000 (Swiss Re Corporate Solutions America Insurance Corporation), eff. 2026-10-20",
+    "revocations": [],
+    "boc3OnFile": true,
+    "processAgent": {
+      "docketNumber": "MC-53517455",
+      "name": "TRUCK PROCESS AGENTS OF AMERICA, INC.",
+      "street": "4315 53RD ST S",
+      "city": "FARGO",
+      "state": "ND",
+      "postalCode": "58104",
+      "country": "US"
+    },
+    "safety": {
+      "measurementPeriodMonths": 24,
+      "snapshotUpdatedAt": "2026-10-13T07:02:36.000Z",
+      "inspections": null,
+      "crashes": null,
+      "basics": null,
+      "sourceDatasets": [
+        "4wxs-vbns"
+      ]
+    },
+    "fmcsaUrl": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=6087676",
+    "sourceDataset": "az4n-8mr2",
+    "sourceDatasetName": "FMCSA Company Census File",
+    "sourceUpdatedAt": "2026-11-04T11:19:27.000Z",
+    "scrapedAt": "2026-11-05T01:56:02.172Z",
+    "riskScore": null,
+    "riskLevel": null,
+    "riskFactors": null,
+    "insuranceRenewal": null,
+    "whyNow": null,
+    "trend": null,
+    "insight": null,
+    "companyWebsite": null
+  },
+  {
+    "schemaVersion": 2,
+    "dotNumber": "7269900",
+    "mcNumbers": [
+      "MC-87861644"
+    ],
+    "dockets": [
+      {
+        "docketNumber": "MC-87861644",
+        "prefix": "MC",
+        "number": "87861644",
+        "status": "active"
+      }
+    ],
+    "legalName": "IRON CARABAO LOGISTICS LLC",
+    "dbaName": null,
+    "companyName": "Iron Carabao Logistics",
+    "entityType": "broker",
+    "entityTypes": [
+      "broker"
+    ],
+    "businessType": null,
+    "usdotStatus": "active",
+    "authorityStatus": "active",
+    "carrierOperation": "intrastateNonHazmat",
+    "operationClassification": [],
+    "hazmat": false,
+    "powerUnits": 0,
+    "trucks": 0,
+    "buses": null,
+    "drivers": null,
+    "cdlDrivers": null,
+    "interstateDrivers": 0,
+    "intrastateDrivers": 0,
+    "equipment": {
+      "owned": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      },
+      "termLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      },
+      "tripLeased": {
+        "trucks": null,
+        "tractors": null,
+        "trailers": null
+      }
+    },
+    "mcs150Mileage": 0,
+    "mcs150MileageYear": null,
+    "physicalAddress": {
+      "street": "702 S WEBER RD UNIT 1517",
+      "city": "ROMEOVILLE",
+      "state": "IL",
+      "postalCode": "60446",
+      "zip5": "60446",
+      "country": "US",
+      "countyFips": "17197",
+      "oneLine": "702 S WEBER RD UNIT 1517, ROMEOVILLE, IL 60446, US"
+    },
+    "mailingAddress": {
+      "street": "702 S WEBER RD UNIT 1517",
+      "city": "ROMEOVILLE",
+      "state": "IL",
+      "postalCode": "60446",
+      "zip5": "60446",
+      "country": "US",
+      "countyFips": "17197",
+      "oneLine": "702 S WEBER RD UNIT 1517, ROMEOVILLE, IL 60446, US"
+    },
+    "phone": "+16309955221",
+    "mobilePhone": null,
+    "fax": null,
+    "email": "admin@ironcarabao.com",
+    "emailAsFiled": null,
+    "phoneSharedCount": 1,
+    "emailSharedCount": 1,
+    "phoneIsShared": false,
+    "emailIsShared": false,
+    "companyOfficers": null,
+    "cargoCarried": [],
+    "cargoCarriedText": null,
+    "safetyRating": "unrated",
+    "safetyRatingDate": null,
+    "safetyReviewDate": null,
+    "mcs150Date": null,
+    "addDate": "2026-10-01",
+    "ageInDays": 35,
+    "isNewEntrant": true,
+    "recordableCrashRate": null,
+    "priorRevokedDotNumber": null,
+    "dunsNumber": null,
+    "dataQualityFlags": [],
+    "outOfService": false,
+    "outOfServiceDate": null,
+    "outOfServiceReason": null,
+    "authority": {
+      "source": "motus",
+      "sourceDataset": "inys-ebih",
+      "sourceUpdatedAt": "2026-11-04T10:09:38.000Z",
+      "authorities": [
+        {
+          "docketNumber": "MC-87861644",
+          "authorityType": "Broker of Property (Except Household Goods)",
+          "status": "active",
+          "statusDate": "2026-10-18",
+          "statusReason": "Granted",
+          "grantedDate": "2026-10-18"
+        }
+      ],
+      "hasActiveCarrierAuthority": false,
+      "hasActiveBrokerAuthority": true,
+      "hasPendingAuthority": false,
+      "bipdRequiredUsd": 0,
+      "bipdOnFileUsd": 0,
+      "cargoInsuranceRequired": false,
+      "cargoInsuranceOnFile": false,
+      "bondRequired": true,
+      "bondOnFile": true,
+      "grantedDate": "2026-10-18",
+      "lastStatusChangeDate": "2026-10-18",
+      "lastStatusChangeReason": "Granted"
+    },
+    "insurancePolicies": [
+      {
+        "docketNumber": "MC-87861644",
+        "insuranceType": "bond",
+        "layer": null,
+        "formCode": "BMC-84",
+        "insurer": "Amherst National Insurance Company",
+        "policyNumber": "JA002876",
+        "coverageUsd": 75000,
+        "underlyingLimitUsd": 0,
+        "effectiveDate": "2026-10-12",
+        "postedDate": "2026-10-09",
+        "cancelEffectiveDate": null,
+        "source": "motus"
+      }
+    ],
+    "authoritySummary": "MC-87861644 Broker of Property (Except Household Goods): active since 2026-10-18",
+    "insuranceSummary": "Bond USD 75,000 (Amherst National Insurance Company), eff. 2026-10-12",
+    "revocations": [],
+    "boc3OnFile": true,
+    "processAgent": {
+      "docketNumber": "MC-87861644",
+      "name": "#1 A+ AGENTS OF PROCESS, INC.",
+      "street": "9611 ASPEN HILL CIR",
+      "city": "LONE TREE",
+      "state": "CO",
+      "postalCode": "80124-6744",
+      "country": "US"
+    },
+    "safety": {
+      "measurementPeriodMonths": 24,
+      "snapshotUpdatedAt": "2026-10-13T07:02:36.000Z",
+      "inspections": null,
+      "crashes": null,
+      "basics": null,
+      "sourceDatasets": [
+        "4wxs-vbns"
+      ]
+    },
+    "fmcsaUrl": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=7269900",
+    "sourceDataset": "az4n-8mr2",
+    "sourceDatasetName": "FMCSA Company Census File",
+    "sourceUpdatedAt": "2026-11-04T11:19:27.000Z",
+    "scrapedAt": "2026-11-05T01:56:02.172Z",
+    "riskScore": null,
+    "riskLevel": null,
+    "riskFactors": null,
+    "insuranceRenewal": null,
+    "whyNow": null,
+    "trend": null,
+    "insight": null,
+    "companyWebsite": null
+  }
+]
