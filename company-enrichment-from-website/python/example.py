@@ -28,10 +28,13 @@ def main() -> None:
     client = ApifyClient(TOKEN)
     # Starts the Actor and waits for it to finish.
     run = client.actor("cleanyield/company-enrichment-from-website").call(run_input=run_input)
-    if run is None or run.get("status") != "SUCCEEDED":
-        raise SystemExit(f"Run did not succeed: {run and run.get('status')}")
+    # apify-client 1.x returns a dict, 2.x+ a Run object: read both.
+    status = getattr(run, "status", None) or (run.get("status") if isinstance(run, dict) else None)
+    if run is None or str(status).split(".")[-1].upper() != "SUCCEEDED":
+        raise SystemExit(f"Run did not succeed: {status}")
+    dataset_id = getattr(run, "default_dataset_id", None) or run["defaultDatasetId"]
 
-    items = list(client.dataset(run["defaultDatasetId"]).iterate_items())
+    items = list(client.dataset(dataset_id).iterate_items())
     print(f"Got {len(items)} results")
     for item in items[:3]:
         print(json.dumps(item, ensure_ascii=False, indent=2)[:800])
