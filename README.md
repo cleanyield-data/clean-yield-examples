@@ -11,7 +11,7 @@ Ready-to-run examples for the **Clean Yield** Actors on the Apify Store, in Pyth
 | [Company Enrichment from Website](https://apify.com/cleanyield/company-enrichment-from-website) | Turn a list of domains into a company profile: emails, phones, social profiles, tech stack, hiring signals. | [`company-enrichment-from-website/`](company-enrichment-from-website/) |
 | [FMCSA Carrier Data](https://apify.com/cleanyield/fmcsa-carrier-data) | US trucking companies and freight brokers from official FMCSA data: USDOT/MC lookup, daily new and revoked authority feed, radius search, insurance history, safety, contacts. | [`fmcsa-carrier-data/`](fmcsa-carrier-data/) |
 | [App Store & Google Play Reviews](https://apify.com/cleanyield/app-store-google-play-reviews) | Reviews from the Apple App Store and Google Play in one clean schema, by country and language, with developer replies. | [`app-store-google-play-reviews/`](app-store-google-play-reviews/) |
-| [ATS Jobs Scraper](https://apify.com/cleanyield/ats-jobs-scraper) | Live open jobs from Greenhouse, Lever, Ashby, Workday, Recruitee, Personio and Teamtailor job boards, with salary (also annual USD), remote type, seniority and closed-job tracking. | [`ats-jobs-scraper/`](ats-jobs-scraper/) |
+| [ATS Jobs Scraper](https://apify.com/cleanyield/ats-jobs-scraper) | Live open jobs from Greenhouse, Lever, Ashby, Workday, Recruitee, Personio and Teamtailor job boards, with the salary when the posting has one (also as annual USD), remote type, seniority and closed-job tracking. | [`ats-jobs-scraper/`](ats-jobs-scraper/) |
 | [Latin America Public Tenders](https://apify.com/cleanyield/latam-public-tenders) | Public procurement tenders from official open data: Colombia (SECOP), Brazil (PNCP), Chile (Mercado Público), Paraguay (DNCP) and Uruguay (ARCE, beta), with awards, documents, UNSPSC category and English titles. | [`latam-public-tenders/`](latam-public-tenders/) |
 
 Each folder has real `examples/` (input + output sample from a real run), ready-to-use `templates/` (n8n, Make, Clay), and code in `python/`, `javascript/`, `n8n/` and `make/`.
@@ -54,6 +54,8 @@ curl -X POST "https://api.apify.com/v2/acts/cleanyield~ats-jobs-scraper/run-sync
 ## Costs
 
 Every Actor is pay-per-result: the price per 1,000 results is on its Store page. You can set a maximum cost per run in Apify; the Actors stop when it is reached.
+
+Want to try first? Each Actor has a free Lite version (up to 25 results per run, no per-result fee): [Company Enrichment Lite](https://apify.com/cleanyield/company-enrichment-from-website-lite), [FMCSA Carrier Data Lite](https://apify.com/cleanyield/fmcsa-carrier-data-lite), [App Reviews Lite](https://apify.com/cleanyield/app-store-google-play-reviews-lite), [ATS Jobs Lite](https://apify.com/cleanyield/ats-jobs-scraper-lite) and [Public Tenders Lite](https://apify.com/cleanyield/latam-public-tenders-lite).
 
 ## License
 

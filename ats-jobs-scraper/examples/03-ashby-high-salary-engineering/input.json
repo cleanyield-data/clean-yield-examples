@@ -10,5 +10,6 @@
   "keywords": [
     "engineer"
   ],
-  "includeDescription": "none"
+  "includeDescription": "none",
+  "maxJobsPerCompany": 25
 }

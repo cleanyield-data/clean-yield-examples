@@ -1,6 +1,6 @@
 # ATS Jobs Scraper
 
-Live open jobs from Greenhouse, Lever, Ashby, Workday, Recruitee, Personio and Teamtailor job boards, with salary (also annual USD), remote type, seniority and closed-job tracking.
+Live open jobs from Greenhouse, Lever, Ashby, Workday, Recruitee, Personio and Teamtailor job boards, with the salary when the posting has one (also as annual USD), remote type, seniority and closed-job tracking.
 
 **Run it on Apify:** https://apify.com/cleanyield/ats-jobs-scraper
 
@@ -10,9 +10,9 @@ Pay per result: you only pay for valid results; failed lookups are free and ther
 
 | Example | Real run |
 |---|---|
-| [Greenhouse jobs API: all open jobs of a company with salary](examples/01-greenhouse-company-jobs/) | 50 results · 2.3 s |
+| [Greenhouse jobs API: all open jobs of a company, with salary when posted](examples/01-greenhouse-company-jobs/) | 50 results · 2.3 s |
 | [Lever postings API: export every job of several companies](examples/02-lever-postings-export/) | 395 results · 3.1 s |
-| [Ashby jobs with salary: engineering roles paying $200k+](examples/03-ashby-high-salary-engineering/) | 356 results · 6.4 s |
+| [Ashby engineering jobs with pay ranges reaching $200k+](examples/03-ashby-high-salary-engineering/) | 70 results · 4.0 s |
 | [Remote jobs in the US at remote-first startups](examples/04-remote-us-startup-jobs/) | 241 results · 6.4 s |
 | [Monitor new sales jobs at fintech competitors (daily alerts)](examples/05-monitor-new-jobs-competitors/) | 272 results · 5.5 s |
 | [Find which ATS a company uses (Greenhouse, Lever or Ashby)](examples/06-detect-company-ats/) | 9 results · 3.7 s |

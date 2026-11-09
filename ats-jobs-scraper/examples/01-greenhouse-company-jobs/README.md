@@ -1,6 +1,6 @@
-# Greenhouse jobs API: all open jobs of a company with salary
+# Greenhouse jobs API: all open jobs of a company, with salary when posted
 
-Get the open jobs of any company that uses Greenhouse (here: Anthropic, newest 50) straight from the official public job board API, with structured salary (min/max/currency/period), split location (city, region, ISO country), workplace type and the full description as clean text. This run returned 50 jobs.
+Get the open jobs of any company that uses Greenhouse (here: Anthropic, newest 50) straight from the official public job board API, with the salary when the job posts one (min/max/currency/period), split location (city, region, ISO country), workplace type and the full description as clean text. This run returned 50 jobs.
 
 - Actor: [ATS Jobs Scraper](https://apify.com/cleanyield/ats-jobs-scraper)
 - Real run: 50 results in 2.3 s (refreshed 2026-11-05)
